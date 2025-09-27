@@ -38,7 +38,7 @@ Each entry should follow this style:
 
 **Examples:**
 
-- [[code]](https://github.com/pandayuanyu/generative-photography) [[Paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Yuan_Generative_Photography_Scene-Consistent_Camera_Control_for_Realistic_Text-to-Image_Synthesis_CVPR_2025_paper.pdf) **Generative Photography: Scene-Consistent Camera Control for Realistic Text-to-Image Synthesis**
+- [[code]](https://github.com/pandayuanyu/generative-photography) [[Paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Yuan_Generative_Photography_Scene-Consistent_Camera_Control_for_Realistic_Text-to-Image_Synthesis_CVPR_2025_paper.pdf) **Generative Photography: Scene-Consistent Camera Control for Realistic Text-to-Image Synthesis  ——  CVPR 2025**
 
 ---
 
