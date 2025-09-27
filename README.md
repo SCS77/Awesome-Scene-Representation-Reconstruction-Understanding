@@ -35,17 +35,17 @@
 [[code]](https://github.com/charlesq34/pointnet.git) [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)  **PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation** [CVPR 2017]  
 [[code]](https://github.com/charlesq34/pointnet2.git) [[paper]](https://dl.acm.org/doi/abs/10.5555/3295222.3295263) **PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space**  [NIPS 2017]  
 [[code]](https://github.com/WangYueFt/dgcnn.git) [[paper]](https://dl.acm.org/doi/abs/10.1145/3326362) **Dynamic Graph CNN for Learning on Point Clouds** [TOG 2019]  
-[[code]](https://github.com/HuguesTHOMAS/KPConv.git)[[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Thomas_KPConv_Flexible_and_Deformable_Convolution_for_Point_Clouds_ICCV_2019_paper.pdf) **KPConv: Flexible and Deformable Convolution for Point Clouds** [ICCV 2019]  
-[[code]](https://github.com/DylanWusee/pointconv.git)[[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_PointConv_Deep_Convolutional_Networks_on_3D_Point_Clouds_CVPR_2019_paper.pdf) **PointConv: Deep Convolutional Networks on 3D Point Clouds** [CVPR 2019]  
-[[code]](https://github.com/POSTECH-CVLab/point-transformer.git)[[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Point_Transformer_ICCV_2021_paper.pdf) **Point Transformer** [ICCV 2021]  
-[[code]](https://github.com/Pointcept/PointTransformerV2.git)[[paper]](https://papers.nips.cc/paper_files/paper/2022/hash/d78ece6613953f46501b958b7bb4582f-Abstract-Conference.html) **Point Transformer V2: Grouped Vector Attention and Partition-based Pooling** [NIPS 2022]  
-[[code]](https://github.com/Pointcept/PointTransformerV3.git)[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.pdf) **Point Transformer V3: Simpler, Faster, Stronger** [CVPR 2024]  
-[[code]](https://github.com/guochengqian/PointNeXt.git)[[paper]](https://papers.nips.cc/paper_files/paper/2022/hash/9318763d049edf9a1f2779b2a59911d3-Abstract-Conference.html)**PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies** [NIPS 2022]  
-[[code]](https://github.com/Gardlin/PCR-CG.git)[[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700439.pdf)**PCR-CG: PCR-CG: Point Cloud Registration via Color and Geometry** [ECCV 2022]  
-[[code]](https://github.com/Pointcept/Pointcept.git)[[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_Sonata_Self-Supervised_Learning_of_Reliable_Point_Representations_CVPR_2025_paper.pdf) **Sonata: Self-Supervised Learning of Reliable Point Representations** [CVPR 2025]  
-[[code]](https://github.com/QingyongHu/RandLA-Net.git)[[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hu_RandLA-Net_Efficient_Semantic_Segmentation_of_Large-Scale_Point_Clouds_CVPR_2020_paper.pdf) **RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds** [CVPR 2020]  
-[[code]](https://github.com/jrryzh/pointr.git)[[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_PoinTr_Diverse_Point_Cloud_Completion_With_Geometry-Aware_Transformers_ICCV_2021_paper.pdf) **PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers** [ICCV 2021]  
-[[code]](https://github.com/facebookresearch/SparseConvNet.git)[[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Graham_3D_Semantic_Segmentation_CVPR_2018_paper.pdf) **3D Semantic Segmentation with Submanifold Sparse Convolutional Networks** [CVPR 2018]  
+[[code]](https://github.com/HuguesTHOMAS/KPConv.git) [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Thomas_KPConv_Flexible_and_Deformable_Convolution_for_Point_Clouds_ICCV_2019_paper.pdf) **KPConv: Flexible and Deformable Convolution for Point Clouds** [ICCV 2019]  
+[[code]](https://github.com/DylanWusee/pointconv.git) [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_PointConv_Deep_Convolutional_Networks_on_3D_Point_Clouds_CVPR_2019_paper.pdf) **PointConv: Deep Convolutional Networks on 3D Point Clouds** [CVPR 2019]  
+[[code]](https://github.com/POSTECH-CVLab/point-transformer.git) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Point_Transformer_ICCV_2021_paper.pdf) **Point Transformer** [ICCV 2021]  
+[[code]](https://github.com/Pointcept/PointTransformerV2.git) [[paper]](https://papers.nips.cc/paper_files/paper/2022/hash/d78ece6613953f46501b958b7bb4582f-Abstract-Conference.html) **Point Transformer V2: Grouped Vector Attention and Partition-based Pooling** [NIPS 2022]  
+[[code]](https://github.com/Pointcept/PointTransformerV3.git) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.pdf) **Point Transformer V3: Simpler, Faster, Stronger** [CVPR 2024]  
+[[code]](https://github.com/guochengqian/PointNeXt.git) [[paper]](https://papers.nips.cc/paper_files/paper/2022/hash/9318763d049edf9a1f2779b2a59911d3-Abstract-Conference.html)**PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies** [NIPS 2022]  
+[[code]](https://github.com/Gardlin/PCR-CG.git) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700439.pdf)**PCR-CG: PCR-CG: Point Cloud Registration via Color and Geometry** [ECCV 2022]  
+[[code]](https://github.com/Pointcept/Pointcept.git) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_Sonata_Self-Supervised_Learning_of_Reliable_Point_Representations_CVPR_2025_paper.pdf) **Sonata: Self-Supervised Learning of Reliable Point Representations** [CVPR 2025]  
+[[code]](https://github.com/QingyongHu/RandLA-Net.git) [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hu_RandLA-Net_Efficient_Semantic_Segmentation_of_Large-Scale_Point_Clouds_CVPR_2020_paper.pdf) **RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds** [CVPR 2020]  
+[[code]](https://github.com/jrryzh/pointr.git) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_PoinTr_Diverse_Point_Cloud_Completion_With_Geometry-Aware_Transformers_ICCV_2021_paper.pdf) **PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers** [ICCV 2021]  
+[[code]](https://github.com/facebookresearch/SparseConvNet.git) [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Graham_3D_Semantic_Segmentation_CVPR_2018_paper.pdf) **3D Semantic Segmentation with Submanifold Sparse Convolutional Networks** [CVPR 2018]  
 
 #### Point Cloud Processing Tool
 [[code]](https://github.com/PointCloudLibrary/pcl.git) PCL  
@@ -57,15 +57,47 @@
 [[code]](https://github.com/open-mmlab/OpenPCDet.git) OpenPCDet  
 [[code]](https://github.com/google/draco.git) draco  
 [[code]](https://github.com/daavoo/pyntcloud.git) pyntcloud  
-[[code]](https://github.com/NVIDIA/MinkowskiEngine.git) MinkowskiEngine  
+ 
+
 
 
 ### Voxel
 > #### <span style="color:lightblue;">💡 Voxel Grids: As an extension of pixels in three-dimensional space, voxel grids divide space into regular cubic units (voxels). Each voxel can store occupancy information (i.e., whether the space is occupied), color, or other attributes. This structured representation facilitates Boolean operations and volumetric analysis, but its memory consumption increases cubically with resolution and can produce jagged edges due to discretization.</span>
 
+[[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Rematas_Neural_Voxel_Renderer_Learning_an_Accurate_and_Controllable_Rendering_Tool_CVPR_2020_paper.pdf) **Neural Voxel Renderer: Learning an Accurate and Controllable Rendering Tool** [CVPR 2020]  
+[[code]](https://github.com/facebookresearch/NSVF.git) [[paper]](https://proceedings.neurips.cc/paper/2020/hash/b4b758962f17808746e9bb832a6fa4b8-Abstract.html)  **Neural Sparse Voxel Fields** [NIPS 2020]  
+[[code]](https://github.com/IGLICT/OctField.git) [[paper]](https://proceedings.neurips.cc/paper/2021/hash/698d51a19d8a121ce581499d7b701668-Abstract.html) **OctField: Hierarchical Implicit Functions for 3D Modeling** [NIPS 2021]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_OcTr_Octree-Based_Transformer_for_3D_Object_Detection_CVPR_2023_paper.pdf) **OcTr: Octree-based Transformer for 3D Object Detection** [CVPR 2023]  
+[[code]](https://github.com/NVlabs/svraster.git) [[paper]](https://svraster.github.io/SVRaster.pdf) **SparseVoxelsRasterization:Real-timeHigh-fidelityRadianceFieldRendering** [CVPR 2025]   
+[[code]](https://github.com/autonomousvision/voxgraf.git) [[paper]](https://www.cvlibs.net/publications/Schwarz2022NEURIPS.pdf) **VoxGRAF:Fast 3D-Aware Image Synthesis with Sparse Voxel Grids** [NeurIPS 2022]  
+[[code]](https://github.com/autonomousvision/occupancy_networks.git) [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8953655) **Occupancy Networks: Learning 3D Reconstruction in Function Space** [CVPR 2019]  
+[[code]](https://github.com/cvlab-yonsei/HVPR.git) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Noh_HVPR_Hybrid_Voxel-Point_Representation_for_Single-Stage_3D_Object_Detection_CVPR_2021_paper.pdf) **HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection** [CVPR 2021]  
+[[code]](https://github.com/GWxuan/TSP3D.git) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Text-guided_Sparse_Voxel_Pruning_for_Efficient_3D_Visual_Grounding_CVPR_2025_paper.pdf) ** Text-guided Sparse Voxel Pruning for Efficient 3D Visual Grounding** [CVPR 2025]  
 
 
+#### Voxel Processing Tool
+[[code]](https://github.com/NVIDIA/MinkowskiEngine.git) MinkowskiEngine  
+>High-dimensional sparse convolution library (includes point cloud convolution).
 
+[[code]](https://github.com/traveller59/spconv.git) spconv  
+>A library providing highly optimized implementations for spatial sparse convolutions, with particular emphasis on NVIDIA Tensor Core support for ultimate performance.
+
+[[code]](https://github.com/AcademySoftwareFoundation/openvdb.git) openvdb  
+>C++ library providing storage and manipulation of sparse voxel meshes (for use in film effects, etc.)
+
+[[code]](https://github.com/ethz-asl/voxblox.git) Voxblox  
+>A TSDF voxel terrain library released by ETH ASL  
+
+[[code]](https://github.com/victorprad/InfiniTAM.git) InfiniTAM  
+>An open-source RGB-D voxel fusion framework developed by Oxford and Cambridge Universities.
+
+[[code]](https://github.com/OctoMap/octomap.git) OctoMap  
+>A classic octree-based occupancy grid library.
+
+[[code]](https://github.com/PRBonn/vdbfusion.git) VDBFusion   
+>Efficient TSDF fusion using OpenVDB (Python/C++).
+
+[[code]](https://github.com/NVIDIAGameWorks/kaolin.git) Kaolin(NVIDIA)  
 
 
 
