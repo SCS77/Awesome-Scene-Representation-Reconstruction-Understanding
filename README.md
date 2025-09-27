@@ -19,13 +19,14 @@
 
 
 >#### Table:Comparison of Representation Methods Across Different Scenarios
-| 表示方法   | 核心图元            | 数据结构              | 性质 | 关键优势                                         | 关键劣势                                                     |
-|------------|----------------------|------------------------|------|--------------------------------------------------|--------------------------------------------------------------|
-| 点云       | 三维点 (x, y, z, ...) | 无序点集              | 显式 | 灵活，直接从传感器获取                           | 无序，非结构化，缺乏拓扑信息                                 |
-| 体素网格   | 立方体（体素）       | 三维规则/稀疏网格      | 显式 | 规整结构，适用于 3D CNN                          | 内存消耗大，分辨率受限                                       |
-| 多边形网格 | 顶点、边、面         | 图/半边结构           | 显式 | 拓扑明确，渲染高效，易于编辑                     | 拓扑固定，难以表示复杂或非流形几何                           |
-| NeRF       | -                    | 神经网络（MLP）        | 隐式 | 高真实感，能表示复杂光学效应                     | 训练和渲染速度慢，难以编辑                                   |
-| 3DGS       | 三维高斯函数         | 高斯参数列表           | 混合 | 实时渲染，照片级真实感                           | 存储开销大，编辑困难，依赖 SfM                               |
+| Representation Method | Core Primitive               | Data Structure             | Nature | Key Advantages                                                 | Key Limitations                                                              |
+|------------------------|------------------------------|-----------------------------|--------|----------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Point Cloud            | 3D points (x, y, z, …)       | Unordered point set         | Explicit | Flexible; directly acquired from sensors                      | Unstructured; lacks topology; irregular and incomplete                        |
+| Voxel Grid             | Cubic volume elements (voxels) | Regular or sparse 3D grid  | Explicit | Structured layout; suitable for 3D CNNs                       | High memory consumption; limited by resolution                                |
+| Polygonal Mesh         | Vertices, edges, faces       | Graph / half-edge structure | Explicit | Well-defined topology; efficient rendering; editable          | Fixed topology; difficult to represent complex or non-manifold geometry       |
+| NeRF                  | -                            | Neural network (MLP)        | Implicit | Photorealistic rendering; models complex view-dependent effects | Slow training and inference; difficult to modify or edit                      |
+| 3DGS (3D Gaussian Splatting) | 3D Gaussian primitives  | Gaussian parameter set       | Hybrid | Real-time rendering; high visual fidelity                     | Large storage footprint; editing challenges; often depends on SfM             |
+
 
 
 ### Point cloud
