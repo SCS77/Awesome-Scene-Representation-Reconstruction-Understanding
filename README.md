@@ -173,7 +173,7 @@
 
 ## Scene Reconstruction
 #### Concept
-> <span style="color:lightblue;">💡 Scene reconstruction aims to capture geometric and optical properties from the real world to create digital 3D models. Its essence lies in inferring the three-dimensional structure of a scene from a series of 2D images, depth maps, or laser scan data. Scene reconstruction is the process of converting real-world scenes into digital 3D models, serving as a foundational technology for fields such as VR/AR and autonomous driving.</span>  
+> #### <span style="color:lightblue;">💡 Scene reconstruction aims to capture geometric and optical properties from the real world to create digital 3D models. Its essence lies in inferring the three-dimensional structure of a scene from a series of 2D images, depth maps, or laser scan data. Scene reconstruction is the process of converting real-world scenes into digital 3D models, serving as a foundational technology for fields such as VR/AR and autonomous driving.</span>  
 #### Data Acquisition
 > <span style="color:lightblue;">💡💡 Passive Methods (Image-Based): These techniques rely on ambient light, using cameras to capture 2D images and infer 3D structure. Their core principle involves analyzing pixel correspondences between images taken from different angles to recover depth information through triangulation. This forms the basis of photogrammetry, offering low cost and ease of deployment, though it remains sensitive to lighting conditions and surface texture.</span>  
 > <span style="color:lightblue;">💡💡 Active Methods (Sensor-Based): These techniques directly acquire distance information by actively emitting energy (e.g., laser or structured light) and measuring reflected signals. Laser scanning and LiDAR are representative technologies within this category. They rapidly capture millions of precise 3D coordinate points, generating high-density, high-precision point cloud data that directly reflects the surface geometry of a scene.</span>  
@@ -181,9 +181,27 @@
 
 
 ### Traditional Geometric Methods Phase (1980s–Early 2010s)
+><span style="color:lightblue;">💡💡 In the early developmental stages of 3D scene reconstruction, research centered on building robust systems from scratch based on fundamental principles of the physical world. This era was dominated by classical theories such as projective geometry and beam-based registration, with its core challenge being the solution to a massive, non-convex optimization problem: how to simultaneously infer both 3D structure and camera motion from only 2D images.</span> 
 
+#### Multi-View Geometry
+>> <span style="color:lightblue;">💡💡 All work from the classical era rests upon a solid mathematical foundation, systematically expounded in Richard Hartley and Andrew Zisserman's seminal work, Multi-View Geometry in Computer Vision. These fundamental principles form the theoretical bedrock for all subsequent algorithms.
+</span>  
 
+##### Projective Geometry
+>> <span style="color:lightblue;">💡💡 This mathematical framework describes how points in the 3D world are mapped onto the 2D image plane. It provides the theoretical language for understanding perspective projection, camera distortion, and the geometric relationships between multiple views.
+</span>  
 
+##### Camera Model
+>> <span style="color:lightblue;">💡💡 The pinhole camera model is the core abstraction, describing the imaging process through intrinsic parameters (focal length, principal points) and extrinsic parameters (rotations, translations). Accurate camera calibration is a prerequisite for reconstruction precision.
+</span>  
+
+##### Polarity Constraint
+>> <span style="color:lightblue;">💡💡 This fundamental geometric relationship links two views of the same scene, described by the Fundamental Matrix and Essential Matrix. This constraint is not only central to two-view reconstruction but also a powerful tool for validating feature matching accuracy, effectively eliminating erroneous matches.   
+</span>  
+
+##### Bundle Adjustment (BA)
+>> <span style="color:lightblue;">💡💡 As the gold standard for 3D reconstruction, BA is a joint nonlinear optimization process that simultaneously adjusts all camera parameters and 3D point coordinates to minimize the reprojection error of 3D points across all views. Nearly all classical reconstruction methods rely on BA as the final refinement step to achieve globally consistent and high-precision results.   
+</span>  
 
 
 
