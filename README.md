@@ -165,7 +165,61 @@
 
 
 
+### Comparison of Different 3D Data Formats
+#### Mesh Formats
+| Format (Ext.)     | Type               | Geometry         | Color / Normals / UV                               | Material / Texture        | Animation       | Binary / Compression | Pros                                              | Cons                                                  | Typical Use / Tools                      |
+| ----------------- | ------------------ | ---------------- | -------------------------------------------------- | ------------------------- | --------------- | -------------------- | ------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------- |
+| OBJ (.obj + .mtl) | Polygon mesh       | Vertices / faces | Normals & UV supported; vertex colors not standard | Basic materials via .mtl  | No (not native) | ASCII (common)       | Widely supported, simple format                   | No native compression; limited material/color support | Blender, MeshLab, Unity (via conversion) |
+| STL (.stl)        | Triangle mesh      | Triangles only   | Not supported (except rare extensions)             | Not supported             | No              | ASCII / Binary       | Simple, widely used in 3D printing                | No color/texture/unit info                            | 3D printing, slicers                     |
+| PLY (.ply)        | Mesh / Point cloud | Vertices / faces | Vertex colors, normals, per-vertex attributes      | Limited (extensions)      | No              | ASCII / Binary       | Rich attribute support, good for scans            | No standardized material/animation                    | PCL, Meshlab, CloudCompare               |
+| OFF (.off)        | Mesh (research)    | Vertices / faces | Very basic                                         | No                        | No              | ASCII                | Very simple, good for algorithms                  | Extremely limited metadata                            | Research, algorithm prototyping          |
+| 3MF (.3mf)        | Mesh (3D printing) | Mesh + objects   | Colors supported                                   | Textures & print metadata | No (typically)  | ZIP-based container  | Modern printing standard, unit & material support | More complex, less universally supported than STL     | Modern slicers, 3D printing              |
 
+
+#### Scene/Animation/Exchange
+| Format (Ext.)                       | Type                         | Geometry                     | Color / Normals / UV       | Materials                | Animation / Rigging                 | Binary / Compression                        | Pros                                    | Cons                                        | Typical Use / Tools                    |
+| ----------------------------------- | ---------------------------- | ---------------------------- | -------------------------- | ------------------------ | ----------------------------------- | ------------------------------------------- | --------------------------------------- | ------------------------------------------- | -------------------------------------- |
+| FBX (.fbx)                          | Scene + animation (Autodesk) | Mesh, curves                 | Supported                  | Supported                | Complex rigging, skeletons, morphs  | Binary / ASCII                              | Industry pipeline, powerful             | Proprietary, import/export inconsistencies  | Maya, 3ds Max, Unity, Unreal           |
+| COLLADA (.dae)                      | Scene exchange (XML)         | Mesh, skeleton               | Supported                  | Supported                | Supported                           | XML (zipped possible)                       | Open standard, scene-level info         | Implementation differences cause issues     | Early pipelines, some tools            |
+| glTF / GLB (.gltf / .glb)           | Modern runtime format        | Mesh (indexed + buffers)     | Normals, UV, vertex colors | Native PBR               | Animation, morph targets, skeletons | JSON + binary buffer (GLB is single binary) | “JPEG of 3D” — compact, real-time ready | Not CAD-precise; limited advanced materials | Web, real-time rendering, Unity/Unreal |
+| USD / USDZ (.usd/.usda/.usdc/.usdz) | Scene description (Pixar)    | Mesh, instances, references  | Supported                  | Full PBR, custom schemas | Animation, variants, layering       | Binary / ASCII                              | Large-scale scene mgmt, versioning      | Complex, steep learning curve               | VFX, Omniverse, film pipelines         |
+| Alembic (.abc)                      | Geometry cache               | Animated meshes/point caches | Geometry attributes        | Material refs only       | Frame-by-frame geometry animation   | Binary                                      | High-perf animation caching             | Not editable parameters                     | Houdini, Maya, Cinema4D                |
+
+
+#### Point Cloud / LiDAR
+| Format (Ext.)         | Type                    | Geometry                        | Attributes (intensity, class, time, color) | Binary / Compression                 | Pros                             | Cons                            | Typical Use / Tools                        |
+| --------------------- | ----------------------- | ------------------------------- | ------------------------------------------ | ------------------------------------ | -------------------------------- | ------------------------------- | ------------------------------------------ |
+| LAS / LAZ (.las/.laz) | LiDAR point cloud       | XYZ + point records             | Rich (intensity, GPS time, classification) | LAS = uncompressed, LAZ = compressed | Industry standard, metadata-rich | Points only, LAZ needs decoding | Remote sensing, surveying (PDAL, LAStools) |
+| PCD (.pcd)            | PCL native point cloud  | XYZ                             | Arbitrary per-point attributes             | ASCII / Binary                       | Native to PCL                    | Less common outside PCL         | Robotics, perception pipelines             |
+| E57 (.e57)            | Scanner archive         | Point cloud + scanner images    | Metadata, coordinates, images              | Binary (compressed)                  | Designed for scanner exchange    | Fewer tools than LAS            | Laser scanning, engineering                |
+| PTS / XYZ (.pts/.xyz) | Simple ASCII point list | XYZ (+intensity/color optional) | Minimal                                    | ASCII (large size)                   | Simple, easy to parse            | Huge file sizes, no metadata    | Debug, quick exports                       |
+| PLY (.ply)            | Mesh or point cloud     | XYZ                             | Vertex colors, normals, attributes         | ASCII / Binary                       | Flexible, research-friendly      | Not LiDAR-specialized           | Scans, reconstruction                      |
+
+
+
+#### Volume / Voxel / Medical
+| Format (Ext.)        | Type                  | Data                     | Binary / Compression           | Pros                                        | Cons                                 | Typical Use / Tools               |
+| -------------------- | --------------------- | ------------------------ | ------------------------------ | ------------------------------------------- | ------------------------------------ | --------------------------------- |
+| OpenVDB (.vdb)       | Sparse volume grid    | Density / SDF            | Binary                         | Very efficient sparse storage, VFX standard | Not direct mesh, requires conversion | Smoke, fluids, volumetric effects |
+| DICOM (folder)       | Medical imaging       | CT/MRI slices + metadata | Binary (optionally compressed) | Standard medical format, metadata-rich      | Complex, privacy-sensitive           | Clinical imaging, radiology       |
+| NIfTI (.nii/.nii.gz) | Medical/brain imaging | 3D voxel arrays          | Supports gzip                  | Popular in neuroscience                     | Not used in visualization pipelines  | MRI/CT research                   |
+| RAW / VOL / MHD      | Generic volume data   | Raw voxel arrays         | Implementation-specific        | Simple, flexible                            | Requires external metadata           | Simulation, scientific data       |
+
+
+
+#### CAD / Engineering (High Precision)
+| Format (Ext.)                    | Type           | Content                  | Binary / Compression      | Pros                                   | Cons                      | Typical Use / Tools                 |
+| -------------------------------- | -------------- | ------------------------ | ------------------------- | -------------------------------------- | ------------------------- | ----------------------------------- |
+| STEP / IGES (.stp/.step/.iges)   | CAD parametric | NURBS, B-rep, assemblies | Text-based (standardized) | Engineering precision, units preserved | Complex, conversion-heavy | CAD/CAM, SolidWorks, CATIA, FreeCAD |
+| Parasolid / SAT (.x_t/.x_b/.sat) | CAD kernel     | Precise solids           | Binary / ASCII            | High fidelity, industry kernel         | Proprietary restrictions  | Engineering, CAE/CAM pipelines      |
+
+
+#### Implicit / Neural Representations
+| Format (Ext.)                      | Type                     | Data                           | Compression / Storage  | Pros                               | Cons                                    | Typical Use / Tools              |
+| ---------------------------------- | ------------------------ | ------------------------------ | ---------------------- | ---------------------------------- | --------------------------------------- | -------------------------------- |
+| NeRF checkpoints (.ckpt/.pth/.npz) | Neural radiance fields   | Network weights + config       | Compact (weights only) | High-quality view synthesis        | Non-standard, requires inference engine | NeRF implementations, NeRFStudio |
+| DeepSDF / Occupancy (.npz/.pth)    | Implicit SDF / occupancy | Network weights / latent codes | Small                  | Continuous, compact                | Not directly editable                   | Shape completion, retrieval      |
+| 3D Gaussian Splatting (custom)     | Point-based Gaussians    | Position, covariance, color    | Usually binary arrays  | Real-time rendering, high fidelity | Experimental, no standard format        | Research, novel view synthesis   |
 
 
 
@@ -302,9 +356,6 @@ This work presents DSO, a direct monocular visual odometry system that optimizes
 ##### RGB-D SLAM
 [[paper]](https://www.roboticsproceedings.org/rss11/p01.pdf) **ElasticFusion: Real-Time Dense SLAM and Light Source Estimation** [IJRR 2016]  
 This work presents ElasticFusion, a real-time dense SLAM system that utilizes an RGB-D camera to create a globally consistent 3D map. The system employs a surfel-based representation, allowing for efficient fusion of new observations and dynamic updates to the map. ElasticFusion introduces a novel non-rigid deformation model to handle loop closures and maintain global consistency, achieving high-quality dense reconstructions in real time.  
-
-
-
 
 
 
