@@ -187,6 +187,8 @@
 >> <span style="color:lightblue;">💡💡 All work from the classical era rests upon a solid mathematical foundation, systematically expounded in Richard Hartley and Andrew Zisserman's seminal work, Multi-View Geometry in Computer Vision. These fundamental principles form the theoretical bedrock for all subsequent algorithms.
 </span>  
 
+[[code]](https://github.com/openMVG/openMVG.git) **OpenMVG**  
+
 ##### Projective Geometry
 >>> <span style="color:lightblue;">💡💡 This mathematical framework describes how points in the 3D world are mapped onto the 2D image plane. It provides the theoretical language for understanding perspective projection, camera distortion, and the geometric relationships between multiple views.
 </span>  
@@ -211,7 +213,7 @@
 
 [[paper]](https://graphics.stanford.edu/papers/volrange/volrange.pdf) **AVolumetric Method for Building Complex Models from Range Images** [TOG 1996]  
 
-##### Incremental SfM
+#### Incremental SfM
 >>> <span style="color:lightblue;">💡💡 The incremental (or sequential) SfM workflow begins with a robust two-view reconstruction, then iteratively adds new images one by one. With each added image, the system performs new triangulation measurements and local or global beam-based adjustments to progressively refine the model. This sequential refinement process grants the algorithm strong tolerance to errors, but it incurs high computational costs and is prone to cumulative drift when processing long sequences.
 </span>  
 
@@ -224,16 +226,80 @@ Core innovations include a “preemptive” feature matching strategy to reduce 
 [[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf) **Structure-from-Motion Revisited** [CVPR 2016]  
 COLMAP refines nearly every step of the incremental pipeline. Its key contributions include a more robust initialization process, a “next best view” selection strategy to guide reconstruction, an improved triangulation method, and an iterative cycle involving BA, retriangulation, and outlier filtering—all generating highly complete and accurate models.  
 
+
 ##### Global SfM
+>>> <span style="color:lightblue;">💡💡 TUnlike incremental methods, global SfM attempts to solve all camera parameters in one go. This typically involves three steps: 1) estimating the relative rotation between all image pairs; 2) averaging these relative rotations to obtain a globally consistent absolute camera orientation; 3) Solving for the position (translation) and 3D structure of all cameras. Theoretically, this approach is more efficient and avoids drift, but it is more sensitive to outliers in the paired geometry estimation. 
+</span>  
+
+[[paper]](https://shaharkov.github.io/projects/GlobalMotionEstimation.pdf) **Global Motion Estimation from Point Matches** [CVPR 2001]  
+This is a seminal work in the field of rotation averaging. It proposes a robust linear method for solving global rotations from a sequence of pairwise relative rotations. By formulating the problem within a Lie algebra framework, it effectively addresses the non-convexity of rotation averaging. Although existing literature does not explicitly elaborate on this paper, its influence is evident in subsequent global SfM pipelines.  
+
+[[paper]](https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Moulon_Global_Fusion_of_2013_ICCV_paper.pdf) **Global Fusion of Relative Motions for Robust, Accurate and Scalable Structure from Motion** [ICCV 2013]  
+Robust removal of anomalous relative rotations in polar images using Bayesian inference and cyclic consistency checks; an efficient “a contrario” tri-focal tensor estimation algorithm for stable translation direction acquisition; and a novel translation registration method based on $L_{\infty}$ norm optimization.  
 
 
-[[paper]](https://dl.acm.org/doi/10.1145/1141911.1141964) **Photo tourism: exploring photo collections in 3D** [TOG 2006]  
-[[paper]](https://dl.acm.org/doi/10.1145/1141911.1141964) **Photo tourism: exploring photo collections in 3D** [TOG 2006]  
-[[paper]](https://dl.acm.org/doi/10.1145/1141911.1141964) **Photo tourism: exploring photo collections in 3D** [TOG 2006]  
-[[paper]](https://dl.acm.org/doi/10.1145/1141911.1141964) **Photo tourism: exploring photo collections in 3D** [TOG 2006]  
+#### Multi-View Stereo(MVS) 
+>><span style="color:lightblue;">💡💡 After SfM provides sparse point clouds and camera poses, the MVS algorithm utilizes this information to compute a dense 3D model of the scene. Its core principle leverages photometric consistency: the color (appearance) of a 3D point in space should be similar across all images where it is visible.
+</span>  
+
+##### Voxel and Surface Methods
+[[paper]](https://ieeexplore.ieee.org/document/609462) **Photorealistic scene reconstruction by voxel coloring** [CVPR 1997]  
+The scene is discretized into a three-dimensional voxel grid. The algorithm traverses these voxels in a specific order (such as plane-by-plane scanning), enabling unambiguous determination of each voxel's visibility. If a voxel's projected color differs across all visible images, it is “carved out” (i.e., marked as transparent). The final model consists of all retained, shaded voxels. While conceptually elegant, this approach is constrained by voxel resolution and camera layout limitations.  
+
+[[paper]](https://ieeexplore.ieee.org/document/1467469) **Multi-view stereo via volumetric graph-cuts** [CVPR 2005]  
+This work formulates the MVS problem as a model amenable to global optimization using graph cuts, a powerful technique in combinatorial optimization. This approach enables the reconstruction of topologically complex objects without requiring a well-informed initial guess. 
+
+[[paper]](https://ieeexplore.ieee.org/document/661183) **Variational principles, surface evolution, PDEs, level set methods, and the stereo problem** [TIP 1998]  
+This work introduces a complex mathematical framework for MVS based on variational principles and partial differential equations (PDEs). It implicitly represents scene surfaces as the level zero of a high-dimensional function, enabling surfaces to naturally alter their topology during evolution.   The authors define an energy functional based on photometric consistency. The surface evolves along the gradient of this energy, effectively moving toward the true geometric shape of the scene. The level set approach is highly effective for handling complex shapes and topological changes, but it is computationally intensive.  
+
+
+##### The “Match, Expand, Filter” Paradigm  
+[[paper]](https://ieeexplore.ieee.org/document/5226635) **Accurate, Dense, and Robust Multiview Stereopsis** [TPAMI 2009]  
+Match: Start with sparse, high-quality feature match points.  
+Expand: Iteratively propagate these good matches to neighboring pixels to densify the reconstruction.  
+Filter: Remove incorrect matches and outliers using visibility constraints (occlusion checks). This cycle is repeated to grow a dense mesh covering the object's surface.
+
+[[paper]](https://ieeexplore.ieee.org/document/5539802) **Towards Internet-scale multi-view stereo** [CVPR 2010]  
+The core idea is a “divide and conquer” strategy. First, the large input image set is decomposed into multiple controllable-sized, overlapping image clusters. Then, PMVS is run independently and in parallel on each cluster. Finally, all partial reconstruction results are fused into a single, consistent 3D model through a robust filtering strategy.  
+
+>First, the shift from global implicit representations to local explicit representations is key to the maturity of MVS technology. Early voxelization methods, such as Voxel Coloring and Volumetric Graph-cuts, while conceptually elegant and capable of handling arbitrary topologies, faced a fundamental bottleneck: their memory and computational costs grew cubically with output resolution. This made high-detail reconstruction of large-scale scenes impractical. PMVS's patch-based approach ingeniously circumvents this issue by modeling and storing only the surface itself. This shift from a global, implicit representation (“Is this voxel occupied?”) to a local, explicit representation (“There is a small surface patch here”) represents a key breakthrough enabling both density and high detail.   
+>Second, a symbiotic relationship exists between SfM and MVS. Advances in MVS directly benefit from and, in turn, drive the development of SfM. Approaches like PMVS and level set-based methods all require precisely calibrated cameras as input. When SfM systems (such as Bundler) successfully provided these poses from disorganized web images, it directly spurred demand for MVS algorithms capable of handling similarly challenging “field” images. This spurred the emergence of CMVS, explicitly designed to bridge the gap between large-scale SfM outputs and PMVS input requirements. This reveals a clear causal chain: robust sparse reconstruction (SfM) is a necessary prerequisite for robust dense reconstruction (MVS).
 
 
 
+#### Simultaneous Localization and Mapping (SLAM)
+>><span style="color:lightblue;">💡💡 SLAM aims to solve the problem of a mobile sensor (such as a camera) simultaneously constructing a map in real time within an unknown environment and tracking its own position within that map. This is the classic “chicken-and-egg” problem in robotics.
+</span>  
+
+[[paper]](https://d1wqtxts1xzle7.cloudfront.net/44432225/A_stochastic_map_for_uncertain_spatial_r20160405-20234-wf2gi6-libre.pdf?1459858158=&response-content-disposition=inline%3B+filename%3DA_Stochastic_Map_For_Uncertain_Spatial_R.pdf&Expires=1759038853&Signature=GzEnV5oRMiOe3SLX9vYyV0ahr8A6eB~uy-FwRuCVxjFtKw8fOqkdGwFB6HSQJHBl09KQ35RgtGhUPIV7JbCdpB8F~uykz6hcPdPV1bXFXoKlcv-9kvJtt9Tcwo0zRbT5euTy1H~MbyyueNSUGgtQVn57BGRbBA7cbtUu9QnMKc-xGI4F6xxXAlPGnOSpXqWV5m3NVtSH5Z4sb16~rikTfb33wqfpgbbLSTTTphvHAt5zXACLCykUU2Z8HWvy0Y4jxpOmEk8~FNPNuERBRg7nrIShAzd8hKryI9Eh4Nsw99Ib5WFuWlz72aAn~eM78-37g8o05Frb4Qc8~T5yNnNsQw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) **A stochastic map for uncertain spatial relationships.** [Proceedings of the 4th international symposium on Robotics Research 1988]   
+
+[[paper]](https://ieeexplore.ieee.org/document/1638022) **Simultaneous localization and mapping: part I** [MRA 2006]   
+
+[[paper]](https://ieeexplore.ieee.org/document/1638023) **Simultaneous localization and mapping: part II** [MRA 2007]  
+
+
+
+##### Filter-Based SLAM: A Probabilistic Approach  
+>This approach models SLAM as a sequential Bayesian inference problem. The system state—including camera pose and map feature locations—along with its uncertainties is represented by a probability distribution that updates with each new frame. The Extended Kalman Filter (EKF) serves as the primary tool, propagating a single Gaussian distribution (mean and covariance matrix) throughout the state space.  
+
+[[paper]](https://ieeexplore.ieee.org/document/4160954) **MonoSLAM: Real-Time Single Camera SLAM** [TPAMI 2007]  
+This pioneering work demonstrates real-time monocular SLAM on a standard laptop using only a single camera. It employs EKF to jointly estimate the camera's 6-DOF pose and a sparse map of 3D points, achieving real-time performance through efficient feature tracking and map management strategies.  
+
+##### Keyframe-Based SLAM: A Graph Optimization Approach  
+>This approach constructs a pose graph where nodes represent camera poses (keyframes) and edges represent relative transformations (constraints) between them. The entire graph is optimized globally to minimize the overall error, typically using nonlinear least squares methods. This framework is more flexible and scalable than filter-based methods, allowing for efficient loop closure and map refinement.  
+
+[[paper]](https://ieeexplore.ieee.org/document/6126544) **ORB: An efficient alternative to SIFT or SURF** [iccv 2011]  
+This work introduces ORB-SLAM, a robust monocular SLAM system that utilizes ORB features for real-time tracking and mapping. It employs a keyframe-based approach with a pose graph optimization framework, enabling efficient loop closure detection and global map optimization. The system demonstrates high accuracy and robustness across various challenging environments.  
+
+[[paper]](https://link.springer.com/chapter/10.1007/978-3-319-10605-2_54) **LSD-SLAM: Large-Scale Direct Monocular SLAM** [ECCV 2014]  
+This pioneering work introduces LSD-SLAM, a direct monocular SLAM system that operates without feature extraction. It utilizes image intensities directly for pose estimation and mapping, allowing for dense 3D reconstruction. The system employs a semi-dense approach, focusing on high-gradient regions to balance accuracy and computational efficiency. LSD-SLAM demonstrates robust performance in large-scale environments, showcasing the potential of direct methods in SLAM.  
+
+[[paper]](https://ieeexplore.ieee.org/document/7898369) **DSO: Direct Sparse Odometry** [TPAMI 2017]  
+This work presents DSO, a direct monocular visual odometry system that optimizes camera poses and sparse 3D points directly from image intensities. It employs a photometric error minimization framework, allowing for accurate pose estimation even in low-texture environments. DSO introduces a novel keyframe selection strategy and a robust optimization scheme, achieving state-of-the-art performance on several benchmark datasets. 
+
+##### RGB-D SLAM
+[[paper]](https://www.roboticsproceedings.org/rss11/p01.pdf) **ElasticFusion: Real-Time Dense SLAM and Light Source Estimation** [IJRR 2016]  
+This work presents ElasticFusion, a real-time dense SLAM system that utilizes an RGB-D camera to create a globally consistent 3D map. The system employs a surfel-based representation, allowing for efficient fusion of new observations and dynamic updates to the map. ElasticFusion introduces a novel non-rigid deformation model to handle loop closures and maintain global consistency, achieving high-quality dense reconstructions in real time.  
 
 
 
