@@ -487,9 +487,354 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 
 
 
-### 3D AIGC
+### 3D 3D-Scene-Generation
 
 #### Text to 3D Generation
+[[code]](https://github.com/usama2762/Furniture-Optimization) [[paper]](https://peterkan.com/download/ieeevr2018.pdf) **Automatic Furniture Arrangement Using Greedy Cost Minimization** [VR 2018]  
+[[code]](https://github.com/Shao-Kui/3DScenePlatform#mageadd) [[paper]](https://cg.cs.tsinghua.edu.cn/course/vis/Shao-Kui/MageAdd.pdf) **MageAdd: Real-Time Interaction Simulation for Scene Synthesis** [MM 2021]  
+[[code]](https://ieeexplore.ieee.org/document/9321177) [[paper]](https://cg.cs.tsinghua.edu.cn/course/vis/Shao-Kui/MageAdd.pdf) **Fast 3D Indoor Scene Synthesis by Learning Spatial Relation Priors of Objects** [TVCG 2021]  
+[[code]](https://github.com/allenai/procthor) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/27c546ab1e4f1d7d638e6a8dfbad9a07-Abstract-Conference.html) **ProcTHOR: Large-Scale Embodied AI Using Procedural Generation** [NeurIPS 2022]  
+[[code]](https://github.com/princeton-vl/infinigen) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Raistrick_Infinigen_Indoors_Photorealistic_Indoor_Scenes_using_Procedural_Generation_CVPR_2024_paper.pdf) **Infinigen Indoors: Photorealistic Indoor Scenes using Procedural Generation** [CVPR 2024]    
+[[code]](https://github.com/weixi-feng/LayoutGPT) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/3a7f9e485845dac27423375c934cb4db-Abstract-Conference.html) **LayoutGPT: Compositional Visual Planning and Generation with Large Language Models** [NeurIPS 2023]  
+[[code]](https://github.com/GGGHSL/GraphDreamer) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Gao_GraphDreamer_Compositional_3D_Scene_Synthesis_from_Scene_Graphs_CVPR_2024_paper.pdf) **GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs** [CVPR 2024]  
+[[code]](https://github.com/FreddieRao/anyhome_github) [[paper]](https://eccv.ecva.net/virtual/2024/poster/196) **AnyHome: Open-Vocabulary Generation of Structured and Textured 3D Homes** [ECCV 2024]  
+[[code]](https://github.com/sceneteller/SceneTeller) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11481_ECCV_2024_paper.php) **SceneTeller: Language-to-3D Scene Generation** [ECCV 2024]   
+
+
+
+
+#### LLM-based Generation
+
+><span style="color:lightblue;">💡💡 LLM-based Generation in the field of 3D generation typically refers to a generative paradigm that relies on Large Language Models (LLMs) as the core driver or semantic interface. Unlike traditional 3D generation methods that rely solely on visual or geometric priors, LLM-based Generation leverages LLMs' strengths in cross-modal semantic understanding, knowledge transfer, and reasoning capabilities. It maps natural language inputs into high-level semantic constraints, thereby driving the construction of three-dimensional objects, scenes, and even dynamic content.
+</span> 
+
+
+[[code]](https://github.com/weixi-feng/LayoutGPT) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/3a7f9e485845dac27423375c934cb4db-Abstract-Conference.html) **LayoutGPT: Compositional Visual Planning and Generation with Large Language Models** [NeurIPS 2023]  
+[[code]](https://github.com/GGGHSL/GraphDreamer) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Gao_GraphDreamer_Compositional_3D_Scene_Synthesis_from_Scene_Graphs_CVPR_2024_paper.pdf) **GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs** [CVPR 2024]  
+[[code]](https://github.com/FreddieRao/anyhome_github) [[paper]](https://eccv.ecva.net/virtual/2024/poster/196) **AnyHome: Open-Vocabulary Generation of Structured and Textured 3D Homes** [ECCV 2024]  
+[[code]](https://github.com/sceneteller/SceneTeller) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11481_ECCV_2024_paper.php) **SceneTeller: Language-to-3D Scene Generation** [ECCV 2024]  
+[[paper]](https://acbull.github.io/pdf/SceneCraft_compressed.pdf) **SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code** [ICML 2024]  
+[[code]](https://github.com/omegafantasy/ControllableLandscape) [[paper]](https://cg.cs.tsinghua.edu.cn/Shao-Kui/Papers/Landscape.pdf#:~:text=By%20converting%20plain%20text%20inputs%20into%20parameters%20through,leverage%20optimization%20tech-%20niques%20and%20employ%20rule-based%20refinements.) **Controllable Procedural Generation of Landscapes** [MM 2024]  
+[[paper]](https://dl.acm.org/doi/full/10.1145/3680528.3687589) **DIScene: Object Decoupling and Interaction Modeling for Complex Scene Generation** [SIGGRAPH Asia 2024]   
+[[code]](https://github.com/atcelen/IDesign/) [[paper]](https://arxiv.org/abs/2404.02838) **I-Design: Personalized LLM Interior Designer** [arXiv 2024]  
+[[paper]](https://arxiv.org/abs/2406.03866) **LLplace: The 3D Indoor Scene Layout Generation and Editing via Large Language Model** [arXiv 2024]  
+[[code]](https://github.com/djFatNerd/CityCraft) [[paper]](https://arxiv.org/abs/2406.04983) **CityCraft: A Real Crafter for 3D City Generation** [arXiv 2024]  
+[[code]](https://github.com/cityx-lab/CityX-Lab) [[paper]](https://arxiv.org/abs/2407.17572) **CityX: Controllable Procedural Content Generation for Unbounded 3D Cities** [arXiv 2024]  
+[[paper]](https://arxiv.org/abs/2412.00091) **Graph Canvas for Controllable 3D Scene Generation** [arXiv 2024]  
+[[code]](https://github.com/Urban-World/UrbanWorld) [[paper]](https://arxiv.org/abs/2407.11965) **UrbanWorld: An Urban World Model for 3D City Generation** [arXiv 2024]  
+[[code]](https://github.com/Chuny1/3DGPT) [[paper]](https://arxiv.org/abs/2310.12945) **3D-GPT: Procedural 3D Modeling with Large Language Models** [3DV 2025]   
+[[code]](https://github.com/zhouzq1/SceneX) [[paper]](https://arxiv.org/abs/2403.15698) **SceneX: Procedural Controllable Large-scale Scene Generation** [AAAI 2025]  
+[[code]](https://github.com/SunWeiLin-Lynne/Hierarchically-Structured-Open-Vocabulary-Indoor-Scene-Synthesis) [[paper]](https://arxiv.org/abs/2502.10675) **Hierarchically-Structured Open-Vocabulary Indoor Scene Synthesis with Pre-trained Large Language Model** [AAAI 2025]  
+[[code]](https://github.com/dw-dengwei/TreeSearchGen) [[paper]](https://arxiv.org/abs/2503.18476) **Global-Local Tree Search in VLMs for 3D Indoor Scene Generation** [CVPR 2025]  
+[[code]](https://github.com/sunfanyunn/LayoutVLM) [[paper]](https://arxiv.org/abs/2412.02193) **LayoutVLM: Differentiable Optimization of 3D Layout via Vision-Language Models** [CVPR 2025]  
+[[code]](https://github.com/zzyunzhi/scene-language) [[paper]](https://arxiv.org/abs/2410.16770) **The Scene Language: Representing Scenes with Programs, Words, and Embeddings** [CVPR 2025]  
+[[paper]](https://aclanthology.org/2025.findings-acl.994/) **UnrealLLM: Towards Highly Controllable and Interactable 3D Scene Generation by LLM-powered Procedural Content Generation** [ACL Findings 2025]  
+[[paper]](https://arxiv.org/abs/2502.15601) **WorldCraft: Photo-Realistic 3D World Creation and Customization via LLM Agents** [arXiv 2025]  
+[[code]](https://github.com/Roblox/cube) [[paper]](https://arxiv.org/abs/2503.15475) **Cube: A Roblox View of 3D Intelligence** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2505.02836) **Scenethesis: A Language and Vision Agentic Framework for 3D Scene Generation** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2505.20129) **Agentic 3D Scene Generation with Spatially Contextualized VLMs** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2506.22291) **RoomCraft: Controllable and Complete 3D Indoor Scene Generation** [arXiv 2025]  
+[[code]](https://github.com/GradientSpaces/respace) [[paper]](https://arxiv.org/abs/2506.02459) **ReSpace: Text-Driven 3D Scene Synthesis and Editing with Preference Alignment** [arXiv 2025]  
+[[code]](https://github.com/rxjfighting/DirectLayout) [[paper]](https://arxiv.org/abs/2506.05341) **Direct Numerical Layout Generation for 3D Indoor Scene Synthesis via Spatial Reasoning** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2508.17832) **HLG: Comprehensive 3D Room Construction via Hierarchical Layout Generation** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2508.05899) **HOLODECK 2.0: Vision-Language-Guided 3D World Generation with Editing** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2509.05263) **LatticeWorld: A Multimodal Large Language Model-Empowered Framework for Interactive Complex World Generation** [arXiv 2025]  
+[[code]](https://github.com/gokucs/causalstruct) [[paper]](https://arxiv.org/abs/2509.05263) **Causal Reasoning Elicits Controllable 3D Scene Generation** [arXiv 2025]  
+
+
+
+#### Neural-3D Generation
+
+><span style="color:lightblue;">💡💡 Neural-3D Generation is a generative paradigm that directly learns or indirectly drives three-dimensional representations using deep neural networks. Its core concept involves modeling 3D geometry and appearance through high-dimensional implicit functions or learnable parameterized structures, generating renderable 3D content under multimodal conditions (text, images, or semantic labels). Unlike traditional explicit geometry-based modeling approaches, Neural-3D Generation emphasizes the continuity and differentiable rendering properties of implicit representations. This enables end-to-end training of the generation process through gradient optimization.
+</span> 
+
+##### Scene Parameters
+[[code]](https://github.com/brownvc/deep-synth) [[paper]](https://doi.org/10.1145/3197517.3201362) **Deep Convolutional Priors for Indoor Scene Synthesis** [SIGGRAPH 2018]  
+[[code]](https://github.com/brownvc/fast-synth) [[paper]](https://arxiv.org/abs/1811.12463) **Fast and Flexible Indoor Scene Synthesis via Deep Convolutional Generative Models** [CVPR 2019]  
+[[paper]](https://arxiv.org/abs/1808.02084) **Deep Generative Modeling for Scene Synthesis via Hybrid Representations** [SIGGRAPH 2020]  
+[[code]](https://github.com/cy94/sceneformer) [[paper]](https://arxiv.org/abs/2012.09793) **SceneFormer: Indoor Scene Generation with Transformers** [3DV 2021]  
+[[code]](https://github.com/yanghtr/Sync2Gen) [[paper]](https://arxiv.org/abs/2108.13499) **Scene Synthesis via Uncertainty-Driven Attribute Synchronization** [ICCV 2021]  
+[[code]](https://github.com/nv-tlabs/atiss) [[paper]](https://arxiv.org/abs/2110.03675) **ATISS: Autoregressive Transformers for Indoor Scene Synthesis** [NeurIPS 2021]  
+[[code]](https://github.com/yinyunie/pose2room) [[paper]](https://arxiv.org/abs/2112.03030) **Pose2Room: Understanding 3D Scenes from Human Activities** [ECCV 2022]  
+[[code]](https://github.com/onestarYX/summon) [[paper]](https://arxiv.org/abs/2301.01424) **Scene Synthesis from Human Motion** [SIGGRAPH Asia 2022]  
+[[code]](https://github.com/yinyunie/ScenePriors) [[paper]](https://arxiv.org/abs/2211.14157) **Learning 3D Scene Priors with 2D Supervision** [CVPR 2023]  
+[[code]](https://github.com/yhw-yhw/MIME) [[paper]](https://arxiv.org/abs/2212.04360) **MIME: Human-Aware 3D Scene Generation** [CVPR 2023]  
+[[paper]](https://doi.org/10.1145/3588432.3591561) **COFS: COntrollable Furniture layout Synthesis** [SIGGRAPH 2023]  
+[[code]](https://github.com/andvg3/LSDM) [[paper]](https://arxiv.org/abs/2310.15948) **Language-driven Scene Synthesis using Multi-conditional Diffusion Model** [NeurIPS 2023]  
+[[code]](https://github.com/zhao-yiqun/RoomDesigner) [[paper]](https://arxiv.org/abs/2310.10027) **RoomDesigner: Encoding Anchor-latents for Style-consistent and Shape-compatible Indoor Scene Generation** [3DV 2024]  
+[[code]](https://github.com/tangjiapeng/DiffuScene) [[paper]](https://arxiv.org/abs/2303.14207) **DiffuScene: Denoising Diffusion Models for Generative Indoor Scene Synthesis** [CVPR 2024]  
+[[code]](https://github.com/zqh0253/SceneWiz3D) [[paper]](https://arxiv.org/abs/2312.08885) **SceneWiz3D: Towards Text-guided 3D Scene Composition** [CVPR 2024]  
+[[code]](https://github.com/PhyScene/PhyScene) [[paper]](https://arxiv.org/abs/2404.09465) **PhyScene: Physically Interactable 3D Scene Synthesis for Embodied AI** [CVPR 2024]  
+[[code]](https://github.com/DreamScene-Project/DreamScene) [[paper]](https://arxiv.org/abs/2404.03575) **DreamScene: 3D Gaussian-Based Text-to-3D Scene Generation via Formation Pattern Sampling** [ECCV 2024]  
+[[code]](https://github.com/VDIGPKU/GALA3D) [[paper]](https://arxiv.org/abs/2402.07207) **GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting** [ICML 2024]  
+[[paper]](https://arxiv.org/abs/2402.16936) **Disentangled 3D Scene Generation with Layout Learning** [ICML 2024]  
+[[paper]](https://openreview.net/forum?id=GIw7pmMPPX) **RelScene: A Benchmark and baseline for Spatial Relations in text-driven 3D Scene Generation** [MM 2024]  
+[[paper]](https://arxiv.org/abs/2409.18336) **DeBaRA: Denoising-Based 3D Room Arrangement Generation** [NeurIPS 2024]  
+[[paper]](https://arxiv.org/abs/2405.12460) **Physics-based Scene Layout Generation From Human Motion** [SIGGRAPH 2024]  
+[[code]](https://github.com/ohad204/Lay-A-Scene) [[paper]](https://arxiv.org/abs/2406.00687) **Lay-A-Scene: Personalized 3D Object Arrangement Using Text-to-Image Priors** [arXiv 2024]  
+[[code]](https://github.com/fangchuan/Ctrl-Room) [[paper]](https://arxiv.org/abs/2310.03602) **Ctrl-Room: Controllable Text-to-3D Room Meshes Generation with Layout Constraints** [3DV 2025]  
+[[code]](https://github.com/alexeybokhovkin/SceneFactor) [[paper]](https://arxiv.org/abs/2412.01801) **SceneFactor: Factored Latent 3D Diffusion for Controllable 3D Scene Generation** [CVPR 2025]  
+[[code]](https://github.com/CASAGPT/CASA-GPT) [[paper]](https://arxiv.org/abs/2504.19478) **CASAGPT: Cuboid Arrangement and Scene Assembly for Interior Design** [CVPR 2025]  
+[[code]](https://github.com/nepfaff/steerable-scene-generation) [[paper]](https://arxiv.org/abs/2505.04831) **Steerable Scene Generation with Post Training and Inference-Time Search** [CoRL 2025]  
+
+
+##### Scene Graph
+[[paper]](https://doi.org/10.3115/v1/D14-1217) **Learning Spatial Knowledge for Text to 3D Scene Generation** [EMNLP 2014]  
+[[paper]](https://doi.org/10.1111/cgf.12976) **Learning 3D Scene Synthesis from Annotated RGB-D Images** [CGF 2016]  
+[[paper]](https://doi.org/10.1145/3130800.3130805) **Adaptive synthesis of indoor scenes via activity-associated object relation graphs** [TOG 2017]  
+[[paper]](https://doi.org/10.1145/3272127.3275035) **Language-Driven Synthesis of 3D Scenes from Scene Databases** [TOG 2018]  
+[[code]](https://github.com/nv-tlabs/meta-sim) [[paper]](https://arxiv.org/abs/1904.11621) **Meta-Sim: Learning to Generate Synthetic Datasets** [ICCV 2019]  
+[[code]](https://github.com/ManyiLi12345/GRAINS) [[paper]](https://arxiv.org/abs/1807.09193) **GRAINS: Generative Recursive Autoencoders for INdoor Scenes** [SIGGRAPH 2019]  
+[[code]](https://github.com/brownvc/planit) [[paper]](https://doi.org/10.1145/3306346.3322941) **PlanIT: Planning and Instantiating Indoor Scenes with Relation Graph and Spatial Prior Networks** [SIGGRAPH 2019]  
+[[code]](https://github.com/aluo-x/3D_SLN) [[paper]](https://arxiv.org/abs/2007.11744) **End-to-End Optimization of Scene Layout** [CVPR 2020]  
+[[code]](https://github.com/nv-tlabs/meta-sim-structure) [[paper]](https://arxiv.org/abs/2008.09092) **Meta-Sim 2 Unsupervised Learning of Scene Structure for Synthetic Data Generation** [ECCV 2020]  
+[[code]](https://github.com/he-dhamo/graphto3d) [[paper]](https://arxiv.org/abs/2108.08841) **Graph-to-3D: End-to-End Generation and Manipulation of 3D Scenes Using Scene Graphs** [ICCV 2021]  
+[[code]](https://github.com/ymxlzgy/commonscenes) [[paper]](https://arxiv.org/abs/2305.16283) **CommonScenes: Generating Commonsense 3D Indoor Scenes with Scene Graph Diffusion** [NeurIPS 2023]  
+[[code]](https://github.com/tommaoer/SceneHGN) [[paper]](https://arxiv.org/abs/2302.10237) **SceneHGN: Hierarchical Graph Networks for 3D Indoor Scene Generation With Fine-Grained Geometry** [TPAMI 2023]  
+[[paper]](https://arxiv.org/abs/2403.14121) **SEK: External Knowledge Enhanced 3D Scene Generation from Sketch** [ECCV 2024]  
+[[paper]](https://arxiv.org/abs/2407.05388) **Forest2Seq: Revitalizing Order Prior for Sequential Indoor Scene Synthesis** [ECCV 2024]  
+[[code]](https://github.com/ymxlzgy/echoscene) [[paper]](https://arxiv.org/abs/2405.00915) **EchoScene: Indoor Scene Generation via Information Echo over Scene Graph Diffusion** [ECCV 2024]  
+[[code]](https://github.com/chenguolin/InstructScene) [[paper]](https://arxiv.org/abs/2402.04717) **InstructScene: Instruction-Driven 3D Indoor Scene Synthesis with Semantic Graph Prior** [ICLR 2024]  
+[[code]](https://github.com/yangzhifeio/MMGDreamer) [[paper]](https://arxiv.org/abs/2502.05874) **MMGDreamer: Mixed-Modality Graph for Geometry-Controllable 3D Indoor Scene Generation** [AAAI 2025]  
+[[code]](https://github.com/cangmushui/FreeScene) [[paper]](https://arxiv.org/abs/2506.02781) **FreeScene: Mixed Graph Diffusion for 3D Scene Synthesis from Free Prompts** [CVPR 2025]  
+[[code]](https://github.com/yuhengliu02/control-3d-scene) [[paper]](https://arxiv.org/abs/2503.07152) **Controllable 3D Outdoor Scene Generation via Scene Graphs** [ICCV 2025]  
+[[paper]](https://arxiv.org/abs/2504.13072) **HiScene: Creating Hierarchical 3D Scenes with Isometric View Generation** [arXiv 2025]  
+
+
+
+#### Implicit Layout
+><span style="color:lightblue;">💡💡 Implicit Layout in 3D generation and scene representation research typically refers to encoding the spatial structure and object layout of a scene through implicit functions or continuous fields, rather than explicitly specifying geometric boundaries or semantic partitions. This approach emphasizes translating “object presence, occupancy relationships, and relative layouts” within a scene into differentiable continuous function representations. This enables neural networks to learn globally consistent scene layout constraints within high-dimensional latent spaces.
+</span> 
+
+[[code]](https://github.com/autonomousvision/giraffe) [[paper]](https://arxiv.org/abs/2011.12100) **GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields** [CVPR 2021]  
+[[code]](https://github.com/apple/ml-gsn) [[paper]](https://arxiv.org/abs/2104.00670) **Unconstrained Scene Generation With Locally Conditioned Radiance Fields** [ICCV 2021]  
+[[paper]](https://arxiv.org/abs/2104.00587) **NeRF-VAE: A geometry aware 3d scene generative model** [ICML 2021]  
+[[code]](https://github.com/apple/ml-gaudi) [[paper]](https://arxiv.org/abs/2207.13751) **GAUDI: A Neural Architect for Immersive 3D Scene Generation** [NeurIPS 2022]  
+[[code]](https://github.com/google-research/google-research/tree/master/persistent-nature) [[paper]](https://arxiv.org/abs/2303.13515) **Persistent Nature: A generative model of unbounded 3D worlds** [CVPR 2023]  
+[[paper]](https://arxiv.org/abs/2304.09787) **NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models** [CVPR 2023]  
+[[code]](https://github.com/zoomin-lee/scene-scale-diffusion) [[paper]](https://arxiv.org/abs/2301.00527) **Diffusion Probabilistic Models for Scene-Scale 3D Categorical Data** [arXiv 2023]  
+[[code]](https://github.com/AkiraHero/diffindscene) [[paper]](https://arxiv.org/abs/2306.00519) **DiffInDScene: Diffusion-based High-Quality 3D Indoor Scene Generation** [CVPR 2024]  
+[[code]](https://github.com/nv-tlabs/XCube) [[paper]](https://arxiv.org/abs/2312.03806) **XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies** [CVPR 2024]  
+[[code]](https://github.com/zoomin-lee/SemCity) [[paper]](https://arxiv.org/abs/2403.07773) **SemCity: Semantic Scene Generation with Triplane Diffusion** [CVPR 2024]  
+[[code]](https://github.com/yuhengliu02/pyramid-discrete-diffusion) [[paper]](https://arxiv.org/abs/2311.12085) **Pyramid Diffusion for Fine 3D Large Scene Generation** [ECCV 2024]  
+[[code]](https://github.com/imlixinyang/director3d) [[paper]](https://arxiv.org/abs/2406.17601) **Director3D: Real-world Camera Trajectory and 3D Scene Generation from Text** [NeurIPS 2024]  
+[[code]](https://github.com/quan-meng/lt3sd) [[paper]](https://arxiv.org/abs/2409.08215) **LT3SD: Latent Trees for 3D Scene Diffusion** [CVPR 2025]  
+[[code]](https://github.com/gohyojun15/SplatFlow/) [[paper]](https://arxiv.org/abs/2411.16443) **SplatFlow: Multi-View Rectified Flow Model for 3D Gaussian Splatting Synthesis** [CVPR 2025]  
+[[code]](https://github.com/XDimLab/Prometheus) [[paper]](https://arxiv.org/abs/2412.21117) **Prometheus: 3D-Aware Latent Diffusion Models for Feed-Forward Text-to-3D Scene Generation** [CVPR 2025]  
+[[code]](https://github.com/3DTopia/DynamicCity) [[paper]](https://arxiv.org/abs/2410.18084) **DynamicCity: Large-Scale Occupancy Generation from Dynamic Scenes** [ICLR 2025]  
+[[code]](https://github.com/3dlg-hcvc/NuiScene) [[paper]](https://arxiv.org/abs/2503.16375) **NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes** [ICCV 2025]  
+[[code]](https://github.com/gohyojun15/VideoRFSplat) [[paper]](https://arxiv.org/abs/2503.15855) **VideoRFSplat: Direct Scene-Level Text-to-3D Gaussian Splatting Generation with Flexible Pose and Multi-View Joint Modeling** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2508.19204) **LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding** [arXiv 2025]   
+[[code]](https://github.com/fudan-zvg/UniUGG) [[paper]](https://arxiv.org/abs/2508.11952) **UniUGG: Unified 3D Understanding and Generation via Geometric-Semantic Encoding** [arXiv 2025]  
+
+
+
+#### Image-based Generation
+><span style="color:lightblue;">💡💡 Image-based Generation in the field of 3D content creation typically refers to a generative paradigm that synthesizes 3D geometry and appearance by learning cross-dimensional mapping relationships, using 2D images as primary input or constraints. The core of such methods lies in leveraging images as conditional signals to overcome the limitations of sparse and difficult-to-acquire 3D data, enabling high-quality 3D reconstruction and generation through rich 2D prior knowledge.
+</span> 
+
+##### Holistic Generation
+><span style="color:lightblue;">💡💡 Holistic Generation in the field of 3D generation typically refers to an integrated generation paradigm that adopts a global perspective to unify the modeling of geometric structures, semantic layouts, appearance textures, and even dynamic properties within a scene. Its core philosophy lies in overcoming the limitations of previous methods that focused solely on individual objects, local geometry, or specific modalities. By leveraging end-to-end multimodal fusion and global consistency modeling, it achieves holistic and controllable 3D content generation.
+</span> 
+
+[[paper]](https://doi.org/10.1109/ICIP.2019.8803435) **360-Degree Image Completion by Two-Stage Conditional Gans** [ICIP 2019]  
+[[code]](https://github.com/lizuoyue/sate_to_ground) [[paper]](https://doi.org/10.1109/CVPR42600.2020.00094) **Geometry-Aware Satellite-to-Ground Image Synthesis for Urban Areas** [CVPR 2020]   
+[[paper]](https://arxiv.org/abs/1904.03326) **360 Panorama Synthesis from a Sparse Set of Images with Unknown Field of View** [WACV 2020]  
+[[code]](https://github.com/hara012/sig-ss) [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/16242) **Spherical Image Generation from a Single Image by Considering Scene Symmetry** [AAAI 2021]  
+[[code]](https://github.com/apple/ml-envmapnet) [[paper]](https://arxiv.org/abs/2011.10687) **HDR Environment Map Estimation for Real-Time Augmented Reality** [CVPR 2021]  
+[[paper]](https://arxiv.org/abs/2012.06628) **Sat2vid: Street-view panoramic video synthesis from a single satellite image** [ICCV 2021]  
+[[paper]](https://arxiv.org/abs/2104.00587) **NeRF-VAE: A geometry aware 3d scene generative model** [ICML 2021]  
+[[paper]](https://arxiv.org/abs/2204.07286) **Guided Co-Modulated GAN for 360° Field of View Extrapolation** [3DV 2022]  
+[[code]](https://github.com/akmtn/OmniDreamer) [[paper]](https://arxiv.org/abs/2203.14668) **Diverse Plausible 360-Degree Image Outpainting for Efficient 3DCG Background Creation** [CVPR 2022]  
+[[code]](https://github.com/chang9711/BIPS) [[paper]](https://arxiv.org/abs/2112.06179) **BIPS: Bi-modal Indoor Panorama Synthesis via Residual Depth-aided Adversarial Learning** [ECCV 2022]  
+[[code]](https://github.com/FrozenBurning/Text2Light) [[paper]](https://arxiv.org/abs/2209.09898) **Text2Light: Zero-Shot Text-Driven HDR Panorama Generation** [SIGGRAPH Asia 2022]  
+[[code]](https://github.com/sswuai/PanoGAN) [[paper]](https://arxiv.org/abs/2203.11832) **Cross-View Panorama Image Synthesis** [TMM 2022]  
+[[code]](https://github.com/YujiaoShi/Sat2StrPanoramaSynthesis) [[paper]](https://arxiv.org/abs/2103.01623) **Geometry-Guided Street-View Panorama Synthesis from Satellite Imagery** [TPAMI 2022]  
+[[paper]](https://arxiv.org/abs/2303.17076) **DiffCollage: Parallel Generation of Large Content with Diffusion Models** [CVPR 2023]  
+[[code]](https://github.com/qianmingduowan/Sat2Density) [[paper]](https://arxiv.org/abs/2303.14672) **Sat2Density: Faithful Density Learning from Satellite-Ground Image Pairs** [ICCV 2023]  
+[[code]](https://github.com/shanemankiw/Panodiff) [[paper]](https://arxiv.org/abs/2308.14686) **360-Degree Panorama Generation from Few Unregistered NFoV Images** [MM 2023]  
+[[code]](https://github.com/Tangshitao/MVDiffusion) [[paper]](https://arxiv.org/abs/2307.01097) **MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion** [NeurIPS 2023]  
+[[code]](https://github.com/hara012/sig-ss) [[paper]](https://doi.org/10.1109/TPAMI.2022.3215933) **Spherical Image Generation From a Few Normal-Field-of-View Images by Considering Scene Symmetry** [TPAMI 2023]  
+[[paper]](https://arxiv.org/abs/2305.10853) **LDM3D: Latent Diffusion Model for 3D** [arXiv 2023]  
+[[code]](https://github.com/ArcherFMY/SD-T2I-360PanoImage) [[paper]](https://arxiv.org/abs/2311.13141) **Diffusion360: Seamless 360 Degree Panoramic Image Generation based on Diffusion Models** [arXiv 2023]  
+[[code]](https://github.com/PanoDiffusion/PanoDiffusion) [[paper]](https://arxiv.org/abs/2307.03177) **PanoDiffusion: 360-degree Panorama Outpainting via Diffusion** [ICLR 2024]  
+[[paper]](https://arxiv.org/abs/2312.05208) **ControlRoom3D 🤖Room Generation using Semantic Proxy Rooms** [CVPR 2024]  
+[[code]](https://github.com/lizuoyue/sat2scene) [[paper]](https://arxiv.org/abs/2401.10786) **Sat2Scene: 3D Urban Scene Generation from Satellite Images with Diffusion** [CVPR 2024]  
+[[code]](https://github.com/chengzhag/PanFusion) [[paper]](https://arxiv.org/abs/2404.07949) **PanFusion: Taming stable diffusion for text to 360◦ panorama image generation** [CVPR 2024]  
+[[code]](https://github.com/ShijieZhou-UCLA/DreamScene360) [[paper]](https://arxiv.org/abs/2404.06903) **DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting** [ECCV 2024]  
+[[paper]](https://arxiv.org/abs/2407.08061) **Geospecific View Generation - Geometry-Context Aware High-resolution Ground View Inference from Satellite Views** [ECCV 2024]  
+[[code]](https://github.com/Mr-Ma-yikun/FastScene) [[paper]](https://arxiv.org/abs/2405.05768) **FastScene: Text-Driven Fast Indoor 3D Scene Generation via Panoramic Gaussian Splatting** [IJCAI 2024]  
+[[code]](https://github.com/zju3dv/DiffPano) [[paper]](https://arxiv.org/abs/2410.24203) **DiffPano: Scalable and Consistent Text to Panorama Generation with Spherical Epipolar-Aware Diffusion** [NeurIPS 2024]  
+[[code]](https://github.com/perf-project/PeRF) [[paper]](https://arxiv.org/abs/2310.16831) **PERF: Panoramic Neural Radiance Field from a Single Panorama** [TPAMI 2024]  
+[[paper]](https://arxiv.org/abs/2401.10564) **Dream360: Diverse and Immersive Outdoor Virtual Scene Creation via Transformer-Based 360° Image Outpainting** [TVCG 2024]  
+[[code]](https://github.com/littlewhitesea/StitchDiffusion) [[paper]](https://arxiv.org/abs/2310.18840) **StitchDiffusion: Customizing 360-Degree Panoramas through Text-to-Image Diffusion Models** [WACV 2024]  
+[[code]](https://github.com/zhouhyOcean/HoloDreamer) [[paper]](https://arxiv.org/abs/2407.15187) **HoloDreamer: Holistic 3D Panoramic World Generation from Text Descriptions** [arXiv 2024]  
+[[code]](https://github.com/liwrui/SceneDreamer360) [[paper]](https://arxiv.org/abs/2408.13711) **SceneDreamer360: Text-Driven 3D-Consistent Scene Generation with Panoramic Gaussian Splatting** [arXiv 2024]  
+[[paper]](https://arxiv.org/abs/2501.17162) **CubeDiff: Repurposing Diffusion-Based Image Models for Panorama Generation** [ICLR 2025]  
+[[code]](https://github.com/3DTopia/LayerPano3D) [[paper]](https://arxiv.org/abs/2408.13252) **LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation** [SIGGRAPH 2025]  
+[[paper]](https://arxiv.org/abs/2503.16611) **A Recipe for Generating 3D Worlds From a Single Image** [arXiv 2025]  
+[[code]](https://github.com/HorizonRobotics/EmbodiedGen) [[paper]](https://arxiv.org/abs/2506.10600) **EmbodiedGen: Towards a Generative 3D World Engine for Embodied Intelligence** [arXiv 2025]  
+[[paper]](https://immersegen.github.io/) [[paper]](https://arxiv.org/abs/2506.14315) **ImmerseGen: Agent-Guided Immersive World Generation with Alpha-Textured Proxies** [arXiv 2025]  
+[[code]](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0) [[paper]](https://arxiv.org/abs/2507.21809) **HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels** [arXiv 2025]  
+[[code]](https://github.com/SkyworkAI/Matrix-3D) [[paper]](https://arxiv.org/abs/2508.08086) **Matrix-3D: Omnidirectional Explorable 3D World Generation** [arXiv 2025]  
+
+
+
+##### Iterative Generation
+><span style="color:lightblue;">💡💡 Iterative Generation in the field of 3D generation typically refers to a step-by-step progressive generation paradigm. Rather than producing a complete 3D structure in a single pass, the model undergoes multiple rounds of iterative optimization or hierarchical refinement to progressively enhance geometric accuracy, visual realism, and global consistency. The core principle of this approach is to decompose complex 3D synthesis into a series of incremental steps. Each step refines and enhances the results from the preceding stage, thereby effectively addressing issues such as scale ambiguity, geometric artifacts, and texture inconsistencies.
+</span> 
+
+[[code]](https://github.com/sniklaus/3d-ken-burns) [[paper]](https://arxiv.org/abs/1909.05483) **3D Ken Burns Effect from a Single Image** [TOG 2019]  
+[[code]](https://github.com/facebookresearch/synsin) [[paper]](https://arxiv.org/abs/1912.08804) **SynSin: End-to-end view synthesis from a single image** [CVPR 2020]  
+[[code]](https://github.com/vt-vl-lab/3d-photo-inpainting) [[paper]](https://arxiv.org/abs/2004.04727) **3D Photography Using Context-Aware Layered Depth Inpainting** [CVPR 2020]  
+[[code]](https://github.com/google-research/google-research/tree/master/single_view_mpi) [[paper]](https://arxiv.org/abs/2004.11364) **Single-View View Synthesis with Multiplane Images** [CVPR 2020]  
+[[code]](https://github.com/tedyhabtegebrial/gvsnet) [[paper]](https://arxiv.org/abs/2008.09106) **Generative View Synthesis: From Single-view Semantics to Novel-view Images** [NeurIPS 2020]  
+[[code]](https://github.com/facebookresearch/worldsheet) [[paper]](https://arxiv.org/abs/2012.09854) **Worldsheet: Wrapping the World in a 3D Sheet for View Synthesis from a Single Image** [ICCV 2021]  
+[[code]](https://github.com/google-research/google-research/tree/master/infinite_nature) [[paper]](https://arxiv.org/abs/2012.09855) **Infinite Nature: Perpetual View Generation of Natural Scenes from a Single Image** [ICCV 2021]  
+[[code]](https://github.com/CompVis/geometry-free-view-synthesis) [[paper]](https://arxiv.org/abs/2104.07652) **Geometry-free view synthesis: Transformers and no 3d priors** [ICCV 2021]  
+[[code]](https://github.com/google-research/pathdreamer) [[paper]](https://arxiv.org/abs/2105.08756) **Pathdreamer: A World Model for Indoor Navigation** [ICCV 2021]  
+[[code]](https://github.com/crockwell/pixelsynth) [[paper]](https://arxiv.org/abs/2108.05892) **PixelSynth: Generating a 3D-Consistent Experience from a Single Image** [ICCV 2021]  
+[[code]](https://github.com/xrenaa/Look-Outside-Room) [[paper]](https://arxiv.org/abs/2203.09457) **LOTR: Synthesizing a consistent long-term 3D scene video from a single image** [CVPR 2022]  
+[[code]](https://github.com/google-research/google-research/tree/master/infinite_nature_zero) [[paper]](https://arxiv.org/abs/2207.11148) **InfiniteNature-Zero: Learning Perpetual View Generation of Natural Scenes from Single Images** [ECCV 2022]  
+[[code]](https://github.com/yshen47/SGAM_NeurIPS22) [[paper]](https://openreview.net/forum?id=17KCLTbRymw) **SGAM: Building a Virtual 3D World through Simultaneous Generation and Mapping** [NeurIPS 2022]  
+[[code]](https://github.com/google-research/se3ds) [[paper]](https://arxiv.org/abs/2204.02960) **SE3DS: Simple and Effective Synthesis of Indoor 3D Scenes** [AAAI 2023]  
+[[code]](https://github.com/xingyi-li/3d-cinemagraphy) [[paper]](https://arxiv.org/abs/2303.05724) **3D Cinemagraphy from a Single Image** [CVPR 2023]  
+[[paper]](https://arxiv.org/abs/2303.17598) **Consistent View Synthesis with Pose-Guided Diffusion Models** [CVPR 2023]  
+[[code]](https://github.com/primecai/DiffDreamer) [[paper]](https://arxiv.org/abs/2211.12131) **DiffDreamer: Towards Consistent Unsupervised Single-view Scene Extrapolation with Conditional Diffusion Models** [ICCV 2023]  
+[[code]](https://github.com/lukasHoel/text2room) [[paper]](https://arxiv.org/abs/2303.11989) **Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models** [ICCV 2023]  
+[[code]](https://github.com/YorkUCVIL/Photoconsistent-NVS) [[paper]](https://arxiv.org/abs/2304.10700) **Long-Term Photometric Consistent Novel View Synthesis with Diffusion Models** [ICCV 2023]  
+[[code]](https://github.com/leoShen917/Make-It-4D) [[paper]](https://arxiv.org/abs/2308.10257) **Make-It-4D: Synthesizing a Consistent Long-Term Dynamic Scene Video from a Single Image** [MM 2023]  
+[[code]](https://github.com/RafailFridman/SceneScape) [[paper]](https://arxiv.org/abs/2302.01133) **SceneScape: Text-Driven Consistent Scene Generation** [NeurIPS 2023]  
+[[code]](https://github.com/jialuli-luka/PanoGen) [[paper]](https://arxiv.org/abs/2305.19195) **PanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation** [NeurIPS 2023]  
+[[code]](https://github.com/luciddreamer-cvlab/LucidDreamer) [[paper]](https://arxiv.org/abs/2311.13384) **LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes** [arXiv 2023]  
+[[paper]](https://ken-ouyang.github.io/text2immersion/index.html) [[paper]](https://arxiv.org/abs/2312.09242) **Text2Immersion: Generative Immersive Scene with 3D Gaussians** [arXiv 2023]  
+[[code]](https://github.com/zhuqiangLu/AOG-NET-360) [[paper]](https://arxiv.org/abs/2309.03467) **AOG-Net: Autoregressive Omni-Aware Outpainting for Open-Vocabulary 360-Degree Image Generation** [AAAI 2024]  
+[[code]](https://github.com/KovenYu/WonderJourney) [[paper]](https://arxiv.org/abs/2312.03884) **WonderJourney: Going from Anywhere to Everywhere** [CVPR 2024]  
+[[paper]](https://microtreei.github.io/) [[paper]](https://arxiv.org/abs/2403.09439) **3D-SceneDreamer: Text-Driven 3D-Consistent Scene Generation** [CVPR 2024]  
+[[code]](https://github.com/zxcvfd13502/PanoFree) [[paper]](https://arxiv.org/abs/2408.02157) **PanoFree: Tuning-Free Holistic Multi-view Image Generation with Cross-view Self-Guidance** [ECCV 2024]  
+[[code]](https://github.com/xingyi-li/iControl3D) [[paper]](https://arxiv.org/abs/2408.01678) **iControl3D: An Interactive System for Controllable 3D Scene Generation** [MM 2024]  
+[[code]](https://github.com/MattWallingford/360-1M) [[paper]](https://arxiv.org/abs/2412.07770) **ODIN: Learning to Imagine the World from a Million 360° Videos** [NeurIPS 2024]  
+[[paper]](https://cat3d.github.io/) [[paper]](https://arxiv.org/abs/2405.10314) **CAT3D: Create Anything in 3D with Multi-View Diffusion Models** [NeurIPS 2024]  
+[[code]](https://github.com/eckertzhang/Text2NeRF) [[paper]](https://arxiv.org/abs/2305.11588) **Text2NeRF: Text-Driven 3D Scene Generation with Neural Radiance Fields** [TVCG 2024]  
+[[code]](https://github.com/PengleiGao/OPaMa) [[paper]](https://arxiv.org/abs/2407.10923) **OPa-Ma: Text Guided Mamba for 360-degree Image Out-painting** [arXiv 2024]  
+[[code]](https://github.com/YiyingYang12/Scene123) [[paper]](https://arxiv.org/abs/2408.05477) **Scene123: One Prompt to 3D Scene Generation via Video-Assisted and Consistency-Enhanced MAE** [arXiv 2024]  
+[[code]](https://github.com/jaidevshriram/realmdreamer) [[paper]](https://arxiv.org/abs/2404.07199) **RealmDreamer: Text-Driven 3D Scene Generation with Inpainting and Depth Diffusion** [3DV 2025]  
+[[code]](https://github.com/paulengstler/invisible-stitch) [[paper]](https://arxiv.org/abs/2404.19758) **Invisible Stitch: Generating Smooth 3D Scenes with Depth Inpainting** [3DV 2025]  
+[[code]](https://github.com/SparklingH/BloomScene) [[paper]](https://arxiv.org/abs/2501.10462) **BloomScene: Lightweight Structured 3D Gaussian Splatting for Crossmodal Scene Generation** [AAAI 2025]  
+[[code]](https://github.com/KovenYu/WonderWorld) [[paper]](https://arxiv.org/abs/2406.09394) **WonderWorld: Interactive 3D Scene Generation from a Single Image** [CVPR 2025]  
+[[code]](https://github.com/jaclyngu/artiscene) [[paper]](https://arxiv.org/abs/2506.00742) **ArtiScene: Language-Driven Artistic 3D Scene Generation Through Image Intermediary** [CVPR 2025]  
+[[code]](https://github.com/cvsp-lab/ICLR2025_3D-MOM) [[paper]](https://arxiv.org/abs/2504.05458) **3D-MOM: Optimizing 4D Gaussians for Dynamic Scene Video from Single Landscape Images** [ICLR 2025]  
+[[code]](https://github.com/GigaAI-research/WonderTurbo) [[paper]](https://arxiv.org/abs/2504.02261) **WonderTurbo: Generating Interactive 3D World in 0.72 Seconds** [arXiv 2025]  
+[[paper]](https://szymanowiczs.github.io/bolt3d) [[paper]](https://arxiv.org/abs/2503.14445) **Bolt3D: Generating 3D Scenes in Seconds** [arXiv 2025]  
+[[code]](https://github.com/paulengstler/syncity) [[paper]](https://arxiv.org/abs/2503.16420) **SynCity: Training-Free Generation of 3D Worlds** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2508.15169) **MeSS: City Mesh-Guided Outdoor Scene Generation with Cross-View Consistent Diffusion** [arXiv 2025]  
+[[paper]](https://kxhit.github.io/CausNVS.html) [[paper]](https://arxiv.org/abs/2509.06579) **CausNVS: Autoregressive Multi-view Diffusion for Flexible 3D Novel View Synthesis** [arXiv 2025]  
+[[code]](https://github.com/xiac20/ScenePainter) [[paper]](https://arxiv.org/abs/2507.19058) **ScenePainter: Semantically Consistent Perpetual 3D Scene Generation with Concept Relation Alignment** [ICCV 2025]  
+
+
+
+
+#### Video-based Generation
+><span style="color:lightblue;">💡💡 Video-based Generation in the field of generative AI modeling primarily refers to the use of spatiotemporal diffusion models to progressively reverse the forward diffusion process from a random noise distribution, enabling the conditional synthesis of high-dimensional video sequences. Specifically, this paradigm relies on the Denoising Diffusion Probabilistic Models (DDPM) framework. It applies Gaussian perturbations to video frame sequences through a Markov chain-based noise injection mechanism. During the reverse sampling phase, variational inference optimizes the denoising step. using text, image, or video conditional embeddings as guiding signals to ensure the generated spatio-temporal data aligns with physical priors in terms of pixel-level spatial consistency and inter-frame temporal coherence. The core architecture typically extends the U-Net backbone, incorporating 3D convolutional kernels or factorized Transformer attention modules to capture long-range motion dependencies. Simultaneously, it employs a Variational Autoencoder (VAE) to map raw RGB frames into a low-dimensional latent space, thereby reducing computational overhead and enhancing generation efficiency—as demonstrated by the latent diffusion paradigm used in models like Sora or Veo. Further refining the iterative process from pure noise to high-fidelity dynamic content involves enhancing conditional alignment through classifier-free guidance.
+</span> 
+
+##### Two-stage Generation
+><span style="color:lightblue;">💡💡 Two-stage Generation, within the generative AI framework, specifically refers to a cascaded diffusion modeling strategy designed for efficient conditional synthesis of high-dimensional video sequences. The first stage deploys a low-resolution spatiotemporal diffusion model. Through a Markov chain noise injection mechanism, it reverse-samples coarse-grained video frame sequences from a Gaussian noise distribution to capture global scene semantics, motion trajectories, and structural priors. Simultaneously, it employs a variational autoencoder (VAE) to compress latent representations, alleviating computational burden. The second stage introduces a high-resolution refinement diffuser, using the first stage's output as a conditional embedding. It employs either a 3D U-Net or a factorized Transformer architecture for iterative denoising optimization, enhancing pixel-level detail filling, texture consistency, and inter-frame optical flow coherence. further aligning text or image prompts through a classifier-free guidance mechanism to achieve progressive enhancement from low-fidelity sketches to high-fidelity dynamic content. For instance, in novel view synthesis tasks, the first stage employs a panorama diffusion model to infer 360-degree scene priors from single-view inputs, generating anchor frame keypoints. followed by a second stage employing a video diffusion model for spatial noise diffusion interpolation, ensuring global consistency and robust loop closure under long-range trajectories. This paradigm significantly reduces the computational overhead of single-stage high-dimensional diffusion and manifests as latent space cascading in model variants like Sora or Veo, thereby balancing generation quality and efficiency.
+</span> 
+
+[[paper]](https://arxiv.org/abs/2407.13759) [[website]](https://boyangdeng.com/streetscapes/) **Streetscapes: Large-scale Consistent Street View Generation Using Autoregressive Video Diffusion** [SIGGRAPH 2024]  
+[[code]](https://github.com/snap-research/4Real) [[paper]](https://arxiv.org/abs/2406.07472) [[website]](https://snap-research.github.io/4Real/) **4Real: Towards Photorealistic 4D Scene Generation via Video Diffusion Models** [NeurIPS 2024]  
+[[paper]](https://arxiv.org/abs/2405.20334) [[website]](https://vivid-dream-4d.github.io/) **VividDream: Generating 3D Scene with Ambient Dynamics** [arXiv 2024]  
+[[code]](https://github.com/paintscene4d/paintscene4d.github.io) [[paper]](https://arxiv.org/abs/2412.04471) [[website]](https://paintscene4d.github.io/) **PaintScene4D: Consistent 4D Scene Generation from Text Prompts** [arXiv 2024]  
+[[code]](https://github.com/HeliosZhao/GenXD) [[paper]](https://arxiv.org/abs/2411.02319) [[website]](https://gen-x-d.github.io/) **GenXD: Generating Any 3D and 4D Scenes** [ICLR 2025]  
+[[code]](https://github.com/zju3dv/StarGen) [[paper]](https://arxiv.org/abs/2501.05763) [[website]](https://zju3dv.github.io/StarGen/) **StarGen: A Spatiotemporal Autoregression Framework with Video Diffusion Model for Scalable and Controllable Scene Generation** [CVPR 2025]  
+[[code]](https://github.com/HiDream-ai/DreamJourney) [[paper]](https://arxiv.org/abs/2506.17705) [[website]](https://dream-journey.vercel.app/) **DreamJourney: Perpetual View Generation with Video Diffusion Models** [TMM 2025]  
+[[code]](https://github.com/wenqsun/DimensionX) [[paper]](https://arxiv.org/abs/2411.04928) [[website]](https://chenshuo20.github.io/DimensionX/) **DimensionX: Create Any 3D and 4D Scenes from a Single Image with Controllable Video Diffusion** [ICCV 2025]  
+[[code]](https://github.com/TQTQliu/Free4D) [[paper]](https://arxiv.org/abs/2503.20785) [[website]](https://free4d.github.io/) **Free4D: Tuning-free 4D Scene Generation with Spatial-Temporal Consistency** [ICCV 2025]  
+
+
+##### One-stage Generation
+><span style="color:lightblue;">💡💡 One-stage Generation specifically refers to end-to-end single-stage diffusion frameworks within generative video modeling paradigms. By deploying unified U-Net or Transformer-based denoising networks directly on high-dimensional spatiotemporal latent spaces, it performs multi-step Markovian reverse sampling from a pure Gaussian noise distribution to achieve instantaneous synthesis of conditional video sequences, bypassing cascaded refinement strategies. This approach leverages the spatiotemporal extension of pre-trained image diffusers (e.g., Stable Diffusion), incorporating 3D causal attention or factorized convolutions to capture inter-frame motion consistency and global semantic dependencies. while compressing the multi-step denoising process into a single-step forward pass via knowledge distillation or adversarial post-training, significantly boosting inference speed and reducing memory overhead. For instance, the SF-V model achieves single-forward-pass video generation by adversarially fine-tuning pre-trained video diffusers, ensuring high-fidelity alignment between dynamic content and conditional embeddings in text-to-video tasks without intermediate low-resolution anchor frames. This demonstrates superior efficiency and robustness in interactive applications like real-time portrait animation. While computational bottlenecks may arise in extreme high-resolution scenarios, optimizations through classifier-free guidance and variational inference this paradigm has emerged as an efficient, unified benchmark path in the evolution from VDM to Sora.
+</span> 
+
+
+[[paper]](https://arxiv.org/abs/2309.17080) [[website]](https://anthonyhu.github.io/gaia1) **GAIA-1: A Generative World Model for Autonomous Driving** [arXiv 2023]  
+[[paper]](https://arxiv.org/abs/2311.13549) **ADriver-I: A General World Model for Autonomous Driving** [arXiv 2023]  
+[[code]](https://github.com/cure-lab/MagicDrive) [[paper]](https://arxiv.org/abs/2310.02601) [[website]](https://gaoruiyuan.com/magicdrive/) **MagicDrive: Street View Generation with Diverse 3D Geometry Control** [ICLR 2024]  
+[[code]](https://github.com/wenyuqing/panacea) [[paper]](https://arxiv.org/abs/2311.16813) [[website]](https://panacea-ad.github.io/) **Panacea: Panoramic and Controllable Video Generation for Autonomous Driving** [CVPR 2024]  
+[[code]](https://github.com/BraveGroup/Drive-WM) [[paper]](https://arxiv.org/abs/2311.17918) [[website]](https://drive-wm.github.io/) **Drive-WM: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving** [CVPR 2024]  
+[[code]](https://github.com/Akaneqwq/360DVD) [[paper]](https://arxiv.org/abs/2401.06578) [[website]](https://akaneqwq.github.io/360DVD/) **360DVD: Controllable Panorama Video Generation with 360-Degree Video Diffusion Model** [CVPR 2024]  
+[[code]](https://github.com/JeffWang987/DriveDreamer) [[paper]](https://arxiv.org/abs/2309.09777) [[website]](https://drivedreamer.github.io/) **DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving** [ECCV 2024]  
+[[code]](https://github.com/shalfun/DrivingDiffusion) [[paper]](https://arxiv.org/abs/2310.07771) [[website]](https://drivingdiffusion.github.io/) **DrivingDiffusion: Layout-Guided Multi-View Driving Scenarios Video Generation with Latent Diffusion Model** [ECCV 2024]  
+[[code]](https://github.com/fudan-zvg/WoVoGen) [[paper]](https://arxiv.org/abs/2312.02934) **WoVoGen: World Volume-Aware Diffusion for Controllable Multi-camera Driving Scene Generation** [ECCV 2024]  
+[[code]](https://github.com/OpenDriveLab/Vista) [[paper]](https://arxiv.org/abs/2405.17398) [[website]](https://opendrivelab.com/Vista/) **Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability** [NeurIPS 2024]  
+[[code]](https://github.com/eloialonso/diamond) [[paper]](https://arxiv.org/abs/2405.12399) [[website]](https://diamond-wm.github.io/) **DIAMOND: Diffusion for World Modeling: Visual Details Matter in Atari** [NeurIPS 2024]  
+[[code]](https://github.com/flymin/MagicDrive3D) [[paper]](https://arxiv.org/abs/2405.14475) [[website]](https://gaoruiyuan.com/magicdrive3d/) **MagicDrive3D: Controllable 3D Generation for Any-View Rendering in Street Scenes** [arXiv 2024]  
+[[code]](https://github.com/westlake-autolab/Delphi) [[paper]](https://arxiv.org/abs/2406.01349) [[website]](https://westlake-autolab.github.io/delphi.github.io/) **Delphi: Unleashing Generalization of End-to-End Autonomous Driving with Controllable Long Video Generation** [arXiv 2024]  
+[[code]](https://github.com/zympsyche/BevWorld) [[paper]](https://arxiv.org/abs/2407.05679) **BEVWorld: A Multimodal World Model for Autonomous Driving via Unified BEV Latent Space** [arXiv 2024]  
+[[code]](https://github.com/PJLab-ADG/DriveArena) [[paper]](https://arxiv.org/abs/2408.00415) [[website]](https://pjlab-adg.github.io/DriveArena/) **DriveArena: A Closed-loop Generative Simulation Platform for Autonomous Driving** [arXiv 2024]  
+[[code]](https://github.com/LiAutoAD/DIVE) [[paper]](https://arxiv.org/abs/2409.01595) [[website]](https://liautoad.github.io/DIVE/) **DiVE: DiT-based Video Generation with Enhanced Control** [arXiv 2024]  
+[[paper]](https://arxiv.org/abs/2409.04003v3) [[website]](https://pjlab-adg.github.io/DriveArena/dreamforge/) **DreamForge: Motion-Aware Autoregressive Video Generation for Multi-View Driving Scenes** [arXiv 2024]  
+[[code]](https://github.com/EnVision-Research/SyntheOcc) [[paper]](https://arxiv.org/abs/2410.00337v1) [[website]](https://len-li.github.io/syntheocc-web/) **SyntheOcc: Synthesize Geometric-Controlled Street View Images through 3D Semantic MPIs** [arXiv 2024]  
+[[paper]](https://arxiv.org/abs/2412.01407) **HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving** [arXiv 2024]  
+[[paper]](https://arxiv.org/abs/2412.03520) [[website]](https://luhannan.github.io/CogDrivingPage/) **CogDriving: Multi-View Driving Scene Video Generation with Holistic Attention** [arXiv 2024]  
+[[code]](https://github.com/YS-IMTech/Imagine360) [[paper]](https://arxiv.org/abs/2412.03552) [[website]](https://ys-imtech.github.io/projects/Imagine360/) **Imagine360: Immersive 360 Video Generation from Perspective Anchor** [arXiv 2024]  
+[[code]](https://github.com/YvanYin/DrivingWorld) [[paper]](https://arxiv.org/abs/2412.19505) [[website]](https://huxiaotaostasy.github.io/DrivingWorld/) **DrivingWorld: Constructing World Model for Autonomous Driving via Video GPT** [arXiv 2024]  
+[[code]](https://github.com/Drexubery/ViewCrafter) [[paper]](https://arxiv.org/abs/2409.02048) [[website]](https://drexubery.github.io/ViewCrafter/) **ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis** [arXiv 2024]  
+[[code]](https://github.com/Kunhao-Liu/ViewExtrapolator) [[paper]](https://arxiv.org/abs/2411.14208) [[website]](https://kunhao-liu.github.io/ViewExtrapolator/) **ViewExtrapolator: Novel View Extrapolation with Video Diffusion Priors** [arXiv 2024]  
+[[code]](https://github.com/f1yfisher/DriveDreamer2) [[paper]](https://arxiv.org/abs/2403.06845) [[website]](https://drivedreamer2.github.io/) **DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation** [AAAI 2025]  
+[[paper]](https://arxiv.org/abs/2406.13527) [[website]](https://4k4dgen.github.io/) **4K4DGen: Panoramic 4D Generation at 4K Resolution** [ICLR 2025]  
+[[code]](https://github.com/GameGen-X/GameGen-X) [[paper]](https://arxiv.org/abs/2411.00769v3) [[website]](https://gamegen-x.github.io/) **GameGen-X: Interactive Open-world Game Video Generation** [ICLR 2025]  
+[[paper]](https://arxiv.org/abs/2408.14837) [[website]](https://gamengen.github.io/) **GameNGen: Diffusion Models Are Real-Time Game Engines** [ICLR 2025]  
+[[code]](https://github.com/Beckschen/genEx) [[paper]](https://arxiv.org/abs/2411.11844) [[website]](https://generative-world-explorer.github.io/) **Genex: Generative World Explorer** [ICLR 2025]  
+[[paper]](https://arxiv.org/abs/2503.00045) **GLAD: A Streaming Scene Generator for Autonomous Driving** [ICLR 2025]  
+[[code]](https://github.com/yanty123/DrivingSphere) [[paper]](https://arxiv.org/abs/2411.11252) [[website]](https://yanty123.github.io/DrivingSphere/) **DrivingSphere: Building a High-fidelity 4D World for Closed-loop Simulation** [CVPR 2025]  
+[[code]](https://github.com/zju3dv/street_crafter) [[paper]](https://arxiv.org/abs/2412.13188) [[website]](https://zju3dv.github.io/street_crafter/) **StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models** [CVPR 2025]  
+[[paper]](https://arxiv.org/abs/2409.05463) [[website]](https://metadrivescape.github.io/papers_project/drivescapev1/index.html) **DriveScape: Towards High-Resolution Controllable Multi-View Driving Video Generation** [CVPR 2025]  
+[[code]](https://github.com/Arlo0o/UniScene-Unified-Occupancy-centric-Driving-Scene-Generation) [[paper]](https://arxiv.org/abs/2412.05435) [[website]](https://arlo0o.github.io/uniscene/) **UniScene: Unified Occupancy-centric Driving Scene Generation** [CVPR 2025]  
+[[code]](https://github.com/vita-epfl/GEM) [[paper]](https://arxiv.org/abs/2412.11198) [[website]](https://vita-epfl.github.io/GEM.github.io/) **GEM: A Generalizable Ego-Vision Multimodal World Model for Fine-Grained Ego-Motion, Object Dynamics, and Scene Composition Control** [CVPR 2025]  
+[[code]](https://github.com/YanhaoWu/UMGen) [[paper]](https://arxiv.org/abs/2503.14945) [[website]](https://yanhaowu.github.io/UMGen/) **UMGen: Generating Multimodal Driving Scenes via Next-Scene Prediction** [CVPR 2025]  
+[[paper]](https://arxiv.org/abs/2411.18613) [[website]](https://cat-4d.github.io/) **CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models** [CVPR 2025]  
+[[code]](https://github.com/snap-research/wonderland/) [[paper]](https://arxiv.org/abs/2412.12091) [[website]](https://snap-research.github.io/wonderland/) **Wonderland: Navigating 3D Scenes from a Single Image** [CVPR 2025]  
+[[code]](https://github.com/hanyang-21/VideoScene) [[paper]](https://arxiv.org/abs/2504.01956) [[website]](https://hanyang-21.github.io/VideoScene/) **VideoScene: Distilling Video Diffusion Model to Generate 3D Scenes in One Step** [CVPR 2025]  
+[[paper]](https://arxiv.org/abs/2504.02764) [[website]](https://shengjun-zhang.github.io/SceneSplatter/) **Scene Splatter: Momentum 3D Scene Generation from Single Image with Video Diffusion Model** [CVPR 2025]  
+[[paper]](https://arxiv.org/abs/2412.11100) [[website]](https://dynamic-scaler.pages.dev/) **DynamicScaler: Seamless and Scalable Video Generation for Panoramic Scenes** [CVPR 2025]  
+[[code]](https://github.com/Little-Podi/AdaWorld) [[paper]](https://arxiv.org/abs/2503.18938) [[website]](https://adaptable-world-model.github.io/) **AdaWorld: Learning Adaptable World Models with Latent Actions** [ICML 2025]  
+[[paper]](https://www.nature.com/articles/s41586-025-08600-3) [[website]](https://huggingface.co/microsoft/wham) **WHAM: World and Human Action Models towards gameplay ideation** [Nature 2025]  
+[[paper]](https://arxiv.org/abs/2501.00601) [[website]](https://pointscoder.github.io/DreamDrive/) **DreamDrive: Generative 4D Scene Modeling from Street View Images** [arXiv 2025]  
+[[code]](https://github.com/SenseTime-FVG/OpenDWM) [[paper]](https://arxiv.org/abs/2502.11663) [[website]](https://sensetime-fvg.github.io/MaskGWM/) **MaskGWM: A Generalizable Driving World Model with Video Mask Reconstruction** [arXiv 2025]  
+[[code]](https://github.com/dk-liang/UniFuture) [[paper]](https://arxiv.org/abs/2503.13587) [[website]](https://dk-liang.github.io/UniFuture/) **UniFuture: A Unified Driving World Model for Future Generation and Perception** [arXiv 2025]  
+[[code]](https://github.com/Li-Zn-H/SimWorld) [[paper]](https://arxiv.org/abs/2503.13952) **SimWorld: A Unified Benchmark for Simulator-Conditioned Scene Generation via World Model** [arXiv 2025]  
+[[code]](https://github.com/royalmelon0505/dist4d) [[paper]](https://arxiv.org/abs/2503.15208) [[website]](https://royalmelon0505.github.io/DiST-4D/) **DiST-4D: Disentangled Spatiotemporal Diffusion with Metric Depth for 4D Driving Scene Generation** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2503.20523) [[website]](https://wayve.ai/thinking/gaia-2/) **GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving** [arXiv 2025]  
+[[code]](https://github.com/byeongjun-park/SteerX) [[paper]](https://arxiv.org/abs/2503.12024) [[website]](https://byeongjun-park.github.io/SteerX/) **SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2503.09160) **WonderVerse: Extendable 3D Scene Generation with Video Generative Models** [arXiv 2025]  
+[[code]](https://github.com/ML-GSAI/FlexWorld) [[paper]](https://arxiv.org/abs/2503.13265) [[website]](https://ml-gsai.github.io/FlexWorld/) **FlexWorld: Progressively Expanding 3D Scenes for Flexible-View Synthesis** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2504.10001) **GaussVideoDreamer: 3D Scene Generation with Video Diffusion and Inconsistency-Aware Gaussian Splatting** [arXiv 2025]  
+[[code]](https://github.com/xizaoqu/WorldMem) [[paper]](https://arxiv.org/abs/2504.12369) [[website]](https://xizaoqu.github.io/worldmem/) **WORLDMEM: Long-term Consistent World Simulation with Memory** [arXiv 2025]  
+[[code]](https://github.com/PKU-YuanGroup/HoloTime) [[paper]](https://arxiv.org/abs/2504.21650) [[website]](https://zhouhyocean.github.io/holotime/) **HoloTime: Taming Video Diffusion Models for Panoramic 4D Scene Generation** [arXiv 2025]  
+[[code]](https://github.com/microsoft/MineWorld) [[paper]](https://arxiv.org/abs/2504.08388) **MineWorld: a Real-Time and Open-Source Interactive World Model on Minecraft** [arXiv 2025]  
+[[code]](https://github.com/KwaiVGI/GameFactory) [[paper]](https://arxiv.org/abs/2501.08325) [[website]](https://yujiwen.github.io/gamefactory/) **GameFactory: Creating New Games with Generative Interactive Videos** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2503.22231) [[website]](https://xiaomi-research.github.io/cogen/) **CoGen: 3D Consistent Video Generation via Adaptive Conditioning for Autonomous Driving** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2506.08006) [[website]](https://metadriverse.github.io/dreamland/) **Dreamland: Controllable World Creation with Simulator and Generative Models** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2506.04225) **Voyager: Long-Range and World-Consistent Video Diffusion for Explorable 3D Scene Generation** [arXiv 2025]  
+[[code]](https://github.com/SkyworkAI/Matrix-Game) [[paper]](https://matrix-game-v2.github.io/static/pdf/report.pdf) [[website]](https://matrix-game-v2.github.io/) **Matrix-Game 2.0: An Open-Source, Real-Time, and Streaming Interactive World Model** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2506.17201) [[website]](https://hunyuan-gamecraft.github.io/) **Hunyuan-GameCraft: High-dynamic Interactive Game Video Generation with Hybrid History Condition** [arXiv 2025]  
+[[code]](https://github.com/Colezwhy/CoCo4D-Gen) [[paper]](https://arxiv.org/abs/2506.19798) [[website]](https://colezwhy.github.io/coco4d/) **CoCo4D: Comprehensive and Complex 4D Scene Generation** [arXiv 2025]  
+[[code]](https://github.com/GigaAI-research/WonderFree) [[paper]](https://arxiv.org/abs/2506.20590) [[website]](https://wonder-free.github.io/) **WonderFree: Enhancing Novel View Quality and Cross-View Consistency for 3D Scene Exploration** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2508.04467) [[website]](https://4dvd.github.io/) **4DVD: Cascaded Dense-view Video Diffusion Model for High-quality 4D Content Generation** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2508.04147) [[website]](https://idcnet-scene.github.io/) **IDCNet: Guided Video Diffusion for Metric-Consistent RGBD Scene Generation with Precise Camera Control** [arXiv 2025]  
+[[code]](https://github.com/3DTopia/4DNeX) [[paper]](https://arxiv.org/abs/2508.13154) [[website]](https://4dnex.github.io/) **4DNeX: Feed-Forward 4D Generative Modeling Made Easy** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2505.18151) [[website]](https://kyleleey.github.io/WonderPlay/) **WonderPlay: Dynamic 3D Scene Generation from a Single Image and Actions** [ICCV 2025]  
+[[code]](https://github.com/flymin/MagicDrive-V2) [[paper]](https://arxiv.org/abs/2411.13807v3) [[website]](https://gaoruiyuan.com/magicdrivedit/) **MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control** [ICCV 2025]  
+[[code]](https://github.com/tianfr/DynamicVoyager) [[paper]](https://arxiv.org/abs/2507.04183) [[website]](https://tianfr.github.io/project/DynamicVoyager/) **DynamicVoyager: Voyaging into Unbounded Dynamic Scenes from a Single View** [ICCV 2025]  
+[[code]](https://github.com/nv-tlabs/InfiniCube) [[paper]](https://arxiv.org/abs/2412.03934) [[website]](https://research.nvidia.com/labs/toronto-ai/infinicube/) **InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models** [ICCV 2025]  
+[[code]](https://github.com/runjiali-rl/vmem) [[paper]](https://arxiv.org/abs/2506.18903) [[website]](https://v-mem.github.io/) **VMem: Consistent Interactive Video Scene Generation with Surfel-Indexed View Memory** [ICCV 2025]  
+[[code]](https://github.com/KIMGEONUNG/VideoFrom3D) [[paper]](https://arxiv.org/abs/2509.17985) [[website]](https://kimgeonung.github.io/VideoFrom3D/) **VideoFrom3D: 3D Scene Video Generation via Complementary Image and Video Diffusion Models** [SIGGRAPH Asia 2025]  
+
+
+
+
 
 
 
