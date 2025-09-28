@@ -89,7 +89,7 @@
 [[code]](https://github.com/autonomousvision/voxgraf.git) [[paper]](https://www.cvlibs.net/publications/Schwarz2022NEURIPS.pdf) **VoxGRAF:Fast 3D-Aware Image Synthesis with Sparse Voxel Grids** [NeurIPS 2022]  
 [[code]](https://github.com/autonomousvision/occupancy_networks.git) [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8953655) **Occupancy Networks: Learning 3D Reconstruction in Function Space** [CVPR 2019]  
 [[code]](https://github.com/cvlab-yonsei/HVPR.git) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Noh_HVPR_Hybrid_Voxel-Point_Representation_for_Single-Stage_3D_Object_Detection_CVPR_2021_paper.pdf) **HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection** [CVPR 2021]  
-[[code]](https://github.com/GWxuan/TSP3D.git) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Text-guided_Sparse_Voxel_Pruning_for_Efficient_3D_Visual_Grounding_CVPR_2025_paper.pdf) ** Text-guided Sparse Voxel Pruning for Efficient 3D Visual Grounding** [CVPR 2025]  
+[[code]](https://github.com/GWxuan/TSP3D.git) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Text-guided_Sparse_Voxel_Pruning_for_Efficient_3D_Visual_Grounding_CVPR_2025_paper.pdf) **Text-guided Sparse Voxel Pruning for Efficient 3D Visual Grounding** [CVPR 2025]  
 
 
 #### Voxel Processing Tool
@@ -165,11 +165,30 @@
 
 
 
+
+
+
+
+
+
 ## Scene Reconstruction
+#### Concept
+> <span style="color:lightblue;">💡 Scene reconstruction aims to capture geometric and optical properties from the real world to create digital 3D models. Its essence lies in inferring the three-dimensional structure of a scene from a series of 2D images, depth maps, or laser scan data. Scene reconstruction is the process of converting real-world scenes into digital 3D models, serving as a foundational technology for fields such as VR/AR and autonomous driving.</span>  
+#### Data Acquisition
+> <span style="color:lightblue;">💡💡 Passive Methods (Image-Based): These techniques rely on ambient light, using cameras to capture 2D images and infer 3D structure. Their core principle involves analyzing pixel correspondences between images taken from different angles to recover depth information through triangulation. This forms the basis of photogrammetry, offering low cost and ease of deployment, though it remains sensitive to lighting conditions and surface texture.</span>  
+> <span style="color:lightblue;">💡💡 Active Methods (Sensor-Based): These techniques directly acquire distance information by actively emitting energy (e.g., laser or structured light) and measuring reflected signals. Laser scanning and LiDAR are representative technologies within this category. They rapidly capture millions of precise 3D coordinate points, generating high-density, high-precision point cloud data that directly reflects the surface geometry of a scene.</span>  
+
+
+
+### Traditional Geometric Methods Phase (1980s–Early 2010s)
 
 
 
 
+
+
+
+### Deep Learning-Driven Reconstruction (2014–2020)
 
 
 
