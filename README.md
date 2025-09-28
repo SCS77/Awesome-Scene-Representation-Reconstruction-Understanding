@@ -208,11 +208,13 @@
 #### Structure from Motion (SFM)
 >><span style="color:lightblue;">💡💡 Structure from Motion (SfM) is the process of simultaneously recovering the three-dimensional structure of a scene and the camera pose from a sequence of two-dimensional images. Its primary outputs are a sparse point cloud and a set of calibrated camera parameters. The development of SfM has primarily followed two major technical approaches: Incremental SfM and Global SfM, representing different trade-offs between robustness and efficiency.
 </span>  
+
 [[paper]](https://graphics.stanford.edu/papers/volrange/volrange.pdf) **AVolumetric Method for Building Complex Models from Range Images** [TOG 1996]  
 
 ##### Incremental SfM
 >>> <span style="color:lightblue;">💡💡 The incremental (or sequential) SfM workflow begins with a robust two-view reconstruction, then iteratively adds new images one by one. With each added image, the system performs new triangulation measurements and local or global beam-based adjustments to progressively refine the model. This sequential refinement process grants the algorithm strong tolerance to errors, but it incurs high computational costs and is prone to cumulative drift when processing long sequences.
 </span>  
+
 [[paper]](https://dl.acm.org/doi/10.1145/1141911.1141964) **Photo tourism: exploring photo collections in 3D** [TOG 2006]
 
 
