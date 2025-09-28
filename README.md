@@ -215,7 +215,22 @@
 >>> <span style="color:lightblue;">💡💡 The incremental (or sequential) SfM workflow begins with a robust two-view reconstruction, then iteratively adds new images one by one. With each added image, the system performs new triangulation measurements and local or global beam-based adjustments to progressively refine the model. This sequential refinement process grants the algorithm strong tolerance to errors, but it incurs high computational costs and is prone to cumulative drift when processing long sequences.
 </span>  
 
-[[paper]](https://dl.acm.org/doi/10.1145/1141911.1141964) **Photo tourism: exploring photo collections in 3D** [TOG 2006]
+[[paper]](https://dl.acm.org/doi/10.1145/1141911.1141964) **Photo tourism: exploring photo collections in 3D** [TOG 2006]  
+The system constructs a complete processing pipeline, including SIFT feature extraction, approximate nearest neighbor matching, geometric validation using RANSAC, and a carefully designed incremental reconstruction process that meticulously selects initial image pairs and the order of subsequent image additions.  
+
+[[paper]](https://ieeexplore.ieee.org/document/6599068) **Towards Linear-Time Incremental Structure from Motion** [ICCV 2013]   
+Core innovations include a “preemptive” feature matching strategy to reduce the number of image pair comparisons, and a novel optimization strategy that combines global and local BA. This work also introduces a re-triangulation step to enhance accuracy and mitigate drift.    
+
+[[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf) **Structure-from-Motion Revisited** [CVPR 2016]  
+COLMAP refines nearly every step of the incremental pipeline. Its key contributions include a more robust initialization process, a “next best view” selection strategy to guide reconstruction, an improved triangulation method, and an iterative cycle involving BA, retriangulation, and outlier filtering—all generating highly complete and accurate models.  
+
+##### Global SfM
+
+
+[[paper]](https://dl.acm.org/doi/10.1145/1141911.1141964) **Photo tourism: exploring photo collections in 3D** [TOG 2006]  
+[[paper]](https://dl.acm.org/doi/10.1145/1141911.1141964) **Photo tourism: exploring photo collections in 3D** [TOG 2006]  
+[[paper]](https://dl.acm.org/doi/10.1145/1141911.1141964) **Photo tourism: exploring photo collections in 3D** [TOG 2006]  
+[[paper]](https://dl.acm.org/doi/10.1145/1141911.1141964) **Photo tourism: exploring photo collections in 3D** [TOG 2006]  
 
 
 
