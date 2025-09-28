@@ -32,6 +32,7 @@
 ### Point cloud
 > #### <span style="color:lightblue;">💡 Point Clouds: This is the most direct output format for many sensors (such as LiDAR) and reconstruction algorithms (such as SfM and MVS). It represents a simple collection of three-dimensional coordinate points (X, Y, Z), often accompanied by attributes like color (RGB) and normals. Point clouds offer the advantages of simple structure and ease of acquisition. However, their drawback lies in the absence of explicit topological connection information, making it challenging to perform high-quality rendering or surface analysis directly.</span>
 
+[[code]](https://github.com/colmap/colmap.git) [[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf) **Structure-from-Motion Revisited**  [CVPR 2016]  
 [[code]](https://github.com/charlesq34/pointnet.git) [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)  **PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation** [CVPR 2017]  
 [[code]](https://github.com/charlesq34/pointnet2.git) [[paper]](https://dl.acm.org/doi/abs/10.5555/3295222.3295263) **PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space**  [NIPS 2017]  
 [[code]](https://github.com/WangYueFt/dgcnn.git) [[paper]](https://dl.acm.org/doi/abs/10.1145/3326362) **Dynamic Graph CNN for Learning on Point Clouds** [TOG 2019]  
@@ -49,15 +50,31 @@
 
 #### Point Cloud Processing Tool
 [[code]](https://github.com/PointCloudLibrary/pcl.git) PCL  
+>A comprehensive C++ point cloud processing library widely used for modeling, segmentation, and registration.  
+
 [[code]](https://github.com/kzampog/cilantro.git) cilantro  
+>A lightweight, fast C++ library focused on efficient point cloud data processing, providing features such as kd-trees, normal estimation, registration, and clustering.
+
 [[code]](https://github.com/isl-org/Open3D.git) Open3D  
+>A modern 3D data processing library supporting Python interfaces for point cloud/mesh operations  
+
 [[code]](https://github.com/fwilliams/point-cloud-utils.git) point-cloud-utils  
+>An easy-to-use Python library that provides many common features, such as reading and writing multiple mesh formats, point cloud sampling, distance calculation, and normal estimation.  
+
 [[code]](https://github.com/torch-points3d/torch-points3d.git) torch-points3d  
+>A PyTorch framework based on PyTorch Geometric and Hydra for running and evaluating point cloud deep learning models on standard benchmarks.  
+
 [[code]](https://github.com/pyg-team/pytorch_geometric.git) PyTorch Geometric (PyG)  
+>A broader geometric deep learning library that provides a rich set of tools and models for deep learning on irregular structured data such as graphs, point clouds, and 3D meshes.  
+
 [[code]](https://github.com/open-mmlab/OpenPCDet.git) OpenPCDet  
+>Object Detection Library Based on Point Clouds (for LiDAR Object Detection).  
+
 [[code]](https://github.com/google/draco.git) draco  
+>Google's open-source 3D mesh/point cloud compression library accelerates storage and transmission.  
+
 [[code]](https://github.com/daavoo/pyntcloud.git) pyntcloud  
- 
+>Python Point Cloud Processing Library.  
 
 
 
@@ -98,12 +115,37 @@
 >Efficient TSDF fusion using OpenVDB (Python/C++).
 
 [[code]](https://github.com/NVIDIAGameWorks/kaolin.git) Kaolin(NVIDIA)  
+>Deep learning 3D library with voxel data structure support and visualization.
 
 
 
 
 ### Polygon Mesh
 > #### <span style="color:lightblue;">💡 Polygon Meshes: This has long been the dominant representation method in computer graphics. It consists of vertices, edges, and faces (typically triangles or quadrilaterals), explicitly defining an object's surface topology. Mesh representations are highly efficient for hardware-accelerated rendering and provide explicit surface information. However, generating high-quality, flawless meshes—such as those that are watertight and free of self-intersections—is often a complex process.</span>
+
+
+[[code]](https://github.com/fogleman/sdf.git) [[paper]](https://graphics.stanford.edu/papers/volrange/volrange.pdf) **AVolumetric Method for Building Complex Models from Range Images** [TOG 1996]  
+[[code]](https://github.com/facebookresearch/DeepSDF.git) [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Park_DeepSDF_Learning_Continuous_Signed_Distance_Functions_for_Shape_Representation_CVPR_2019_paper.pdf) **DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation** [CVPR 2019]  
+[[code]](https://github.com/Kitsunetic/SDF-Diffusion.git) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Shim_Diffusion-Based_Signed_Distance_Fields_for_3D_Shape_Generation_CVPR_2023_paper.html) **Diffusion-Based Signed Distance Fields for 3D Shape Generation** [CVPR 2023]  
+[[code]](https://github.com/ranahanocka/MeshCNN.git) [[paper]](https://www.semanticscholar.org/reader/d47959e1f541d09f31dca8317b2f13c844379c4a) **MeshCNN: A Network with an Edge** [TOG 2019]  
+[[code]](https://github.com/sw-gong/spiralnet_plus.git) [[paper]](Gong_SpiralNet_A_Fast_and_Highly_Efficient_Mesh_Convolution_Operator_ICCVW_2019_paper) **SpiralNet++: A Fast and Highly Efficient Mesh Convolution Operator** [ICCV ]2019  
+[[code]](https://github.com/facebookresearch/meshrcnn.git) [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Gkioxari_Mesh_R-CNN_ICCV_2019_paper.pdf) **Mesh R-CNN** [ICCV 2019]  
+[[code]](https://github.com/HTDerekLiu/neuralSubdiv.git) [[paper]](https://arxiv.org/abs/2005.01819) **Neural Subdivision** [TOG 2020]  
+[[code]](https://github.com/cvlab-epfl/MeshSDF.git) [[paper]](https://proceedings.neurips.cc/paper/2020/file/fe40fb944ee700392ed51bfe84dd4e3d-Paper.pdf) **MeshSDF: Differentiable Iso-Surface Extraction** [NIPS 2020]  
+[[code]](https://github.com/nywang16/Pixel2Mesh.git) [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wen_Pixel2Mesh_Multi-View_3D_Mesh_Generation_via_Deformation_ICCV_2019_paper.pdf) **Pixel2Mesh++: Multi-View 3D Mesh Generation via Deformation** [ICCV 2021]  
+[[code]](https://github.com/czq142857/NMC.git) [[paper]](https://arxiv.org/abs/2106.11272) **Neural Marching Cubes** [TOG 2021]  
+[[code]](https://github.com/lzzcd001/MeshDiffusion.git) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_DPMesh_Exploiting_Diffusion_Prior_for_Occluded_Human_Mesh_Recovery_CVPR_2024_paper.pdf) **DPMesh: Exploiting Diffusion Prior for Occluded Human Mesh Recovery**  [CVPR 2024]  
+[[code]](https://github.com/syb7573330/im2avatar.git) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Gerogiannis_Arc2Avatar_Generating_Expressive_3D_Avatars_from_a_Single_Image_via_CVPR_2025_paper.pdf) **Im2Avatar: Colorful 3D Reconstruction from a Single Image** [CVPR 2025]  
+[[code]](https://github.com/MeshFormer/MeshFormer.git) [[paper]](https://neurips.cc/virtual/2024/oral/97945) **MeshFormer: High-Quality Mesh Generation with 3D-Guided Reconstruction Model** [NIPS 2024]  
+
+
+>#### Geometry Processing Library
+| Library        | Primary Languages   | Core Features                                             | Differentiable Rendering | Target Use Cases                  |
+|----------------|----------------------|-----------------------------------------------------------|---------------------------|----------------------------------|
+| PyTorch3D      | Python / C++ / CUDA  | Heterogeneous mesh processing, 3D operators               | Yes                       | 3D deep learning research        |
+| NVIDIA Kaolin  | Python / C++ / CUDA  | GPU-accelerated operations, data loading                  | Yes (DIB-R)               | 3D deep learning research        |
+| libigl         | C++ / Python         | Classical geometry processing algorithms, header-only lib | No                        | Traditional algorithms, fast prototyping |
+| OpenMesh       | C++ / Python         | Efficient mesh data structures                            | No                        | Mesh editing and geometry processing |
 
 
 
