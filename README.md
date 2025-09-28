@@ -6,8 +6,22 @@
 
 ## 😄😄 <span style="color:red;">Under Construction</span>  😄😄
 
+
 ## [👍 Scene Representation](#scene-representation)  
+
+### • [Point cloud](#point-cloud)  
+### • [Voxel](#voxel)  
+### • [VoluPolygon Mesh](#polygon-mesh)  
+### • [NeRF(Neural Radiance Fields)](#nerfneural-radiance-fields)  
+### • [3DGS(3D Gaussian Splatting)](#3dgs3d-gaussian-splatting)  
+### • [Comparison of Different 3D Data Formats](#comparison-of-different-3d-data-formats)  
+
+
 ## [🔥 Scene Reconstruction](#scene-reconstruction)  
+
+
+
+
 ## [🚀 Scene Understanding](#scene-understanding)  
 
 ---
@@ -32,7 +46,7 @@
 ### Point cloud
 > #### <span style="color:lightblue;">💡 Point Clouds: This is the most direct output format for many sensors (such as LiDAR) and reconstruction algorithms (such as SfM and MVS). It represents a simple collection of three-dimensional coordinate points (X, Y, Z), often accompanied by attributes like color (RGB) and normals. Point clouds offer the advantages of simple structure and ease of acquisition. However, their drawback lies in the absence of explicit topological connection information, making it challenging to perform high-quality rendering or surface analysis directly.</span>
 
-[[code]](https://github.com/colmap/colmap.git) [[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf) **Structure-from-Motion Revisited**  [CVPR 2016]  
+
 [[code]](https://github.com/charlesq34/pointnet.git) [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)  **PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation** [CVPR 2017]  
 [[code]](https://github.com/charlesq34/pointnet2.git) [[paper]](https://dl.acm.org/doi/abs/10.5555/3295222.3295263) **PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space**  [NIPS 2017]  
 [[code]](https://github.com/WangYueFt/dgcnn.git) [[paper]](https://dl.acm.org/doi/abs/10.1145/3326362) **Dynamic Graph CNN for Learning on Point Clouds** [TOG 2019]  
@@ -164,6 +178,49 @@
 
 
 
+#### Viewers & Game Engine Support
+
+##### Game Engines
+
+- [Unity Plugin](https://github.com/aras-p/UnityGaussianSplatting)  
+- [Unity Plugin (gsplat-unity)](https://github.com/wuyize25/gsplat-unity)  
+- [Unity Plugin (DynGsplat-unity)](https://github.com/HiFi-Human/DynGsplat-unity) - For dynamic splattings  
+- [Unreal Plugin](https://github.com/xverse-engine/XV3DGS-UEPlugin)  
+- [PlayCanvas Engine](https://github.com/playcanvas/engine)  
+
+##### Web Viewers  
+**WebGL**  
+- [Splat Viewer](https://github.com/antimatter15/splat)  
+- [Gauzilla](https://github.com/BladeTransformerLLC/gauzilla)  
+- [Interactive Viewer](https://github.com/kishimisu/Gaussian-Splatting-WebGL)  
+- [GaussianSplats3D](https://github.com/mkkellogg/GaussianSplats3D)  
+- [PlayCanvas Model Viewer](https://github.com/playcanvas/model-viewer)  
+- [SuperSplat Viewer](https://github.com/playcanvas/supersplat-viewer)  
+
+**WebGPU**
+
+- [EPFL Viewer](https://github.com/cvlab-epfl/gaussian-splatting-web)  
+- [WebGPU Splat](https://github.com/KeKsBoTer/web-splat)  
+
+##### Desktop Viewers
+
+**Linux**
+
+- [DearGaussianGUI](https://github.com/leviome/DearGaussianGUI)  
+- [LiteViz-GS](https://github.com/panxkun/liteviz-gs)  
+
+##### Native Applications
+
+- [Blender Add-on](https://github.com/ReshotAI/gaussian-splatting-blender-addon)  
+- [Blender Add-on (KIRI)](https://github.com/Kiri-Innovation/3dgs-render-blender-addon)  
+- [Blender Add-on (404—GEN)](https://github.com/404-Repo/three-gen-blender-plugin)  
+- [iOS Metal Viewer](https://github.com/laanlabs/metal-splats)  
+- [OpenGL Viewer](https://github.com/limacv/GaussianSplattingViewer)  
+- [VR Support (OpenXR)](https://github.com/hyperlogic/splatapult)  
+- [ROS2 Support](https://github.com/shadygm/ROSplat)  
+
+
+
 
 ### Comparison of Different 3D Data Formats
 #### Mesh Formats
@@ -261,13 +318,14 @@
 
 
 
+
 #### Structure from Motion (SFM)
 >><span style="color:lightblue;">💡💡 Structure from Motion (SfM) is the process of simultaneously recovering the three-dimensional structure of a scene and the camera pose from a sequence of two-dimensional images. Its primary outputs are a sparse point cloud and a set of calibrated camera parameters. The development of SfM has primarily followed two major technical approaches: Incremental SfM and Global SfM, representing different trade-offs between robustness and efficiency.
 </span>  
 
 [[paper]](https://graphics.stanford.edu/papers/volrange/volrange.pdf) **AVolumetric Method for Building Complex Models from Range Images** [TOG 1996]  
 
-#### Incremental SfM
+##### Incremental SfM
 >>> <span style="color:lightblue;">💡💡 The incremental (or sequential) SfM workflow begins with a robust two-view reconstruction, then iteratively adds new images one by one. With each added image, the system performs new triangulation measurements and local or global beam-based adjustments to progressively refine the model. This sequential refinement process grants the algorithm strong tolerance to errors, but it incurs high computational costs and is prone to cumulative drift when processing long sequences.
 </span>  
 
@@ -290,6 +348,79 @@ This is a seminal work in the field of rotation averaging. It proposes a robust 
 
 [[paper]](https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Moulon_Global_Fusion_of_2013_ICCV_paper.pdf) **Global Fusion of Relative Motions for Robust, Accurate and Scalable Structure from Motion** [ICCV 2013]  
 Robust removal of anomalous relative rotations in polar images using Bayesian inference and cyclic consistency checks; an efficient “a contrario” tri-focal tensor estimation algorithm for stable translation direction acquisition; and a novel translation registration method based on $L_{\infty}$ norm optimization.  
+
+[[paper]](http://www.umiacs.umd.edu/users/venu/cvpr04final.pdf) **Lie-algebraic averaging for globally consistent motion estimation** [CVPR 2004]  
+
+[[paper]](http://imagine.enpc.fr/~monasse/Stereo/Projects/MartinecPajdla07.pdf) **Robust rotation and translation estimation in multiview reconstruction** [CVPR 2007]  
+
+[[paper]](http://www.maths.lth.se/vision/publdb/reports/pdf/enqvist-kahl-etal-wovcnnc-11.pdf) **Non-sequential structure from motion** [ICCV OMNIVIS Workshops 2011]  
+
+[[paper]](https://web.math.princeton.edu/~amits/publications/sfm_3dimpvt12.pdf) **Global motion estimation from point matches** [3DIMPVT 2012]  
+
+[[paper]](http://www.cs.sfu.ca/~pingtan/Papers/iccv13_sfm.pdf) **A Global Linear Method for Camera Pose Registration** [ICCV 2013]  
+
+[[paper]](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Cui_Global_Structure-From-Motion_by_ICCV_2015_paper.pdf) **Global Structure-from-Motion by Similarity Averaging** [ICCV 2015]  
+
+[[paper]](http://arxiv.org/abs/1503.01832) **Linear Global Translation Estimation from Feature Tracks** [BMVC 2015]  
+
+
+##### Hierarchical SfM
+
+[[paper]](http://www.diegm.uniud.it/fusiello/papers/3dim09.pdf) **Structure-and-Motion Pipeline on a Hierarchical Cluster Tree** [Workshop on 3-D Digital Imaging and Modeling 2009]
+
+[[paper]](https://www.researchgate.net/publication/224579249_Randomized_structure_from_motion_based_on_atomic_3D_models_from_camera_triplets) **Randomized Structure from Motion Based on Atomic 3D Models from Camera Triplets** [CVPR 2009]
+
+[[paper]](https://dspace.cvut.cz/bitstream/handle/10467/62206/Havlena_stat.pdf?sequence=1&isAllowed=y) **Efficient Structure from Motion by Graph Optimization** [ECCV 2010]
+
+[[paper]](http://www.diegm.uniud.it/fusiello/papers/cviu15.pdf) **Hierarchical structure-and-motion recovery from uncalibrated images** [CVIU 2015]
+
+##### Multi-Stage SfM
+
+[[paper]](https://arxiv.org/abs/1702.08601) **Parallel Structure from Motion from Local Increment to Global Averaging** [arXiv 2017]
+
+[[code]](https://researchweb.iiit.ac.in/~rajvi.shah/projects/multistagesfm/) [[paper]](http://arxiv.org/abs/1512.06235) **Multistage SFM: A Coarse-to-Fine Approach for 3D Reconstruction** [3DV 2014 / arXiv 2016]
+
+[[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Cui_HSfM_Hybrid_Structure-from-Motion_CVPR_2017_paper.pdf) **HSfM: Hybrid Structure-from-Motion** [ICCV 2017]
+
+##### Non Rigid SfM
+
+[[paper]](http://arxiv.org/abs/1609.02638) **Robust Structure from Motion in the Presence of Outliers and Missing Data** [2016]
+
+##### Viewing graph optimization
+
+[[code]](http://www.cs.cornell.edu/~snavely/projects/skeletalset/) **Skeletal graphs for efficient structure from motion** [CVPR 2008]
+
+[[paper]](http://homes.cs.washington.edu/~csweeney/papers/optimizing_the_viewing_graph.pdf) **Optimizing the Viewing Graph for Structure-from-Motion** [ICCV 2015]
+
+[[paper]](https://home.cse.ust.hk/~tshenaa/files/pub/eccv2016_graph_match.pdf) **Graph-Based Consistent Matching for Structure-from-Motion** [ECCV 2016]
+
+##### Unordered feature tracking
+
+[[paper]](http://imagine.enpc.fr/~moulonp/publis/featureTracking_CVMP12.pdf) **Unordered feature tracking made fast and easy** [CVMP 2012]
+
+[[paper]](http://www.maths.lth.se/vision/publdb/reports/pdf/svarm-simayijang-etal-i2-12.pdf) **Point Track Creation in Unordered Image Collections Using Gomory-Hu Trees** [ICPR 2012]
+
+**Fast connected components computation in large graphs by vertex pruning** [IEEE Transactions on Parallel and Distributed Systems 2016]
+
+##### Large scale image matching for SfM
+
+[[code]](http://www.robots.ox.ac.uk/~vgg/research/vgoogle/) **Video Google: A Text Retrieval Approach to Object Matching in Video** [ICCV 2003]
+
+[[paper]](http://www.vis.uky.edu/~stewe/publications/nister_stewenius_cvpr2006.pdf) **Scalable Recognition with a Vocabulary Tree** [CVPR 2006]
+
+[[paper]](https://grail.cs.washington.edu/rome/rome_paper.pdf) **Building Rome in a Day** [ICCV 2009]
+
+[[paper]](https://hal.inria.fr/file/index/docid/825085/filename/jegou_pq_postprint.pdf) **Product quantization for nearest neighbor search** [IEEE Transactions on Pattern Analysis and Machine Intelligence 2011]
+
+[[paper]](http://www.nlpr.ia.ac.cn/jcheng/papers/CameraReady-CasHash.pdf) **Fast and Accurate Image Matching with Cascade Hashing for 3D Reconstruction** [CVPR 2014]
+
+[[paper]](https://www.infona.pl/resource/bwmeta1.element.elsevier-3a6310b2-2ad0-3bdd-839d-8daecaca680d/content/partDownload/8900b0c7-b69c-39dc-8cbd-94217452a25f) **Recent developments in large-scale tie-point matching** [ISPRS 2016]
+
+[[paper]](http://homes.cs.washington.edu/~csweeney/papers/graphmatch.pdf) **Graphmatch: Efficient Large-Scale Graph Construction for Structure from Motion** [3DV 2017]
+
+
+
+
 
 
 #### Multi-View Stereo(MVS) 
@@ -360,7 +491,32 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 
 
 
-### Deep Learning-Driven Reconstruction (2014–2020)
+### 3D AIGC
+
+#### Text to 3D Generation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
