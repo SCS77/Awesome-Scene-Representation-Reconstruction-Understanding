@@ -19,11 +19,16 @@
 
 ## [🔥 Scene Reconstruction](#scene-reconstruction)  
 
-### • [Traditional Geometric Method](#traditional-geometric-method) 
-
+### • [Traditional Geometric Method](#traditional-geometric-method)  
+### • [3D-Scene-Generation](#3d-scene-generation)  
+### • [NeRF(Neural Radiance Fields)](#nerf) 
+### • [3DGS(3D Gaussian Splatting)](#3dgs)  
 
 
 ## [🚀 Scene Understanding](#scene-understanding)  
+
+
+
 
 ---
 
@@ -487,7 +492,7 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 
 
 
-### 3D 3D-Scene-Generation
+### 3D-Scene-Generation
 
 #### Text to 3D Generation
 [[code]](https://github.com/usama2762/Furniture-Optimization) [[paper]](https://peterkan.com/download/ieeevr2018.pdf) **Automatic Furniture Arrangement Using Greedy Cost Minimization** [VR 2018]  
@@ -839,10 +844,170 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 
 
 
+### NeRF
+
+#### Acceleration
+[[code]](https://github.com/bmild/nerf) [[paper]](https://arxiv.org/abs/2003.08934) [[project]](https://www.matthewtancik.com/nerf) **NeRF:Representing Scenes as Neural Radiance Fields for View Synthesis** [ECCV 2020]  
+[[code]](https://github.com/NVlabs/instant-ngp) [[paper]](https://nvlabs.github.io/instant-ngp/assets/mueller2022instant.pdf) [[project]](https://nvlabs.github.io/instant-ngp/) **Instant Neural Graphics Primitives with a Multiresolution Hash Encoding** [TOG 2022]  
+[[code]](https://github.com/snap-research/R2L) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/626_ECCV_2022_paper.php) [[project]](https://snap-research.github.io/R2L/) **R2L: Distilling Neural Radiance Field to Neural Light Field for Efficient Novel View Synthesis** [ECCV 2022]  
+[[code]](https://github.com/thomasneff/AdaNeRF) [[paper]](https://thomasneff.github.io/adanerf/adanerf_supplementary.pdf) [[project]](https://thomasneff.github.io/adanerf/) **AdaNeRF: Adaptive Sampling for Real-time Rendering of Neural Radiance Fields** [ECCV 2022]  
+[[code]](https://github.com/Xharlie/pointnerf) [[paper]](https://arxiv.org/pdf/2201.08845) [[project]](https://xharlie.github.io/projects/project_sites/pointnerf/index.html) **Point-NeRF: Point-based Neural Radiance Fields** [CVPR 2020]  
+[[code]](https://github.com/lwwu2/diver) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_DIVeR_Real-Time_and_Accurate_Neural_Radiance_Fields_With_Deterministic_Integration_CVPR_2022_paper.pdf) **DIVeR: Real-time and Accurate Neural Radiance Fields with Deterministic Integration for Volume Rendering** [CVPR 2022]  
+[[code]](https://github.com/sunset1995/DirectVoxGO) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_Direct_Voxel_Grid_Optimization_Super-Fast_Convergence_for_Radiance_Fields_Reconstruction_CVPR_2022_paper.pdf) [[project]](https://sunset1995.github.io/dvgo/) **Direct Voxel Grid Optimization: Super-Fast Convergence for Radiance Fields Reconstruction** [CVPR 2022]  
+[[code]](https://github.com/dvlab-research/EfficientNeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Hu_EfficientNeRF__Efficient_Neural_Radiance_Fields_CVPR_2022_paper.pdf) **EfficientNeRF – Efficient Neural Radiance Fields** [CVPR 2022]  
+[[code]](https://github.com/google-research/multinerf) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Barron_Mip-NeRF_360_Unbounded_Anti-Aliased_Neural_Radiance_Fields_CVPR_2022_paper.html) [[project]](https://jonbarron.info/mipnerf360/) **Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields** [CVPR 2022]  
+[[code]](https://github.com/sxyu/plenoctree) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_PlenOctrees_for_Real-Time_Rendering_of_Neural_Radiance_Fields_ICCV_2021_paper.pdf) [[project]](https://alexyu.net/plenoctrees/) **PlenOctrees for Real-time Rendering of Neural Radiance Fields** [ICCV 2021]  
+[[code]](https://github.com/creiser/kilonerf) [[paper]](https://thomasneff.github.io/adanerf/adanerf_supplementary.pdf) [[project]](https://creiser.github.io/kilonerf/) **KiloNeRF: Speeding Up Neural Radiance Fields with Thousands of Tiny MLPs** [ICCV 2021]  
+[[code]](https://github.com/simicvm/snerg) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Hedman_Baking_Neural_Radiance_Fields_for_Real-Time_View_Synthesis_ICCV_2021_paper.pdf) **Baking Neural Radiance Fields for Real-Time View-Synthesis** [ICCV 2021]  
+[[code]](https://github.com/snap-research/MobileR2L) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Real-Time_Neural_Light_Field_on_Mobile_Devices_CVPR_2023_paper.pdf) [[project]](https://snap-research.github.io/MobileR2L/) **Real-time neural light field on mobile devices** [CVPR 2023]  
+[[code]](https://github.com/wolfball/PlenVDB) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yan_PlenVDB_Memory_Efficient_VDB-Based_Radiance_Fields_for_Fast_Training_and_CVPR_2023_paper.pdf) [[project]](https://plenvdb.github.io/) **PlenVDB: Memory Efficient VDB-Based Radiance Fields for Fast Training and Rendering** [CVPR 2023]  
+[[code]](https://github.com/apchenstu/TensoRF) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920332.pdf) [[project]](https://apchenstu.github.io/TensoRF/) **TensoRF: Tensorial Radiance Fields** [ECCV 2022]  
+[[code]](https://github.com/google/hypernerf) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Turki_HybridNeRF_Efficient_Neural_Rendering_via_Adaptive_Volumetric_Surfaces_CVPR_2024_paper.pdf) [[project]](https://haithemturki.com/hybrid-nerf/) **HybridNeRF: Efficient Neural Rendering via Adaptive Volumetric Surfaces** [CVPR 2024]  
+[[code]](https://github.com/facebookresearch/NSVF) [[paper]](https://arxiv.org/pdf/2007.11571) [[project]](https://lingjie0206.github.io/papers/NSVF/) **NSVF: Neural Sparse Voxel Fields** [NeurIPS 2020]  
+[[code]](https://github.com/computational-imaging/automatic-integration) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lindell_AutoInt_Automatic_Integration_for_Fast_Neural_Volume_Rendering_CVPR_2021_paper.pdf) [[project]](http://www.computationalimaging.org/publications/automatic-integration/) **AutoInt: Automatic Integration for Fast Neural Volume Rendering** [CVPR 2021]  
+[[code]](https://github.com/ubc-vision/derf) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Rebain_DeRF_Decomposed_Radiance_Fields_CVPR_2021_paper.pdf) [[project]](https://ubc-vision.github.io/derf/) **DeRF: Decomposed Radiance Fields** [CVPR 2021]  
+[[code]](https://github.com/facebookresearch/DONERF) [[paper]](https://arxiv.org/abs/2103.03231) [[project]](https://diglib.eg.org/items/cf4a7108-7130-469e-8886-48a767fd54e5) **DONeRF: Towards Real-Time Rendering of Compact Neural Radiance Fields using Depth Oracle Networks** [CGO 2021]  
+[[code]](https://github.com/mrcabellom/fastNerf) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Garbin_FastNeRF_High-Fidelity_Neural_Rendering_at_200FPS_ICCV_2021_paper.pdf) **FastNeRF: High-Fidelity Neural Rendering at 200FPS** [ICCV 2021]  
+[[code]](https://github.com/vsitzmann/light-field-networks.git) [[paper]](https://arxiv.org/abs/2106.02634) [[project]](https://www.vincentsitzmann.com/lfns/) **Light Field Networks: Neural Scene Representations with Single-Evaluation Rendering** [NeurIPS 2021]  
+[[paper]](https://licj15.github.io/rt-nerf/assets/2022ICCAD_RT_NeRF_31Oct2022.pdf) [[project]](https://licj15.github.io/rt-nerf/) **RT-NeRF: Real-Time On-Device Neural Radiance Fields Towards Immersive AR/VR Rendering** [ICCAD 2022]  
+[[code]](https://github.com/zju3dv/ENeRF) [[paper]](https://arxiv.org/abs/2112.01517) [[project]](https://zju3dv.github.io/enerf/) **ENeRF: Efficient Neural Radiance Fields for Interactive Free-viewpoint Video** [SIGGRAPH Asia 2022]  
+[[code]](https://github.com/Heng14/DyLiN) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_DyLiN_Making_Light_Field_Networks_Dynamic_CVPR_2023_paper.pdf) [[project]](https://dylin2023.github.io/) **DyLiN: Making Light Field Networks Dynamic** [CVPR 2023]  
+[[code]](https://github.com/dunbar12138/DSNeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Deng_Depth-Supervised_NeRF_Fewer_Views_and_Faster_Training_for_Free_CVPR_2022_paper.pdf) [[project]](https://www.cs.cmu.edu/~dsnerf/) **Depth-supervised NeRF: Fewer Views and Faster Training for Free** [CVPR 2022]  
+[[code]](https://github.com/sxyu/svox2) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Fridovich-Keil_Plenoxels_Radiance_Fields_Without_Neural_Networks_CVPR_2022_paper.pdf) [[project]](https://github.com/sxyu/svox2.git) **Plenoxels: Radiance Fields without Neural Networks** [CVPR 2022]  
+[[paper]](https://arxiv.org/abs/2302.14859) [[project]](https://bakedsdf.github.io/) **BakedSDF: Meshing Neural SDFs for Real-Time View Synthesis** [SIGGRAPH 2023]  
+[[code]](https://github.com/VISION-SJTU/Lightning-NeRF) [[paper]](https://arxiv.org/abs/2403.05907) **Lightning NeRF: Efficient Hybrid Scene Representation for Autonomous Driving** [ICRA 2024]  
+[[code]](https://github.com/NVIDIAGameWorks/kaolin-wisp) [[paper]](https://arxiv.org/abs/2206.07707) [[project]](https://nv-tlabs.github.io/vqad/) **Variable Bitrate Neural Fields** [SIGGRAPH 2022]  
 
 
 
 
+
+#### Quality & Realism Improvement
+
+[[code]](https://github.com/google-research/multinerf) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Verbin_Ref-NeRF_Structured_View-Dependent_Appearance_for_Neural_Radiance_Fields_CVPR_2022_paper.pdf?_hsenc=p2ANqtz-8tadeadAJeGMwdMK0dCQgL4tcspDr7QP-jHu5vlS_dI1xLF0CUSZRiUo_5SCHuLAIP0XSO) [[project]](https://gcl-seminar.github.io/Awesome-Graphics-Papers/papers/CVPR/2022/RefNeRF/) **Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields** [CVPR 2022]   
+[[code]](https://github.com/oppo-us-research/NeuRBF) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_NeuRBF_A_Neural_Fields_Representation_with_Adaptive_Radial_Basis_Functions_ICCV_2023_paper.pdf) [[project]](https://oppo-us-research.github.io/NeuRBF-website/) **NeurBF: A Neural Fields Representation with Adaptive Radial Basis Functions** [ICCV 2023]  
+[[code]](https://zyqz97.github.io/GP_NeRF/) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_GP-NeRF_Generalized_Perception_NeRF_for_Context-Aware_3D_Scene_Understanding_CVPR_2024_paper.pdf) [[project]](https://zyqz97.github.io/GP_NeRF/) **GP-NeRF: Generalized Perception NeRF for Context-Aware 3D Scene Understanding** [CVPR 2024]  
+[[code]](https://github.com/Crishawy/NeXT) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920069.pdf) **NeXT: Towards High Quality Neural Radiance Fields via Multi-Skip Transformer** [ECCV 2022]  
+[[code]](https://github.com/cgtuebingen/NeRD-Neural-Reflectance-Decomposition) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Boss_NeRD_Neural_Reflectance_Decomposition_From_Image_Collections_ICCV_2021_paper.pdf) [[project]](https://markboss.me/publication/2021-nerd/) **NeRD: Neural Reflectance Decomposition from Image Collections** [ICCV 2021]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Srinivasan_NeRV_Neural_Reflectance_and_Visibility_Fields_for_Relighting_and_View_CVPR_2021_paper.pdf) [[project]](https://pratulsrinivasan.github.io/nerv/) **NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis** [CVPR 2022]  
+[[code]](https://github.com/SuLvXiangXin/zipnerf-pytorch) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Barron_Zip-NeRF_Anti-Aliased_Grid-Based_Neural_Radiance_Fields_ICCV_2023_paper.pdf) **Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields** [ICCV 2023]  
+[[paper]](https://github.com/thucz/PanoGRF) [[paper]](https://3dvar.com/Chen2023PanoGRF.pdf) [[project]](https://thucz.github.io/PanoGRF/) **PanoGRF: Generalizable Spherical Radiance Fields for Wide-baseline Panoramas** [NeurIPS 2023]  
+[[code]](https://github.com/3D-FRONT-FUTURE/NeuDA) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_NeuDA_Neural_Deformable_Anchor_for_High-Fidelity_Implicit_Surface_Reconstruction_CVPR_2023_paper.pdf) [[project]](https://3d-front-future.github.io/neuda/) **NeuDA: Neural deformable anchor for high-fidelity implicit surface reconstruction** [CVPR 2023]  
+[[code]](https://github.com/ActiveVisionLab/nope-nerf/tree/main) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Bian_NoPe-NeRF_Optimising_Neural_Radiance_Field_With_No_Pose_Prior_CVPR_2023_paper.pdf) [[project]](https://nope-nerf.active.vision/) **NoPe-NeRF: Optimising neural radiance field with no pose prior** [CVPR 2023]  
+[[code]](https://github.com/sony/NeISF) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_NeISF_Neural_Incident_Stokes_Field_for_Geometry_and_Material_Estimation_CVPR_2024_paper.pdf) [[project]](https://sony.github.io/NeISF/) **NeISF: Neural Incident Stokes Field for Geometry and Material Estimation** [CVPR 2024]  
+[[code]](https://github.com/lyclyc52/SANeRF-HQ) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_SANeRF-HQ_Segment_Anything_for_NeRF_in_High_Quality_CVPR_2024_paper.pdf) [[project]](https://lyclyc52.github.io/SANeRF-HQ/) **SANeRF-HQ: Segment Anything for NeRF in High Quality** [CVPR 2024]  
+[[code]](https://github.com/autonomousvision/murf) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_MuRF_Multi-Baseline_Radiance_Fields_CVPR_2024_paper.pdf) [[project]](https://haofeixu.github.io/murf/) **MuRF: Multi-Baseline Radiance Fields** [CVPR 2024]  
+[[code]](https://github.com/s3anwu/pbrnerf) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_PBR-NeRF_Inverse_Rendering_with_Physics-Based_Neural_Fields_CVPR_2025_paper.pdf) **PBR-NeRF: Inverse Rendering with Physics-Based Neural Fields** [CVPR 2025]  
+[[paper]](https://github.com/baskargroup/SC-NeRF) [[paper]](https://arxiv.org/abs/2503.21958) [[project]](https://baskargroup.github.io/SC-NeRF/) **SC-NeRF: NeRF-based Point Cloud Reconstruction using a Stationary Camera for Agricultural Applications** [CVPR 2025]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2025W/CV4Metaverse/papers/Zhang_IL-NeRF_Incremental_Learning_for_Neural_Radiance_Fields_with_Camera_Pose_CVPRW_2025_paper.pdf) [[project]](https://3d-front-future.github.io/neuda/) **IL-NeRF: Incremental Learning for Neural Radiance Fields with Camera Pose Learning** [CVPR 2025]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2025W/CV4Metaverse/papers/Seo_ARC-NeRF_Area_Ray_Casting_for_Broader_Unseen_View_Coverage_in_CVPRW_2025_paper.pdf) [[project]](https://shawn615.github.io/arc-nerf/) **ARC-NeRF: Area Ray Casting for Broader Unseen View Coverage in Few-shot Object Insertion** [CVPR 2025]  
+[[code]](https://github.com/linjohnss/FrugalNeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Lin_FrugalNeRF_Fast_Convergence_for_Extreme_Few-shot_Novel_View_Synthesis_without_CVPR_2025_paper.pdf) [[project]](https://linjohnss.github.io/frugalnerf/) **FrugalNeRF: Fast Convergence for Extreme Few-shot Novel View Synthesis** [CVPR 2025]  
+[[code]](https://github.com/wen-yuan-zhang/NeRFPrior) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_NeRFPrior_Learning_Neural_Radiance_Field_as_a_Prior_for_Indoor_CVPR_2025_paper.pdf)**NeRFPrior: Learning Neural Radiance Field as a Prior for Signed Distance Fields** [CVPR 2025]  
+[[code]](https://github.com/tancik/fourier-feature-networks) [[paper]](https://proceedings.neurips.cc/paper/2020/file/55053683268957697aa39fba6f231c68-Paper.pdf) [[project]](https://bmild.github.io/fourfeat/) **Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains** [NeurIPS 2020]  
+[[code]](https://github.com/rover-xingyu/L2G-NeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Local-to-Global_Registration_for_Bundle-Adjusting_Neural_Radiance_Fields_CVPR_2023_paper.pdf) [[project]](https://rover-xingyu.github.io/L2G-NeRF/) **Local-to-global Registration for Bundle-adjusting Neural Radiance Fields** [CVPR 2023]  
+[[paper]](https://arxiv.org/abs/2405.14871) [[project]](https://dorverbin.github.io/nerf-casting/) **NeRF-Casting: Improved View-Dependent Appearance with Consistent Reflections** [SIGGRAPH Asia 2024]  
+[[code]](https://github.com/syntec-research/LitNeRF) [[paper]](https://drive.google.com/file/d/1fFbioHF6FMirIZPHhrdKwoYXHnv71GHL/view) [[project]](https://syntec-research.github.io/LitNeRF/) **LitNeRF: Intrinsic Radiance Decomposition for High-Quality View Synthesis and Relighting of Faces** [CSIGGRAPH Asia 2023]  
+[[code]](https://github.com/cwchenwang/NeRF-SR) [[paper]](https://cg.cs.tsinghua.edu.cn/papers/MM-2022-NeRF-SR.pdf) [[project]](https://cwchenwang.github.io/NeRF-SR/) **NeRF-SR: High-Quality Neural Radiance Fields using Supersampling** [ACM 2022]  
+[[code]](https://github.com/cwchenwang/NeRF-SR) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_RefSR-NeRF_Towards_High_Fidelity_and_Super_Resolution_View_Synthesis_CVPR_2023_paper.pdf) [[project]](https://cwchenwang.github.io/NeRF-SR/) **RefSR-NeRF: Towards High-Fidelity and Super-Resolution View Synthesis** [CVPR 2023]  
+
+
+
+
+#### Dynamic & Deformable Scenes
+
+[[code]](https://github.com/seoha-kim/Sync-NeRF) [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/28057) [[project]](https://seoha-kim.github.io/sync-nerf/) **Sync-NeRF: Generalizing Dynamic NeRFs to Unsynchronized Videos** [AAAI 2024]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Otonari_Entity-NeRF_Detecting_and_Removing_Moving_Entities_in_Urban_Scenes_CVPR_2024_paper.pdf) [[project]](https://otonari726.github.io/entitynerf/) **Entity-NeRF: Detecting and Removing Moving Entities in Urban Scenes** [CVPR 2024]  
+[[code]](https://github.com/google/dynibar) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_DynIBaR_Neural_Dynamic_Image-Based_Rendering_CVPR_2023_paper.pdf) [[project]](https://dynibar.github.io/) **DynIBaR: Neural Dynamic Image-Based Rendering** [CVPR 2023]  
+[[code]](https://github.com/DSaurus/Tensor4D) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shao_Tensor4D_Efficient_Neural_4D_Decomposition_for_High-Fidelity_Dynamic_Reconstruction_and_CVPR_2023_paper.pdf) [[project]](https://liuyebin.com/tensor4d/tensor4d.html) **Tensor4D: Efficient Neural 4D Decomposition for High-fidelity Dynamic Reconstruction and Rendering** [CVPR 2023]  
+[[code]](https://github.com/facebookresearch/hyperreel) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Attal_HyperReel_High-Fidelity_6-DoF_Video_With_Ray-Conditioned_Sampling_CVPR_2023_paper.pdf) [[project]](https://hyperreel.github.io/) **HyperReel: High-Fidelity 6-DoF Video with Ray-Conditioned Samplings** [CVPR 2023]  
+[[code]](https://github.com/Caoang327/HexPlane) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_HexPlane_A_Fast_Representation_for_Dynamic_Scenes_CVPR_2023_paper.pdf) **HexPlane: A Fast Representation for Dynamic Scenes** [CVPR 2023]  
+[[code]](https://github.com/facebookresearch/robust-dynrf) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Robust_Dynamic_Radiance_Fields_CVPR_2023_paper.pdf) [[project]](https://robust-dynrf.github.io/) **Robust Dynamic Radiance Fields** [CVPR 2023]  
+[[code]](https://github.com/YilingQiao/DMRF) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Qiao_Dynamic_Mesh-Aware_Radiance_Fields_ICCV_2023_paper.pdf) [[project]](https://mesh-aware-rf.github.io/) **Dynamic Mesh-Aware Radiance Fields** [ICCV 2023]  
+[[code]](https://github.com/fengres/mixvoxels) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Mixed_Neural_Voxels_for_Fast_Multi-view_Video_Synthesis_ICCV_2023_paper.pdf) [[project]](https://fengres.github.io/mixvoxels/) **MixVoxels: Mixed Neural Voxels for Fast Multi-view Video Synthesis** [ICCV 2023]  
+[[code]](https://github.com/kaichen-z/DynPoint) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/dbdc7a9779ce0278c6e43b62c7e97759-Paper-Conference.pdf) [[project]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/dbdc7a9779ce0278c6e43b62c7e97759-Abstract-Conference.html) **DynPoint: Dynamic Neural Point For View Synthesis** [NeurIPS 2023]  
+[[code]](https://github.com/ChikaYan/d2nerf) [[paper]](https://papers.nips.cc/paper_files/paper/2022/file/d2cc447db9e56c13b993c11b45956281-Paper-Conference.pdf) [[project]](https://papers.nips.cc/paper_files/paper/2022/hash/d2cc447db9e56c13b993c11b45956281-Abstract-Conference.html) **D2NeRF: Self-Supervised Decoupling of Dynamic and Static Objects from a Monocular Video** [NeurIPS 2022]  
+[[code]](https://github.com/google/nerfies) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Park_Nerfies_Deformable_Neural_Radiance_Fields_ICCV_2021_paper.pdf) [[project]](https://nerfies.github.io/) **Nerfies: Deformable Neural Radiance Fields** [ICCV 2021]  
+[[code]](https://github.com/google/hypernerf) [[paper]](https://arxiv.org/pdf/2106.13228) [[project]](https://hypernerf.github.io/) **HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields** [SIGGRAPH 2021]  
+[[code]](https://github.com/facebookresearch/nonrigid_nerf) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Tretschk_Non-Rigid_Neural_Radiance_Fields_Reconstruction_and_Novel_View_Synthesis_of_ICCV_2021_paper.pdf) [[project]](https://vcai.mpi-inf.mpg.de/projects/nonrigid_nerf/) **Non-Rigid Neural Radiance Fields: Reconstruction and Novel View Synthesis of a Deforming Scene from Monocular Video** [ICCV 2021]  
+[[code]](https://github.com/MightyChaos/fsdnerf) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Flow_Supervision_for_Deformable_NeRF_CVPR_2023_paper.pdf) [[project]](https://mightychaos.github.io/projects/fsdnerf/) **Flow Supervision for Deformable NeRF** [CVPR 2023]  
+[[code]](https://github.com/xingyi-li/s-dyrf/tree/main) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_S-DyRF_Reference-Based_Stylized_Radiance_Fields_for_Dynamic_Scenes_CVPR_2024_paper.pdf) [[project]](https://xingyi-li.github.io/s-dyrf/
+) **S-DyRF: Reference-Based Stylized Radiance Fields for Dynamic Scenes** [CVPR 2024]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Yan_DS-NeRV_Implicit_Neural_Video_Representation_with_Decomposed_Static_and_Dynamic_CVPR_2024_paper.pdf) [[project]](https://haoyan14.github.io/DS-NeRV/) **DS-NeRV: Implicit Neural Video Representation with Decomposed Static and Dynamic Codes** [CVPR 2024]  
+[[code]](https://github.com/FYTalon/pienerf) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Feng_PIE-NeRF_Physics-based_Interactive_Elastodynamics_with_NeRF_CVPR_2024_paper.pdf) [[project]](https://fytalon.github.io/pienerf/?ref=aiartweekly) **PIE-NeRF: Physics-based Interactive Elastodynamics with NeRF** [CVPR 2024]  
+[[code]](https://github.com/huiqiang-sun/DyBluRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Kumar_DynaMoDe-NeRF_Motion-aware_Deblurring_Neural_Radiance_Field_for_Dynamic_Scenes_CVPR_2025_paper.pdf) [[project]](https://huiqiang-sun.github.io/dyblurf/) **Motion-aware Deblurring Neural Radiance Field for Dynamic Scenes** [ICCV 2021]  
+[[code]](https://github.com/albertpumarola/D-NeRF) [[paper]](https://arxiv.org/abs/2011.13961) [[project]](https://www.albertpumarola.com/research/D-NeRF/index.html) **D-NeRF: Neural Radiance Fields for Dynamic Scenes** [CVPR 2021]  
+[[code]](https://github.com/zhengqili/Neural-Scene-Flow-Fields) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Neural_Scene_Flow_Fields_for_Space-Time_View_Synthesis_of_Dynamic_CVPR_2021_paper.pdf) [[project]](https://www.cs.cornell.edu/~zl548/NSFF/) **Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes** [CVPR 2021]  
+[[code]](https://github.com/jefftan969/dasr) [[paper]](https://jefftan969.github.io/dasr/paper.pdf) [[project]](https://jefftan969.github.io/dasr/) **Distilling Neural Fields for Real-Time Articulated Shape Reconstruction** [CVPR 2023]  
+[[code]](https://github.com/huiqiang-sun/DyBluRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Sun_DyBluRF_Dynamic_Neural_Radiance_Fields_from_Blurry_Monocular_Video_CVPR_2024_paper.pdf) [[project]](https://kaist-viclab.github.io/dyblurf-site/) **Dynamic Deblurring Neural Radiance Fields for Blurry Monocular Video** [CVPR 2024]  
+[[code]](https://github.com/merlresearch/Gear-NeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_Gear-NeRF_Free-Viewpoint_Rendering_and_Tracking_with_Motion-aware_Spatio-Temporal_Sampling_CVPR_2024_paper.pdf) [[project]](https://merl.com/research/highlights/gear-nerf) **Gear-NeRF: Free-Viewpoint Rendering and Tracking with Motion-aware Spatio-Temporal Sampling** [CVPR 2024]  
+[[code]](https://github.com/gafniguy/4D-Facial-Avatars) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Gafni_Dynamic_Neural_Radiance_Fields_for_Monocular_4D_Facial_Avatar_Reconstruction_CVPR_2021_paper.pdf) [[project]](https://gafniguy.github.io/4D-Facial-Avatars/) **Dynamic Neural Radiance Fields for Monocular 4D Facial Avatar Reconstruction** [CVPR 2021]  
+[[code]](https://github.com/nogu-atsu/NARF) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Noguchi_Neural_Articulated_Radiance_Field_ICCV_2021_paper.pdf) **Neural Articulated Radiance Field** [ICCV 2021]  
+[[code]](https://github.com/JanaldoChen/Anim-NeRF?tab=readme-ov-file) [[paper]](https://arxiv.org/abs/2106.13629) **Animatable Neural Radiance Fields from Monocular RGB Videos** [arXiv 2021]  
+[[code]](https://github.com/googleinterns/IBRNet/tree/master) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_IBRNet_Learning_Multi-View_Image-Based_Rendering_CVPR_2021_paper.pdf) [[project]](https://ibrnet.github.io/) **IBRNet: Learning Multi-View Image-Based Rendering** [CVPR 2021]  
+[[code]](https://github.com/lingjie0206/Neural_Actor_Main_Code) [[paper]](https://dl.acm.org/doi/epdf/10.1145/3478513.3480528) [[project]](https://vcai.mpi-inf.mpg.de/projects/NeuralActor/) **Neural Actor: Neural Free-view Synthesis of Human Actors with Pose Control** [SIGGRAPH Asia 2021]  
+[[code]](https://github.com/hustvl/TiNeuVox) [[paper]](https://arxiv.org/abs/2205.15285) [[project]](https://jaminfong.cn/tineuvox/) **TiNeuVox: Fast Dynamic Radiance Fields with Time-Aware Neural Voxels** [SIGGRAPH Asia 2021]  
+[[code]](https://yifanjiang19.github.io/alignerf/demo/compare.html) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_AligNeRF_High-Fidelity_Neural_Radiance_Fields_via_Alignment-Aware_Training_CVPR_2023_paper.pdf) [[project]](https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_AligNeRF_High-Fidelity_Neural_Radiance_Fields_via_Alignment-Aware_Training_CVPR_2023_paper.pdf) **AligNeRF: High-Fidelity Neural Radiance Fields via Alignment-Aware Training** [CVPR 2023]  
+[[code]](https://github.com/NVlabs/BundleSDF) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wen_BundleSDF_Neural_6-DoF_Tracking_and_3D_Reconstruction_of_Unknown_Objects_CVPR_2023_paper.pdf) [[project]](https://bundlesdf.github.io/) **BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown** [CVPR 2023]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Xian_Space-Time_Neural_Irradiance_Fields_for_Free-Viewpoint_Video_CVPR_2021_paper.pdf) [[project]](https://video-nerf.github.io/) **Space-time Neural Irradiance Fields for Free-Viewpoint Video** [CVPR 2021]  
+[[code]](https://github.com/yilundu/nerflow) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Du_Neural_Radiance_Flow_for_4D_View_Synthesis_and_Video_Processing_ICCV_2021_paper.pdf) **Neural Radiance Flow for 4D View Synthesis and Video Processing** [ICCV 2021]  
+[[code]](https://github.com/AlgoHunt/StreamRF) [[paper]](https://papers.nips.cc/paper_files/paper/2022/file/57c2cc952f388f6185db98f441351c96-Paper-Conference.pdf) [[project]](https://papers.nips.cc/paper_files/paper/2022/hash/57c2cc952f388f6185db98f441351c96-Abstract-Conference.html) **Streaming Radiance Fields for 3D Video Synthesis** [NeurIPS 2022]  
+[[code]](https://github.com/gaochen315/DynamicNeRF) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_Dynamic_View_Synthesis_From_Dynamic_Monocular_Video_ICCV_2021_paper.pdf) [[project]](https://free-view-video.github.io/) **Dynamic View Synthesis from Dynamic Monocular Video** [ICCV 2021]  
+[[code]](https://github.com/fengres/mixvoxels) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Neural_3D_Video_Synthesis_From_Multi-View_Video_CVPR_2022_paper.pdf) [[project]](https://fengres.github.io/mixvoxels/) **Mixed Neural Voxels for Fast Multi-view Video Synthesis** [CVPR 2022]  
+[[code]](https://github.com/zju3dv/neuralbody) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Peng_Neural_Body_Implicit_Neural_Representations_With_Structured_Latent_Codes_for_CVPR_2021_paper.pdf) [[project]](https://zju3dv.github.io/neuralbody/) **Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans** [CVPR 2021]  
+
+
+
+
+#### Large-Scale & Unbounded Scenes
+
+[[code]](https://github.com/google-research/multinerf) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Barron_Mip-NeRF_360_Unbounded_Anti-Aliased_Neural_Radiance_Fields_CVPR_2022_paper.html) [[project]](https://jonbarron.info/mipnerf360/) **Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields** [CVPR 2022]  
+[[paper]](https://github.com/thucz/PanoGRF) [[paper]](https://3dvar.com/Chen2023PanoGRF.pdf) [[project]](https://thucz.github.io/PanoGRF/) **PanoGRF: Generalizable Spherical Radiance Fields for Wide-baseline Panoramas** [NeurIPS 2023]  
+[[code]](https://github.com/wolfball/PlenVDB) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yan_PlenVDB_Memory_Efficient_VDB-Based_Radiance_Fields_for_Fast_Training_and_CVPR_2023_paper.pdf) [[project]](https://plenvdb.github.io/) **PlenVDB: Memory Efficient VDB-Based Radiance Fields for Fast Training and Rendering** [CVPR 2023]  
+[[SLIDES]](https://cvpr.thecvf.com/media/cvpr-2024/Slides/30207_zHbzPLg.pdf) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhao_Grounding_and_Enhancing_Grid-based_Models_for_Neural_Fields_CVPR_2024_paper.pdf) [[project]](https://sites.google.com/view/cvpr24-2034-submission/home) **Grounding and Enhancing Grid-Based Models for Neural Fields** [CVPR 2024]  
+[[code]](https://github.com/autonomousvision/murf) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_MuRF_Multi-Baseline_Radiance_Fields_CVPR_2024_paper.pdf) [[project]](https://haofeixu.github.io/murf/) **MuRF: Multi-Baseline Radiance Fields** [CVPR 2024]  
+[[code]](https://github.com/showlab/DynVideo-E) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_DynVideo-E_Harnessing_Dynamic_NeRF_for_Large-Scale_Motion-_and_View-Change_Human-Centric_CVPR_2024_paper.pdf) **DynVideo-E: Harnessing Dynamic NeRF for Large-Scale Motion- and View-Change Human-Centric Video Editing** [CVPR 2024]  
+[[code]](https://github.com/google/hypernerf) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Turki_HybridNeRF_Efficient_Neural_Rendering_via_Adaptive_Volumetric_Surfaces_CVPR_2024_paper.pdf) [[project]](https://haithemturki.com/hybrid-nerf/) **HybridNeRF: Efficient Neural Rendering via Adaptive Volumetric Surfaces** [CVPR 2024]  
+[[code]](https://github.com/chobao/Free360) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Bao_Free360_Layered_Gaussian_Splatting_for_Unbounded_360-Degree_View_Synthesis_from_CVPR_2025_paper.pdf) [[project]](https://zju3dv.github.io/free360/) **Free360: Layered Gaussian Splatting for Unbounded 360-Degree View Synthesis from Extremely Sparse and Unposed Views** [CVPR 2025]  
+[[code]](https://github.com/zyqz97/Aerial_lifting) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Aerial_Lifting_Neural_Urban_Semantic_and_Building_Instance_Lifting_from_CVPR_2024_paper.pdf) [[project]](https://zyqz97.github.io/Aerial_Lifting/) **Aerial Lifting: Neural Urban Semantic and Building Instance Lifting from Aerial Imagery** [CVPR 2024]  
+[[code]](https://github.com/sunset1995/DirectVoxGO) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_Direct_Voxel_Grid_Optimization_Super-Fast_Convergence_for_Radiance_Fields_Reconstruction_CVPR_2022_paper.pdf) [[project]](https://sunset1995.github.io/dvgo/) **Direct Voxel Grid Optimization: Super-Fast Convergence for Radiance Fields Reconstruction** [CVPR 2022]  
+[[code]](https://github.com/wuminye/TeTriRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_TeTriRF_Temporal_Tri-Plane_Radiance_Fields_for_Efficient_Free-Viewpoint_Video_CVPR_2024_paper.pdf) [[project]](https://wuminye.github.io/projects/TeTriRF/) **TeTriRF: Temporal Tri-Plane Radiance Fields for Efficient Free-Viewpoint Video** [CVPR 2023]  
+[[code]](https://github.com/facebookresearch/NSVF) [[paper]](https://arxiv.org/pdf/2007.11571) [[project]](https://lingjie0206.github.io/papers/NSVF/) **NSVF: Neural Sparse Voxel Fields** [NeurIPS 2020]  
+[[code]](https://github.com/creiser/kilonerf) [[paper]](https://thomasneff.github.io/adanerf/adanerf_supplementary.pdf) [[project]](https://creiser.github.io/kilonerf/) **KiloNeRF: Speeding Up Neural Radiance Fields with Thousands of Tiny MLPs** [ICCV 2021]  
+[[code]](https://github.com/simicvm/snerg) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Hedman_Baking_Neural_Radiance_Fields_for_Real-Time_View_Synthesis_ICCV_2021_paper.pdf) **SNeRG: Baking Neural Radiance Fields for Real-Time View Synthesis** [SIGGRAPH 2021]  
+[[paper]](https://github.com/JiahuiLei/MoSca) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Lei_MoSca_Dynamic_Gaussian_Fusion_from_Casual_Videos_via_4D_Motion_CVPR_2025_paper.pdf) [[project]](https://jiahuilei.com/projects/mosca/) **MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds** [CVPR 2024]  
+[[code]](https://github.com/MiZhenxing/Switch-NeRF) [[paper]](https://openreview.net/forum?id=PQ2zoIZqvm) [[project]](https://mizhenxing.github.io/switchnerf/) **Switch-NeRF: Learning Scene Decomposition with Mixture of Experts for Large-scale Neural Radiance Fields** [ICLR 2023]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Tancik_Block-NeRF_Scalable_Large_Scene_Neural_View_Synthesis_CVPR_2022_paper.pdf) [[project]](https://waymo.com/research/block-nerf/) **Block-NeRF: Scalable Large Scene Neural View Synthesis** [CVPR 2022]  
+[[code]](https://github.com/sail-sg/InfNeRF) [[paper]](https://arxiv.org/abs/2403.14376) [[project]](https://jiabinliang.github.io/InfNeRF.io/) **Inf-NeRF: Towards Infinite Scale NeRF Rendering with O(log n) Space Complexity** [SIGGRAPH Asia 2024]  
+[[code]](https://github.com/cmusatyalab/mega-nerf) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Turki_Mega-NERF_Scalable_Construction_of_Large-Scale_NeRFs_for_Virtual_Fly-Throughs_CVPR_2022_paper.pdf) [[project]](https://meganerf.cmusatyalab.org/) **Mega-NeRF: Scalable Radiance Fields for Large Outdoor Scenes** [CVPR 2023]  
+[[code]](https://github.com/Kai-46/nerfplusplus) [[paper]](https://arxiv.org/abs/2010.07492) **NeRF++: Analyzing and Improving Neural Radiance Fields for Unbounded 3D Scenes** [CVPR 2021]  
+[[code]](https://github.com/city-super/BungeeNeRF) [[paper]](https://city-super.github.io/citynerf/img/1947.pdf) [[project]](https://city-super.github.io/citynerf/ **CityNeRF: Building NeRF at City Scale** [ECCV 2021]  
+
+
+
+
+
+#### Sparse Inputs & Generalization
+
+
+
+
+
+
+#### Generative Models & Editing
+
+#### Robotics & SLAM
+
+
+
+
+
+
+
+
+
+
+
+### 3DGS
 
 
 
