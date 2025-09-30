@@ -967,7 +967,7 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 [[code]](https://github.com/autonomousvision/murf) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_MuRF_Multi-Baseline_Radiance_Fields_CVPR_2024_paper.pdf) [[project]](https://haofeixu.github.io/murf/) **MuRF: Multi-Baseline Radiance Fields** [CVPR 2024]  
 [[code]](https://github.com/showlab/DynVideo-E) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_DynVideo-E_Harnessing_Dynamic_NeRF_for_Large-Scale_Motion-_and_View-Change_Human-Centric_CVPR_2024_paper.pdf) **DynVideo-E: Harnessing Dynamic NeRF for Large-Scale Motion- and View-Change Human-Centric Video Editing** [CVPR 2024]  
 [[code]](https://github.com/google/hypernerf) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Turki_HybridNeRF_Efficient_Neural_Rendering_via_Adaptive_Volumetric_Surfaces_CVPR_2024_paper.pdf) [[project]](https://haithemturki.com/hybrid-nerf/) **HybridNeRF: Efficient Neural Rendering via Adaptive Volumetric Surfaces** [CVPR 2024]  
-[[code]](https://github.com/chobao/Free360) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Bao_Free360_Layered_Gaussian_Splatting_for_Unbounded_360-Degree_View_Synthesis_from_CVPR_2025_paper.pdf) [[project]](https://zju3dv.github.io/free360/) **Free360: Layered Gaussian Splatting for Unbounded 360-Degree View Synthesis from Extremely Sparse and Unposed Views** [CVPR 2025]  
+[[code]](https://github.com/chobao/) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Bao_Free360_Layered_Gaussian_Splatting_for_Unbounded_360-Degree_View_Synthesis_from_CVPR_2025_paper.pdf) [[project]](https://zju3dv.github.io/free360/) **Free360: Layered Gaussian Splatting for Unbounded 360-Degree View Synthesis from Extremely Sparse and Unposed Views** [CVPR 2025]  
 [[code]](https://github.com/zyqz97/Aerial_lifting) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Aerial_Lifting_Neural_Urban_Semantic_and_Building_Instance_Lifting_from_CVPR_2024_paper.pdf) [[project]](https://zyqz97.github.io/Aerial_Lifting/) **Aerial Lifting: Neural Urban Semantic and Building Instance Lifting from Aerial Imagery** [CVPR 2024]  
 [[code]](https://github.com/sunset1995/DirectVoxGO) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_Direct_Voxel_Grid_Optimization_Super-Fast_Convergence_for_Radiance_Fields_Reconstruction_CVPR_2022_paper.pdf) [[project]](https://sunset1995.github.io/dvgo/) **Direct Voxel Grid Optimization: Super-Fast Convergence for Radiance Fields Reconstruction** [CVPR 2022]  
 [[code]](https://github.com/wuminye/TeTriRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_TeTriRF_Temporal_Tri-Plane_Radiance_Fields_for_Efficient_Free-Viewpoint_Video_CVPR_2024_paper.pdf) [[project]](https://wuminye.github.io/projects/TeTriRF/) **TeTriRF: Temporal Tri-Plane Radiance Fields for Efficient Free-Viewpoint Video** [CVPR 2023]  
@@ -988,17 +988,71 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 
 #### Sparse Inputs & Generalization
 
-
+[[code]](https://github.com/barbararoessle/dense_depth_priors_nerf) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Roessle_Dense_Depth_Priors_for_Neural_Radiance_Fields_From_Sparse_Input_CVPR_2022_paper.pdf) [[project]](https://barbararoessle.github.io/dense_depth_priors_nerf/) **Dense Depth Priors for Neural Radiance Fields from Sparse Input Views** [CVPR 2022]  
+[[code]](https://github.com/xxlong0/SparseNeuS) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920210.pdf) [[project]](https://www.xxlong.site/SparseNeuS/) **SparseNeuS: Fast Generalizable Neural Surface Reconstruction from Sparse Views** [ECCV 2022]  
+[[code]](https://github.com/mjmjeong/InfoNeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_InfoNeRF_Ray_Entropy_Minimization_for_Few-Shot_Neural_Volume_Rendering_CVPR_2022_paper.pdf) [[project]](https://cv.snu.ac.kr/research/InfoNeRF/) **InfoNeRF: Ray Entropy Minimization for Few-Shot Neural Volume Rendering** [CVPR 2022]  
+[[code]](https://github.com/linjohnss/FrugalNeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Lin_FrugalNeRF_Fast_Convergence_for_Extreme_Few-shot_Novel_View_Synthesis_without_CVPR_2025_paper.pdf) [[project]](https://linjohnss.github.io/frugalnerf/) **FrugalNeRF: Fast Convergence for Extreme Few-shot Novel View Synthesis** [CVPR 2025]  
+[[code]](https://github.com/ajayjain/DietNeRF) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Jain_Putting_NeRF_on_a_Diet_Semantically_Consistent_Few-Shot_View_Synthesis_ICCV_2021_paper.pdf) [[project]](https://www.ajayj.com/dietnerf) **Putting NeRF on a Diet: Semantically Consistent Few-Shot View Synthesis** [ICCV 2021]  
+[[code]](https://github.com/vincentfung13/MINE) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_MINE_Towards_Continuous_Depth_MPI_With_NeRF_for_Novel_View_ICCV_2021_paper.pdf) [[project]](https://vincentfung13.github.io/projects/mine/) **MINE: Towards Continuous Depth MPI with NeRF for Novel View Synthesis** [ICCV 2021]  
+[[code]](https://github.com/NIRVANALAN/LN3Diff) [[paper]](https://arxiv.org/pdf/2403.12019) [[project]](https://nirvanalan.github.io/projects/ln3diff/) **Ln3Diff: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation** [ECCV 2024]  
+[[code]](https://github.com/simicvm/snerg) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Single-Stage_Diffusion_NeRF_A_Unified_Approach_to_3D_Generation_and_ICCV_2023_paper.pdf) [[project]](https://hanshengchen.com/ssdnerf/) **Single-stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction** [ICCV 2023]  
+[[paper]](https://github.com/JiahuiLei/MoSca) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Chou_GSNeRF_Generalizable_Semantic_Neural_Radiance_Fields_with_Enhanced_3D_Scene_CVPR_2024_paper.pdf) [[project]](https://timchou-ntu.github.io/gsnerf/) **GSNeRF: Generalizable Semantic Neural Radiance Fields with Enhanced 3D Scene Understanding** [CVPR 2024]  
+[[code]](https://github.com/stelzner/srt) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Sajjadi_Scene_Representation_Transformer_Geometry-Free_Novel_View_Synthesis_Through_Set-Latent_Scene_CVPR_2022_paper.pdf) [[project]](https://srt-paper.github.io/) **Scene Representation Transformer: Geometry-Free Novel View Synthesis Through Set-Latent Scene Representation** [CVPR 2022]  
+[[code]](https://github.com/autonomousvision/graf) [[paper]](https://proceedings.neurips.cc/paper/2020/file/e92e1b476bb5262d793fd40931e0ed53-Paper.pdf) **GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis** [NeurIPS 2020]  
+[[code]](https://github.com/autonomousvision/giraffe) [[paper]](https://www.cvlibs.net/publications/Niemeyer2021CVPR.pdf) [[project]](https://m-niemeyer.github.io/project-pages/giraffe/index.html) **GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields** [CVPR 2021]  
+[[code]](https://github.com/marcoamonteiro/pi-GAN) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chan_Pi-GAN_Periodic_Implicit_Generative_Adversarial_Networks_for_3D-Aware_Image_Synthesis_CVPR_2021_paper.pdf) [[project]](https://marcoamonteiro.github.io/pi-GAN-website/) **pi-GAN: Periodic Implicit Generative Adversarial Networks for 3D-Aware Image Synthesis** [CVPR 2021]  
+[[code]](https://github.com/Kitsunetic/SDF-Diffusion) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Shim_Diffusion-Based_Signed_Distance_Fields_for_3D_Shape_Generation_CVPR_2023_paper.pdf) [[project]](https://kitsunetic.github.io/sdf-diffusion/) **Diffusion-Based Signed Distance Fields for 3D Shape Generation** [CVPR 2023]  
+[[code]](https://github.com/leejielong/DiSR-NeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Lee_DiSR-NeRF_Diffusion-Guided_View-Consistent_Super-Resolution_NeRF_CVPR_2024_paper.pdf) **DiSR-NeRF: Diffusion-Guided View-Consistent Super-Resolution NeRF** [CVPR 2024]  
+[[code]](https://github.com/ActiveVisionLab/nope-nerf/tree/main) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Bian_NoPe-NeRF_Optimising_Neural_Radiance_Field_With_No_Pose_Prior_CVPR_2023_paper.pdf) [[project]](https://nope-nerf.active.vision/) **NoPe-NeRF: Optimising neural radiance field with no pose prior** [CVPR 2023]  
+[[code]](https://github.com/baskargroup/SC-NeRF) [[paper]](https://arxiv.org/abs/2503.21958) [[project]](https://baskargroup.github.io/SC-NeRF/) **SC-NeRF: NeRF-based Point Cloud Reconstruction using a Stationary Camera for Agricultural Applications** [CVPR 2025]  
+[[code]](https://github.com/munshisanowarraihan/nerf-meta) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Tancik_Learned_Initializations_for_Optimizing_Coordinate-Based_Neural_Representations_CVPR_2021_paper.pdf) [[project]](https://www.matthewtancik.com/learnit) **Learned Initializations for Optimizing Coordinate-Based Neural Representations (MetaNeRF)** [CVPR 2021]  
+[[code]](https://github.com/apchenstu/mvsnerf) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_MVSNeRF_Fast_Generalizable_Radiance_Field_Reconstruction_From_Multi-View_Stereo_ICCV_2021_paper.pdf) [[project]](https://apchenstu.github.io/mvsnerf/) **MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo** [ICCV 2021]  
+[[code]](https://github.com/jchibane/srf) [[paper]](https://ieeexplore.ieee.org/document/9578451) [[project]](https://virtualhumans.mpi-inf.mpg.de/srf/) **Stereo Radiance Fields (SRF): Learning View Synthesis from Sparse Views of Novel Scenes** [CVPR 2021]  
+[[code]](https://github.com/ajayjain/dietnerf) [[paper]](https://arxiv.org/abs/2104.00677) [[project]](https://ajayj.com/dietnerf) **DietNeRF: Reducing Spatial Bias in NeRF for Unsupervised Material Transfer** [arXiv 2021]  
+[[code]](https://github.com/facebookresearch/StyleNeRF) [[paper]](https://jiataogu.me/style_nerf/files/StyleNeRF.pdf) [[project]](https://jiataogu.me/style_nerf/) **StyleNeRF: A Style-based 3D-Aware Generator for High-resolution Image Synthesis** [ICLR 2022]  
+[[code]](https://github.com/SheldonTsui/GOF_NeurIPS2021) [[paper]](https://arxiv.org/abs/2111.00969) [[project]](https://sheldontsui.github.io/projects/GOF) **Generative Occupancy Fields for 3D Surface-Aware Image Synthesis** [NeurIPS 2021]  
+[[code]](https://github.com/VITA-Group/SinNeRF) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820712.pdf) [[project]](https://vita-group.github.io/SinNeRF/) **SinNeRF: Training Neural Radiance Fields on Complex Scenes from a Single Imag** [ECCV 2022]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_RODIN_A_Generative_Model_for_Sculpting_3D_Digital_Avatars_Using_CVPR_2023_paper.pdf)) [[project]](https://3d-avatar-diffusion.microsoft.com/) **Rodin: A Generative Model for Sculpting 3D Digital Avatars Using Diffusion** [CVPR 2023]  
+[[code]](https://github.com/zubair-irshad/NeO-360) [[paper]](https://arxiv.org/pdf/2308.12967) [[project]](https://zubair-irshad.github.io/projects/neo360.html) **NeO360: Neural Fields for Sparse View Synthesis of Outdoor Scenes** [ICCV 2023]  
+[[code]](https://github.com/Youngju-Na/UFORecon) [[paper]](https://arxiv.org/abs/2403.05086) [[project]](https://youngju-na.github.io/uforecon.github.io/) **UFORecon: Generalizable Sparse-View Surface Reconstruction from Arbitrary and Unfavorable Set** [CVPR 2024]   
+[[code]](https://github.com/ruili3/Know-Your-Neighbors) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Know_Your_Neighbors_Improving_Single-View_Reconstruction_via_Spatial_Vision-Language_Reasoning_CVPR_2024_paper.pdf) [[project]](https://ruili3.github.io/kyn/) **Know Your Neighbors: Improving Single-View Reconstruction via Spatial Vision-Language Reasoning** [CVPR 2024]
 
 
 
 
 #### Generative Models & Editing
 
-#### Robotics & SLAM
-
-
-
+[[code]](https://github.com/autonomousvision/giraffe) [[paper]](https://www.cvlibs.net/publications/Niemeyer2021CVPR.pdf) [[project]](https://m-niemeyer.github.io/project-pages/giraffe/index.html) **GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields** [CVPR 2021]  
+[[code]](https://github.com/marcoamonteiro/pi-GAN) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chan_Pi-GAN_Periodic_Implicit_Generative_Adversarial_Networks_for_3D-Aware_Image_Synthesis_CVPR_2021_paper.pdf) [[project]](https://marcoamonteiro.github.io/pi-GAN-website/) **pi-GAN: Periodic Implicit Generative Adversarial Networks for 3D-Aware Image Synthesis** [CVPR 2021]  
+[[code]](https://github.com/Kitsunetic/SDF-Diffusion.git) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Shim_Diffusion-Based_Signed_Distance_Fields_for_3D_Shape_Generation_CVPR_2023_paper.html) **Diffusion-Based Signed Distance Fields for 3D Shape Generation** [CVPR 2023]  
+[[code]](https://github.com/DP-Recon/DP-Recon) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Ni_Decompositional_Neural_Scene_Reconstruction_with_Generative_Diffusion_Prior_CVPR_2025_paper.pdf) [[project]](https://dp-recon.github.io/) **Decompositional Neural Scene Reconstruction with Generative Diffusion Prior** [CVPR 2025]  
+[[code]](https://github.com/stevliu/editnerf) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Editing_Conditional_Radiance_Fields_ICCV_2021_paper.pdf) [[project]](http://editnerf.csail.mit.edu/) **Editing Conditional Radiance Fields** [ICCV 2021]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Kaneko_AR-NeRF_Unsupervised_Learning_of_Depth_and_Defocus_Effects_From_Natural_CVPR_2022_paper.pdf) [[project]](https://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/ar-nerf/) **AR-NeRF: Unsupervised Learning of Depth and Defocus Effects from Natural Images** [CVPR 2022]  
+[[code]](https://github.com/r4dl/LAENeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Radl_LAENeRF_Local_Appearance_Editing_for_Neural_Radiance_Fields_CVPR_2024_paper.pdf) [[project]](https://r4dl.github.io/LAENeRF/) **LAENeRF: Local Appearance Editing for Neural Radiance Fields** [CVPR 2024]  
+[[code]](https://github.com/SamsungLabs/SPIn-NeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Mirzaei_SPIn-NeRF_Multiview_Segmentation_and_Perceptual_Inpainting_With_Neural_Radiance_Fields_CVPR_2023_paper.pdf) [[project]](https://spinnerf3d.github.io/) **SPIn-NeRF: Multiview Segmentation and Perceptual Inpainting with Neural Radiance Fields** [CVPR 2023]   
+[[code]](https://github.com/zju3dv/SINE) [[paper]](http://www.cad.zju.edu.cn/home/gfzhang/papers/sine/sine.pdf) [[project]](https://zju3dv.github.io/sine/) **SINE: Semantic-driven image-based NeRF editing with prior-guided editing field** [CVPR 2023]  
+[[code]](https://github.com/nerfdeformer/nerfdeformer) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Tang_NeRFDeformer_NeRF_Transformation_from_a_Single_View_via_3D_Scene_CVPR_2024_paper.pdf) **NeRFDeformer: NeRF Transformation from a Single View via 3D Scene Flows** [CVPR 2024]  
+[[code]](https://github.com/kerrj/lerf) [[paper]](https://arxiv.org/abs/2303.09553) [[project]](https://www.lerf.io/) **LERF: Language Embedded Radiance Fields** [ICCV 2023]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Mazzucchelli_IReNe_Instant_Recoloring_of_Neural_Radiance_Fields_CVPR_2024_paper.pdf) [[project]](https://iviazz97.github.io/irene/) **IReNe: Instant Recoloring of Neural Radiance Fields** [CVPR 2024]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Kaneko_Improving_Physics-Augmented_Continuum_Neural_Radiance_Field-Based_Geometry-Agnostic_System_Identification_with_CVPR_2024_paper.pdf) [[project]](https://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/lpo/) **Improving Physics-Augmented Continuum Neural Radiance Field-Based Geometry-Agnostic System Identification with Lagrangian Particle Optimization** [CVPR 2024]  
+[[code]](https://github.com/cgtuebingen/SIGNeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Dihlmann_SIGNeRF_Scene_Integrated_Generation_for_Neural_Radiance_Fields_CVPR_2024_paper.pdf) [[project]](https://signerf.jdihlmann.com/) **SIGNeRF: Scene Integrated Generation for Neural Radiance Fields** [CVPR 2024]  
+[[code]](https://github.com/JasonLSC/NeRFCodec_public) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_NeRFCodec_Neural_Feature_Compression_Meets_Neural_Radiance_Fields_for_Memory-Efficient_CVPR_2024_paper.pdf) **NeRFCodec: Neural Feature Compression Meets Neural Radiance Fields for Memory-Efficient Scene Representation** [CVPR 2024]  
+[[code]](https://github.com/cnhaox/NeRF-HuGS) [[paper]](https://arxiv.org/pdf/2403.17537) [[project]](https://cnhaox.com/NeRF-HuGS/) **NeRF-HuGS: Improved Neural Radiance Fields in Non-static Scenes Using Heuristics-Guided Segmentation** [CVPR 2024]  
+[[code]](https://github.com/kwanyun/FFaceNeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Yun_FFaceNeRF_Few-shot_Face_Editing_in_Neural_Radiance_Fields_CVPR_2025_paper.pdf) [[project]](https://kwanyun.github.io/FFaceNeRF_page/) **FFaceNeRF: Few-shot Face Editing in Neural Radiance Fields** [CVPR 2025]  
+[[code]](https://github.com/graphdeco-inria/nerfshop) [[paper]](http://www-sop.inria.fr/reves/Basilic/2023/JKKDLD23/nerfshop.pdf) [[project]](https://repo-sam.inria.fr/fungraph/nerfshop/) **NeRFshop: Interactive Editing of Neural Radiance Fields** [I3D 2023]  
+[[code]](https://github.com/jhq1234/ED-NeRF) [[paper]](https://arxiv.org/pdf/2310.02712) [[project]](https://jhq1234.github.io/ed-nerf.github.io/) **ED-NeRF: Efficient Text-Guided Editing of 3D Scene With Latent Space NeRF** [ICLR 2024]   
+[[paper]](https://arxiv.org/abs/2402.08622) [[project]](https://mfischer-ucl.github.io/nerf_analogies/) **NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs,** [CVPR 2024]  
+[[code]](https://github.com/ethanweber/nerfiller) [[paper]](https://arxiv.org/abs/2312.04560) [[project]](https://ethanweber.me/nerfiller/) **NeRFiller: Completing Scenes via Generative 3D Inpainting** [CVPR 2024]  
+[[code]](https://github.com/kcshum/pose-conditioned-NeRF-object-fusion) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Shum_Language-driven_Object_Fusion_into_Neural_Radiance_Fields_with_Pose-Conditioned_Dataset_CVPR_2024_paper.pdf) **Language-driven Object Fusion into Neural Radiance Fields with Pose-Conditioned Dataset Updates** [CVPR 2024]   
+[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_DynVideo-E_Harnessing_Dynamic_NeRF_for_Large-Scale_Motion-_and_View-Change_Human-Centric_CVPR_2024_paper.pdf) [[project]](https://zju3dv.github.io/sine/) **DynVideo-E: Harnessing Dynamic NeRF for Large-Scale Motion- and View-Change Human-Centric Video Editing** [CVPR 2024]  
+[[code]](https://github.com/sinoyou/nelf-pro) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/You_NeLF-Pro_Neural_Light_Field_Probes_for_Multi-Scale_Novel_View_Synthesis_CVPR_2024_paper.pdf) [[project]](https://sinoyou.github.io/nelf-pro/) **NeLF-Pro: Neural Light Field Probes for Multi-Scale Novel View Synthesis** [CVPR 2024]  
+[[code]](https://github.com/autonomousvision/graf) [[paper]](https://proceedings.neurips.cc/paper/2020/file/e92e1b476bb5262d793fd40931e0ed53-Paper.pdf) **GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis** [NeurIPS 2020]  
+[[code]](https://github.com/simicvm/snerg) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Single-Stage_Diffusion_NeRF_A_Unified_Approach_to_3D_Generation_and_ICCV_2023_paper.pdf) [[project]](https://hanshengchen.com/ssdnerf/) **Single-stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction** [ICCV 2023]  
+[[code]](https://github.com/ayaanzhaque/instruct-nerf2nerf) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Haque_Instruct-NeRF2NeRF_Editing_3D_Scenes_with_Instructions_ICCV_2023_paper.pdf) [[project]](https://instruct-nerf2nerf.github.io/) **Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions** [ICCV 2023]  
+[[code]](h[ttps://github.com/ethanweber/nerfiller](https://github.com/hbai98/Componerf)) [[paper]](https://vlislab22.github.io/componerf/static/videos/componerf.pdf) [[project]](https://vlislab22.github.io/componerf/) **CompoNeRF: Text-Guided Multi-object Compositional NeRF with Editable 3D Scene Layout** [ICCV 2023]  
+[[paper]](https://openreview.net/forum?id=8HwI6UavYc) [[project]](https://replaceanything3d.github.io/) **ReplaceAnything3D: Text-Guided Object Replacement in 3D Scenes** [NeurIPS 2024]   
+[[code]](https://github.com/BillyXYB/FaceDNeRF) [[paper]](https://arxiv.org/abs/2306.00783) **FaceDNeRF: Semantics-Driven Face Reconstruction with Diffusion Priors** [NeurIPS 2023]  
+[[code]](https://github.com/Dongjiahua/VICA-NeRF) [[paper]](https://openreview.net/pdf?id=Pk49a9snPe) [[project]](https://dongjiahua.github.io/VICA-NeRF/) **ViCA-NeRF: View-Consistency-Aware 3D Editing of Neural Radiance Fields** [Neurips 2023]  
 
 
 
@@ -1009,14 +1063,352 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 
 ### 3DGS
 
+[[code]](https://github.com/graphdeco-inria/gaussian-splatting) [[paper]](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf) [[project]](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) **3D Gaussian Splatting for Real-Time Radiance Field Rendering** [TOG 2023]  
+
+#### Acceleration - Optimization Algorithms, Hardware Acceleration, Adaptive Rendering
+
+><span style="color:lightblue;">💡💡 Optimization Algorithms: Progressive frequency and sampling dominate early 2025.</span>  
+><span style="color:lightblue;">💡💡 Hardware Acceleration: Mid-year shifts to GPU-specific rasterization.</span>  
+><span style="color:lightblue;">💡💡 Adaptive Rendering: Late 2025 emphasizes mobile and real-time adjustments.</span>  
+><span style="color:lightblue;">💡💡 Challenges and Projects: Memory bottlenecks addressed through quantization</span>  
+
+
+[[code]](https://github.com/YouyuChen0207/DashGaussian) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_DashGaussian_Optimizing_3D_Gaussian_Splatting_in_200_Seconds_CVPR_2025_paper.pdf) [[project]](https://dashgaussian.github.io/) **VDashGaussian: Optimizing 3D Gaussian Splatting in 200 Seconds** [CVPR 2025]  
+[[code]](https://github.com/Sharath-girish/efficientgaussian) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07976.pdf)  **EAGLES: Efficient Accelerated 3D Gaussians with Lightweight EncodingS** [ECCV 2024]  
+[[code]](https://github.com/Accelsnow/gaussian-splatting-distwar) [[paper]](https://arxiv.org/abs/2401.05345) **DISTWAR atomic reduction optimization on 3D Gaussian Splatting** [arXiv 2025]  
+[[code]](https://github.com/r4dl/StopThePop) [[paper]](https://dl.acm.org/doi/10.1145/3658187) [[project]](https://r4dl.github.io/StopThePop/) **StopThePop: Sorted Gaussian Splatting for View-Consistent Real-time Rendering** [TOG 2024]  
+[[code]](https://github.com/fatPeter/mini-splatting) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09866.pdf) **Mini-Splatting: Representing Scenes with a Constrained Number of Gaussians** [ECCV 2024]  
+[[code]](https://github.com/fatPeter/mini-splatting2) [[paper]](https://arxiv.org/pdf/2411.12788) **Mini-Splatting2: Building 360 Scenes within Minutes via Aggressive Gaussian Densification** [arXiv 2024]  
+[[code]](https://github.com/city-super/Octree-GS) [[paper]](https://ieeexplore.ieee.org/document/10993308) [[project]](https://city-super.github.io/octree-gs/) **Octree-GS: Towards Consistent Real-time Rendering** [TPAMI 2025]  
+[[code]](https://github.com/cvlab-kaist/PF3plat) [[paper]](https://openreview.net/pdf?id=VjI1NnsW4t) [[project]](https://cvlab-kaist.github.io/PF3plat/) **PF3plat: Pose-Free Feed-Forward 3D Gaussian Splatting** [ICML 2025]  
+[[code]](https://github.com/SaiJoshika/FreGS-3D-Gaussian-Splatting) [[paper]](https://arxiv.org/abs/2403.06908) [[project]](https://rogeraigc.github.io/FreGS-Page/) **FreGS: 3D Gaussian Splatting with Progressive Frequency Regularizations** [CVPR 2024]  
+[[code]](https://github.com/tuallen/speede3dgs) [[paper]](https://arxiv.org/pdf/2506.07917) [[project]](https://speede3dgs.github.io/) **Speedy Deformable 3D Gaussian Splatting: Fast Rendering and Compression of Dynamic Scenes** [arXiv 2025]  
+[[code]](https://github.com/hjhyunjinkim/MH-3DGS) [[paper]](https://arxiv.org/abs/2506.12945) [[project]](https://hjhyunjinkim.github.io/MH-3DGS/) **Metropolis-Hastings Sampling for 3D Gaussian Reconstruction** [NeurIPS 2025]  
+[[code]](https://github.com/donydchen/mvsplat) [[paper]](https://arxiv.org/abs/2403.14627) [[project]](https://donydchen.github.io/mvsplat/) **MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images** [ECCV 2024]  
+[[code]](https://github.com/WeiPhil/nbvh) [[paper]](https://weiphil.s3.eu-central-1.amazonaws.com/neural_bvh.pdf) [[project]](https://weiphil.github.io/portfolio/neural_bvh) **N-BVH: Neural ray queries with bounding volume hierarchies** [ SIGGRAPH 2024]  
+[[code]](https://github.com/NVlabs/LongSplat) [[paper]](https://arxiv.org/abs/2508.14041) [[project]](https://linjohnss.github.io/longsplat/) **LongSplat: Robust Unposed 3D Gaussian Splatting for Casual Long Videos** [ICCV 2025]  
+[[code]](https://github.com/hiroxzwang/adrgaussian) [[paper]](https://dl.acm.org/doi/10.1145/3680528.3687675) [[project]](https://hiroxzwang.github.io/publications/adrgaussian/) **AdR-Gaussian: Adaptive Radius** [SIGGRAPH Asia 2024]  
+[[code]](https://github.com/j-alex-hanson/speedy-splatg) [[paper]](https://arxiv.org/pdf/2412.00578) [[project]](https://speedysplat.github.io/) **Speedy-Splat: Fast 3D Gaussian Splatting with Sparse Pixels and Sparse Primitives** [CVPR 2025]  
+[[code]](https://github.com/ant-research/PlanarSplatting) [[paper]](https://arxiv.org/abs/2412.03451) [[project]](https://icetttb.github.io/PlanarSplatting/) **PlanarSplatting: Accurate Planar Surface Reconstruction in 3 Minutes** [CVPR 2025]  
+[[code]](https://github.com/InternLandMark/FlashGS) [[paper]](https://arxiv.org/pdf/2408.07967) [[project]](https://maxwellf1.github.io/flashgs_page/) **FlashGS: Efficient 3D Gaussian Splatting for Large-scale and High-resolution Rendering** [arXiv 2024]  
+[[code]](https://github.com/humansensinglab/taming-3dgs) [[paper]](https://humansensinglab.github.io/taming-3dgs/docs/paper_lite.pdf) [[project]](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) **Taming 3DGS: High-Quality Radiance Fields with Limited Resources** [SIGGRAPH Asia 2024]  
+[[code]](https://drive.google.com/file/d/1J9Hl7KPMOkBmrt6UTFf_u9sQcjbblILA/view) [[paper]](https://zju3dv.github.io/longvolcap/) [[project]](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) **Representing Long Volumetric Video with Temporal Gaussian Hierarchy** [TOG 2024]  
+[[code]](https://arxiv.org/pdf/2411.11363) [[paper]](https://arxiv.org/pdf/2411.11363) [[project]](https://yaourtb.github.io/GPS-Gaussian+) **GPS-Gaussian+: Generalizable Pixel-Wise 3D Gaussian Splatting for Real-Time Human-Scene Rendering from Sparse Views** [T-PAMI 2025]  
+[[code]](https://github.com/Yuhuoo/EasySplat) [[paper]](https://arxiv.org/abs/2501.01003) **EasySplat: View-Adaptive Learning** [ICME 2025]  
+[[code]](https://github.com/VITA-Group/VideoLifter) [[paper]](https://arxiv.org/abs/2501.01949) [[project]](https://videolifter.github.io/) **VideoLifter: Lifting Videos to 3D with Fast Hierarchical Stereo Alignment** [CVPR 2025]  
+[[code]](https://github.com/SJTU-MVCLab/SeeLe) [[paper]](https://arxiv.org/abs/2503.05168) [[project]](https://seele-project.netlify.app/) **SEELE: A Unified Acceleration Framework for Real-Time Gaussian Splatting** [arXiv 2023]  
+[[code]](https://github.com/fraunhoferhhi/Improving-ADC-3DGS) [[paper]](https://arxiv.org/pdf/2503.14274) **3D Gaussian Splatting for Real-Time Radiance Field Rendering** [ICPR 2025]  
+[[paper]](https://arxiv.org/pdf/2412.07293) [[project]](https://openreview.net/forum?id=EJZfcKXdiT) **Event-3DGS: Event-based 3D Reconstruction Using 3D Gaussian Splatting** [NeurIPS 2024]  
+[[code]](https://github.com/lukasHoel/3DGS-LM) [[paper]](https://arxiv.org/abs/2409.12892) [[project]](https://lukashoel.github.io/3DGS-LM/) **3DGS-LM: Faster Gaussian-Splatting Optimization with Levenberg-Marquardt** [ICCV 2025]  
+[[paper]](https://m-niemeyer.github.io/radsplat/static/pdf/niemeyer2024radsplat.pdf) [[project]](https://lukashoel.github.io/3DGS-LM/) **RadSplat: Radiance Field-Informed Gaussian Splatting for Robust Real-Time Rendering with 900+ FPS** [3DV 2025]  
+[[paper]](https://arxiv.org/abs/2409.12892) **TC-GS: A Faster and Flexible 3DGS Module Utilizing Tensor Cores** [arXiv 2025]  
+[[paper]](https://arxiv.org/pdf/2505.08510) **3DGS$^2$: Near Second-order Converging 3D Gaussian Splatting** [arxiv 2025]  
+[[paper]](https://arxiv.org/pdf/2505.08510) **FOCI: Trajectory Optimization on Gaussian Splats** [arxiv 2025]  
+[[paper]](https://arxiv.org/pdf/2501.14534) **Trick-GS: A Balanced Bag of Tricks for Efficient Gaussian Splatting** [arxiv 2025]  
+[[paper]](https://arxiv.org/pdf/2501.00342) **SG-Splatting: Accelerating 3D Gaussian Splatting with Spherical Gaussians** [arxiv 2025]  
+[[paper]](https://arxiv.org/pdf/2412.07608) **Faster and Better 3D Splatting via Group Training** [arxiv 2024]  
+
+
+
+
+
+#### Quality & Realism Improvement - Geometric Precision, Materials & Lighting, Special Conditions
+
+><span style="color:lightblue;">💡💡 Geometric Precision: Multi-scale alignments.</span>  
+><span style="color:lightblue;">💡💡 Materials & Lighting: Residual tone mappers.</span>  
+><span style="color:lightblue;">💡💡 Special Conditions: Blur-agnostic and watermarking.</span>  
+
+
+[[code]](https://github.com/LiuJF1226/GaussHDR) [[paper]](https://arxiv.org/abs/2503.10143) [[project]](https://liujf1226.github.io/GaussHDR/) **GaussHDR: High Dynamic Range Gaussian Splatting** [CVPR 2025]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Wan_S2Gaussian_Sparse-View_Super-Resolution_3D_Gaussian_Splatting_CVPR_2025_paper.pdf) [[project]](https://jeasco.github.io/S2Gaussian/) **S2Gaussian: Sparse-View Super-Resolution 3D Gaussian Splatting** [CVPR 2025]  
+[[code]](https://github.com/LetianHuang/op43dgs) [[paper]](https://arxiv.org/abs/2402.00752) [[project]](https://letianhuang.github.io/op43dgs/) **On the Error Analysis of 3D Gaussian Splatting and an Optimal Projection Strategy** [ECCV 2024]  
+[[code]](https://github.com/benhenryL/Deblurring-3D-Gaussian-Splatting) [[paper]](https://arxiv.org/abs/2401.00834) [[project]](https://benhenryl.github.io/Deblurring-3D-Gaussian-Splatting/) **Deblurring-3D-Gaussian-Splatting** [ECCV 2024]  
+[[paper]](https://arxiv.org/abs/2501.14231) **Micro-macro Wavelet-based Gaussian Splatting for 3D Reconstruction from Unconstrained Images** [AAAI 2025]  
+[[code]](https://github.com/kuai-lab/cvpr25_3D-GSW) [[paper]](https://arxiv.org/abs/2409.13222) **3D-GSW: 3D Gaussian Splatting for Robust Watermarking** [CVPR 2025]  
+[[code]](https://github.com/hbb1/2d-gaussian-splatting) [[paper]](https://arxiv.org/abs/2403.17888) [[project]](https://surfsplatting.github.io/) **2D Gaussian Splatting for Geometrically Accurate Radiance Fields** [SIGGRAPH 2024]  
+[[code]](https://github.com/Anttwo/SuGaR) [[paper]](https://arxiv.org/abs/2311.12775) [[project]](https://anttwo.github.io/sugar/) **SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering** [CVPR 2024]  
+[[code]](https://github.com/Asparagus15/GaussianShader) [[paper]](https://arxiv.org/abs/2311.17977) [[project]](https://asparagus15.github.io/GaussianShader.github.io/) **GaussianShader: 3D Gaussian Splatting with Shading Functions for Reflective Surfaces** [CVPR 2024]   
+[[code]](https://github.com/HanzhiChang/MeshSplat) [[paper]](https://arxiv.org/pdf/2508.17811) [[project]](https://hanzhichang.github.io/meshsplat_web/) **MeshSplat: Generalizable Sparse-View Surface Reconstruction via Gaussian Splattingt** [arXiv 2025]  
+[[code]](https://github.com/garrisonz/LabelGS) [[paper]](https://arxiv.org/pdf/2508.19699) **LabelGS: Label-Aware 3D Gaussian Splatting for 3D Scene Segmentation** [PRCV 2025]  
+[[code]](https://github.com/XiaoBin2001/Improved-GS) [[paper]](https://arxiv.org/pdf/2508.12313) [[project]](https://xiaobin2001.github.io/improved-gs-web/) **Improving Densification in 3D Gaussian Splatting for High-Fidelity Rendering** [arXiv 2025]  
+[[paper]](https://arxiv.org/abs/2509.02141) [[project]](https://mohitm1994.github.io/GRMM/) **GRMM: Real-Time High-Fidelity Gaussian Morphable Head Model with Learned Residuals** [arXiv 2025]  
+[[code]](https://github.com/kcheng1021/GaussianPro) [[paper]](https://arxiv.org/abs/2402.14650) [[project]](https://kcheng1021.github.io/gaussianpro.github.io/) **GaussianPro: 3D Gaussian Splatting with Progressive Propagation** [ICML 2024]  
+[[code]](https://github.com/NJU-3DV/Relightable3DGaussian) [[paper]](https://arxiv.org/abs/2311.16043) [[project]](https://nju-3dv.github.io/projects/Relightable3DGaussian/) **Relightable 3D Gaussian: Real-time Point Cloud Relighting with BRDF Decomposition and Ray Tracing** [ECCV 2024]  
+[[paper]](https://arxiv.org/abs/2403.10814) [[project]](https://lukashoel.github.io/3DGS-LM/) **DarkGS: Learning Neural Illumination and 3D Gaussians Relighting for Robotic Exploration in the Dark** [ICRA 2024]  
+[[code]](https://github.com/lzhnb/Analytic-Splatting) [[paper]](https://arxiv.org/abs/2403.11056) [[project]](https://lzhnb.github.io/project-pages/analytic-splatting/) **Analytic-Splatting: Anti-Aliased 3D Gaussian Splatting via Analytic Integration** [ECCV 2024]  
+[[code]](https://github.com/snldmt/BAGS) [[paper]](https://arxiv.org/pdf/2403.04926) [[project]](https://nwang43jhu.github.io/BAGS/) **BAGS: Blur Agnostic Gaussian Splatting through Multi-Scale Kernel Modeling** [ECCV 2024]  
+[[code]](https://github.com/yanyan-li/GeoGaussian) [[paper]](https://arxiv.org/abs/2403.11324) [[project]](https://yanyan-li.github.io/project/gs/geogaussian.html) **GeoGaussian: Geometry-aware Gaussian Splatting for Scene Rendering** [ECCV 2024]  
+[[code]](https://github.com/turandai/gaussian_surfels) [[paper]](https://arxiv.org/pdf/2404.17774) [[project]](https://turandai.github.io/projects/gaussian_surfels/) **High-quality Surface Reconstruction using Gaussian Surfels** [ACM SIGGRAPH 2024]  
+[[code]](https://github.com/lzhnb/GS-IR) [[paper]](https://arxiv.org/abs/2311.16473) [[project]](https://lzhnb.github.io/project-pages/gs-ir.html) **GS-IR: 3D Gaussian Splatting for Inverse Rendering** [arXiv 2025]  
+[[code]](https://github.com/cuiziteng/Luminance-GS) [[paper]](https://arxiv.org/abs/2504.01503v2) [[project]](https://cuiziteng.github.io/Luminance_GS_web/) **Luminance-GS: Adapting 3D Gaussian Splatting to Challenging Lighting Conditions with View-Adaptive Curve Adjustment** [CVPR 2025]  
+[[code]](https://github.com/Jumponthemoon/WeatherGS) [[paper]](https://arxiv.org/pdf/2412.18862) [[project]](https://jumponthemoon.github.io/weather-gs/) **WeatherGS: 3D Scene Reconstruction in Adverse Weather Conditions via Gaussian Splatting** [arXiv 2025]  
+
+
+
+
+#### Dynamic & Deformable Scenes - 4D Representations, Motion Decomposition, Long Videos
+
+><span style="color:lightblue;">💡💡 4D Representations: Flow-guided extensions.</span>  
+><span style="color:lightblue;">💡💡 Motion Decomposition: Progressive segmentation.</span>  
+><span style="color:lightblue;">💡💡 Long Videos: Robust unposed methods.</span>  
+
+
+[[code]](https://github.com/JonathonLuiten/Dynamic3DGaussians) [[paper]](https://arxiv.org/pdf/2308.09713) [[project]](https://dynamic3dgaussians.github.io/) **Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis** [3DV 2024]  
+[[code]](https://github.com/mikeqzy/3dgs-avatar-release) [[paper]](https://arxiv.org/abs/2312.09228) [[project]](https://neuralbodies.github.io/3DGS-Avatar/index.html) **3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting** [CVPR 2024]  
+[[code]](https://github.com/longxiang-ai/Human101) [[paper]](https://arxiv.org/pdf/2312.15258) [[project]](https://longxiang-ai.github.io/Human101/) **Human101: Training 100+FPS Human Gaussians in 100s from 1 View** [Arxiv 2023]  
+[[code]](https://github.com/ingra14m/Deformable-3D-Gaussians) [[paper]](https://arxiv.org/abs/2309.13101) [[project]](https://ingra14m.github.io/Deformable-Gaussians/) **Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction** [CVPR 2024]  
+[[code]](https://github.com/jiawei-ren/dreamgaussian4d) [[paper]](https://arxiv.org/abs/2312.17142) [[project]](https://jiawei-ren.github.io/projects/dreamgaussian4d/) **DreamGaussian4D:Generative 4D Gaussian Splatting** [Arxiv 2023]  
+[[code]](https://github.com/VITA-Group/4DGen) [[paper]](https://vita-group.github.io/4DGen/) [[project]](https://vita-group.github.io/4DGen/) **4DGen: Grounded 4D Content Generation with Spatial-temporal Consistency** [Arxiv 2024]  
+[[code]](https://github.com/oppo-us-research/SpacetimeGaussians) [[paper]](https://arxiv.org/pdf/2312.16812) [[project]](https://oppo-us-research.github.io/SpacetimeGaussians-website/) **Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis** [CVPR 2024]  
+[[code]](https://github.com/hustvl/4DGaussians) [[paper]](https://arxiv.org/pdf/2310.08528v2) [[project]](https://guanjunwu.github.io/4dgs/index.html) **4D Gaussian Splatting for Real-Time Dynamic Scene Rendering** [CVPR 2024]  
+[[code]](https://github.com/zhichengLuxx/GaGS) [[paper]](https://arxiv.org/pdf/2404.06270) [[project]](https://npucvr.github.io/GaGS/) **3D Geometry-aware Deformable Gaussian Splatting for Dynamic View Synthesis** [CVPR 2024]  
+[[code]](https://github.com/lizhe00/AnimatableGaussians) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Animatable_Gaussians_Learning_Pose-dependent_Gaussian_Maps_for_High-fidelity_Human_Avatar_CVPR_2024_paper.pdf) [[project]](https://animatable-gaussians.github.io/) **Animatable Gaussians: Learning Pose-Dependent Gaussian Maps for High-Fidelity Human Avatar Modeling** [CVPR 2024]  
+[[code]](https://github.com/moqiyinlun/HiFi4G_Dataset) [[paper]](https://arxiv.org/abs/2312.03461) [[project]](https://nowheretrix.github.io/HiFi4G/) **HiFi4G: High-Fidelity Human Performance Rendering via Compact Gaussian Splatting** [CVPR 2024]  
+[[code]](https://github.com/skhu101/GauHuman) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Hu_GauHuman_Articulated_Gaussian_Splatting_from_Monocular_Human_Videos_CVPR_2024_paper.pdf) [[project]](https://skhu101.github.io/GauHuman/) **GauHuman: Articulated Gaussian Splatting from Monocular Human Videos** [CVPR 2024]  
+[[code]](https://github.com/YuelangX/Gaussian-Head-Avatar) [[paper]](https://arxiv.org/abs/2312.03029) [[project]](https://yuelangx.github.io/gaussianheadavatar/) **Gaussian Head Avatar:Ultra High-fidelity Head Avatar via Dynamic Gaussians** [CVPR 2024]  
+[[code]](https://github.com/xwx0924/SurgicalGaussian) [[paper]](https://arxiv.org/abs/2407.05023) [[project]](https://surgicalgaussian.github.io/) **SurgicalGaussian: Deformable 3D Gaussians for High-Fidelity Surgical Scene Reconstruction** [arXiv 2024]  
+[[paper]](https://arxiv.org/abs/2312.00112) [[project]](https://agelosk.github.io/dynmf/) **DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting** [ECCV 2024]  
+[[code]](https://github.com/markomih/SplatFields) [[paper]](https://github.com/markomih/SplatFields) [[project]](https://markomih.github.io/SplatFields/) **SplatFields:Neural Gaussian Splats for Sparse 3D and 4D Reconstruction** [ECCV 2024]  
+[[code]](https://github.com/RuijieZhu94/MotionGS) [[paper]](https://openreview.net/pdf?id=6FTlHaxCpR) [[project]](https://github.com/RuijieZhu94/MotionGS) **MotionGS: Exploring Explicit Motion Guidance for Deformable 3D Gaussian Splatting** [NeurIPS 2024]  
+[[code]](https://github.com/juno181/Ex4DGS) [[paper]](https://arxiv.org/abs/2410.15629) [[project]](https://leejunoh.com/Ex4DGS/) **Fully Explicit Dynamic Gaussian Splatting** [NeurIPS 2024]  
+[[paper]](https://papers.neurips.cc/paper_files/paper/2024/hash/e95da8078ec8389533c802e368da5298-Abstract-Conference.html) [[project]](https://deep-diver.github.io/neurips2024/posters/0syctgl4in/) **4D Gaussian Splatting in the Wild with Uncertainty-Aware Regularization** [NeurIPS 2024]  
+[[code]](https://github.com/fudan-zvg/4d-gaussian-splatting) [[paper]](https://arxiv.org/abs/2310.10642) [[project]](https://fudan-zvg.github.io/4d-gaussian-splatting/) **Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting** [ICLR 2024]  
+[[code]](https://github.com/waczjoan/D-MiSo) [[paper]](https://arxiv.org/abs/2405.14276) **D-MISO: Editing Dynamic 3D Scenes Using Multi-Gaussians Soup** [NeurIPS 2024]  
+[[code]](https://github.com/facebookresearch/D3GA) [[paper]](https://arxiv.org/pdf/2311.08581) [[project]](https://zielon.github.io/d3ga/) **D3GA - Drivable 3D Gaussian Avatars** [3DV 2025]  
+[[code]](https://github.com/xg-chu/GPAvatar) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Feng_GPAvatar_High-fidelity_Head_Avatars_by_Learning_Efficient_Gaussian_Projections_CVPR_2025_paper.pdf) [[project]](https://xg-chu.site/project_gpavatar/) **GPAvatar: High-Fidelity Head Avatars by Learning Efficient Gaussian Projections** [ICLR 2024]  
+[[code]](https://github.com/gqk/HiCoM) [[paper]](https://arxiv.org/pdf/2411.07541) **HiCoM: Hierarchical Coherent Motion for Dynamic Streamable Scenes with 3D Gaussian Splatting** [NeurIPS 2024]  
+[[code]](https://github.com/mlzxy/motion-blender-gs) [[paper]](https://arxiv.org/abs/2503.09040) [[project]](https://mlzxy.github.io/motion-blender-gs/) **Motion Blender Gaussian Splatting** [CoRL 2025]  
+[[code]](https://github.com/wgsxm/OmniPhysGS) [[paper]](https://arxiv.org/abs/2501.18982) [[project]](https://wgsxm.github.io/projects/omniphysgs/) **OmniPhysGS: 3D Constitutive Gaussians for General Physics-based Dynamics Generation** [ICLR 2025]  
+[[code]](https://github.com/brownvc/GauFRe) [[paper]](https://lynl7130.github.io/gaufre/static/pdfs/WACV_2025___GauFRe%20(1).pdf) [[project]](https://lynl7130.github.io/gaufre/index.html) **GauFRe🧇: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis** [WACV 2025]  
+[[code]](https://github.com/weify627/4D-Rotor-Gaussians) [[paper]](https://arxiv.org/abs/2402.03307) [[project]](https://weify627.github.io/4drotorgs/) **4D-Rotor Gaussian Splatting: Towards Efficieant Novel View Synthesis for Dynamic Scenes** [SIGGRAPH 2024]  
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
 
 
 
 
 
 
+#### Large-Scale & Unbounded Scenes
+
+><span style="color:lightblue;">💡💡 City-Level Reconstructions: Progressive propagation.</span>  
+><span style="color:lightblue;">💡💡 Driving Scenes: Moving object resistance.</span>  
+><span style="color:lightblue;">💡💡 Parallel Optimization: Scaling parameters.</span>  
 
 
+[[code]](https://github.com/kangpeilun/VastGaussian) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Lin_VastGaussian_Vast_3D_Gaussians_for_Large_Scene_Reconstruction_CVPR_2024_paper.pdf) [[project]](https://vastgaussian.github.io/) **VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction** [CVPR 2024]  
+[[code]](https://github.com/nyu-systems/Grendel-GS) [[paper]](https://arxiv.org/abs/2406.18533) [[project]](https://daohanlu.github.io/scaling-up-3dgs/) **Gaussian Splatting at Scale with Distributed Training System** [ICLR 2025]  
+[[code]](https://github.com/Linketic/CityGaussian) [[paper]](https://arxiv.org/pdf/2404.01133) [[project]](https://dekuliutesla.github.io/citygs/) **CityGaussian Series for High-quality Large-Scale Scene Reconstruction with Gaussians** [ECCV 2024]  
+[[code]](https://github.com/Linketic/CityGaussian/tree/CityGaussian_V2.0) [[paper]](https://dekuliutesla.github.io/CityGaussianV2/static/paper/CityGaussianV2.pdf) [[project]](https://dekuliutesla.github.io/CityGaussianV2/) **CityGaussianV2: Efficient and Geometrically Accurate Reconstruction for Large-Scale Scenes** [ICLR 2025]  
+[[code]](https://arxiv.org/abs/2412.17612) [[paper]](https://arxiv.org/abs/2412.17612) [[project]](https://gyy456.github.io/CoSurfGS/#:~:text=To%20address%20these%20issues%2C%20we%20propose%20CoSurfGS%2C%20a,based%20on%20distributed%20learning%20for%20large-scale%20surface%20reconstruction.) **CoSurfGS: Collaborative 3D Surface Gaussian Splatting with Distributed Learning for Large Scene Reconstruction** [ECCV 2024]  
+[[code]](https://github.com/chengweialan/DeSiRe-GS) [[paper]](https://arxiv.org/abs/2411.11921) **DeSiRe-GS: 4D Street Gaussians for Static-Dynamic Decomposition and Surface Reconstruction for Urban Driving Scenes** [Arxiv 2024]  
+[[code]](https://github.com/3DV-Coder/FGS-SLAM) [[paper]](https://arxiv.org/pdf/2503.01109) **FGS-SLAM: Fourier-based Gaussian Splatting for Real-time SLAM with Sparse and Dense Map Fusion** [IROS 2025]  
+[[code]](https://github.com/EastbeanZhang/Gaussian-Wild) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://eastbeanzhang.github.io/GS-W/) **Gaussian in the Wild: 3D Gaussian Splatting for Unconstrained Image Collections** [ECCV 2024]  
+[[code]](https://github.com/autonomousvision/gaussian-opacity-fields) [[paper]](https://drive.google.com/file/d/1_IEpaSqDP4DzQ3TbhKyjhXo6SKscpaeq/view) [[project]](https://niujinshuchong.github.io/gaussian-opacity-fields/) **Gaussian Opacity Fields: Efficient Adaptive Surface Reconstruction in Unbounded Scenes** [SIGGRAPH ASIA 2024]  
+[[code]](https://github.com/zhaofuq/LOD-3DGS) [[paper]](https://dl.acm.org/doi/pdf/10.1145/3687762) [[project]](https://zhaofuq.github.io/LetsGo/) **LetsGo: Large-Scale Garage Modeling and Rendering via LiDAR-Assisted Gaussian Primitives** [SIGGRAPH Asia 2024]  
+[[code]](https://github.com/AIBluefisher/DOGS) [[paper]](https://aibluefisher.github.io/DOGS/) [[project]](https://aibluefisher.github.io/DOGS/) **DOGS: Distributed-Oriented Gaussian Splatting for Large-Scale 3D Reconstruction Via Gaussian Consensus** [NeurIPS 2024]  
+[[code]](https://github.com/VITA-Group/LightGaussian) [[paper]](https://arxiv.org/pdf/2311.17245) [[project]](https://lightgaussian.github.io/) **LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS** [NeurIPS 2024]  
+[[code]](https://github.com/xiliu8006/3DGS-Enhancer) [[paper]](3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors) [[project]](https://xiliu8006.github.io/3DGS-Enhancer-project/) **3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors** [NeurIPS 2024]  
+[[code]](https://github.com/Jixuan-Fan/Momentum-GS) [[paper]](https://arxiv.org/abs/2412.04887) [[project]](https://jixuan-fan.github.io/Momentum-GS_Page/) **Momentum-GS: Momentum Gaussian Self-Distillation for High-Quality Large Scene Reconstruction** [ICCV 2025]  
+[[code]](https://github.com/graphdeco-inria/hierarchical-3d-gaussians) [[paper]](https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/hierarchical-3d-gaussians_low.pdf) [[project]](https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/) **A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets** [ECCV 2024]  
+[[code]](https://github.com/AIBluefisher/DOGS) [[paper]](https://aibluefisher.github.io/DOGS/) [[project]](https://aibluefisher.github.io/DOGS/) **DOGS: Distributed-Oriented Gaussian Splatting for Large-Scale 3D Reconstruction Via Gaussian Consensus** [NeurIPS 2024]  
+
+
+
+
+#### Sparse Inputs & Generalization
+
+><span style="color:lightblue;">💡💡 Single/Few Views: Sparse synthesis.</span>  
+><span style="color:lightblue;">💡💡 DFeed-Forward: Instant models.</span>  
+><span style="color:lightblue;">💡💡 Generalization: Neural splats.</span>  
+
+
+[[code]](https://github.com/ForMyCat/SparseGS) [[paper]](https://arxiv.org/abs/2312.00206) [[project]](https://formycat.github.io/SparseGS-Real-Time-360-Sparse-View-Synthesis-using-Gaussian-Splatting/) **SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting** [arXiv 2023]  
+[[paper]](https://arxiv.org/abs/2503.04314) [[project]](https://jeasco.github.io/S2Gaussian/) **S2Gaussian: Sparse-View Super-Resolution 3D Gaussian Splatting** [CVPR 2025]  
+[[code]](https://github.com/VITA-Group/FSGS) [[paper]](https://arxiv.org/abs/2312.00451) [[project]](https://zehaozhu.github.io/FSGS/) **FSGS: Real-Time Few-Shot View Synthesis using Gaussian Splatting** [ECCV 2024]  
+[[code]](https://github.com/dcharatan/pixelsplat) [[paper]](https://davidcharatan.com/pixelsplat/) [[project]](https://davidcharatan.com/pixelsplat/) **pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction** [ECCV 2024]  
+[[code]](https://github.com/szymanowiczs/splatter-image) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Szymanowicz_Splatter_Image_Ultra-Fast_Single-View_3D_Reconstruction_CVPR_2024_paper.pdf)  **Splatter Image: Ultra-Fast Single-View 3D Reconstruction** [CVPR 2024]  
+[[code]](https://github.com/Fictionarry/DNGaussian) [[paper]](https://arxiv.org/abs/2403.06912) [[project]](https://guanxinglu.github.io/ManiGaussian/) **DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization** [CVPR 2024]  
+[[code]](https://github.com/Chrixtar/latentsplat) [[paper]](https://geometric-rl.mpi-inf.mpg.de/latentsplat/static/assets/latentSplat.pdf) [[project]](https://geometric-rl.mpi-inf.mpg.de/latentsplat/) ** latentSplat: Autoencoding Variational Gaussians for Fast Generalizable 3D Reconstruction** [ECCV 2024]  
+[[code]](https://github.com/SkyworkAI/Gamba) [[paper]](https://arxiv.org/abs/2403.18795) [[project]](https://florinshen.github.io/gamba-project/) **Gamba: Marry Gaussian Splatting with Mamba for single view 3D reconstruction** [TPAMI 2024]  
+[[code]](https://github.com/jiaw-z/CoR-GS) [[paper]](https://arxiv.org/pdf/2405.12110) [[project]](https://jiaw-z.github.io/CoR-GS/) **CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization** [ECCV 2024]  
+[[code]](https://github.com/Open3DVLab/HiSplat) [[paper]](https://arxiv.org/pdf/2410.06245) [[project]](https://open3dvlab.github.io/HiSplat/) **HiSplat: Hierarchical 3D Gaussian Splatting for Generalizable Sparse-View Reconstruction** [ICLR 2025]  
+[[code]](https://github.com/TencentARC/FreeSplatter) [[paper]](https://arxiv.org/abs/2412.09573) **FreeSplatter: Pose-free Gaussian Splatting for Sparse-view 3D Reconstruction** [ICCV 2025]  
+[[code]](https://github.com/gurutvapatle/AD-GS) [[paper]](https://arxiv.org/abs/2509.11003) [[project]](https://gurutvapatle.github.io/publications/2025/ADGS.html) **AD-GS: Alternating Densification for Sparse-Input 3D Gaussian Splatting** [ACM SIGGRAPH Asia 2025]  
+[[code]](https://github.com/VAST-AI-Research/TriplaneGaussian) [[paper]](https://arxiv.org/abs/2312.09147) [[project]](https://zouzx.github.io/TriplaneGaussian/) **Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers** [Arxiv 2023]  
+[[code]](https://github.com/markomih/SplatFields) [[paper]](https://github.com/markomih/SplatFields) [[project]](https://markomih.github.io/SplatFields/) **SplatFields:Neural Gaussian Splats for Sparse 3D and 4D Reconstruction** [ECCV 2024]  
+[[code]](https://github.com/Gynjn/selfsplat) [[paper]](https://arxiv.org/abs/2411.17190) [[project]](https://gynjn.github.io/selfsplat/) **SelfSplat: Pose-Free and 3D Prior-Free Generalizable 3D Gaussian Splatting** [CVPR 2025]  
+[[code]](https://github.com/ranrhuang/SPFSplat) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://ranrhuang.github.io/spfsplat/) **No Pose at All: Self-Supervised Pose-Free 3D Gaussian Splatting from Sparse Views** [ICCV 2025]  
+[[code]](https://github.com/ueoo/DropGaussian) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Park_DropGaussian_Structural_Regularization_for_Sparse-view_Gaussian_Splatting_CVPR_2025_paper.pdf) **DropGaussian: Structural Regularization for Sparse-view Gaussian Splatting** [CVPR 2025]  
+[[code]](https://github.com/donydchen/mvsplat) [[paper]](https://arxiv.org/abs/2403.14627) [[project]](https://donydchen.github.io/mvsplat/) **MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images** [ECCV 2024]  
+[[code]](https://github.com/xingyoujun/transplat) [[paper]](https://xingyoujun.github.io/transplat/) [[project]](https://xingyoujun.github.io/transplat/) **TranSplat: Generalizable 3D Gaussian Splatting from Sparse Multi-View Images with Transformers** [AAAI 2025]  
+[[code]](https://github.com/chobao/) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Bao_Free360_Layered_Gaussian_Splatting_for_Unbounded_360-Degree_View_Synthesis_from_CVPR_2025_paper.pdf) [[project]](https://zju3dv.github.io/free360/) **Free360: Layered Gaussian Splatting for Unbounded 360-Degree View Synthesis from Extremely Sparse and Unposed Views** [CVPR 2025] 
+
+
+
+
+
+#### Generative Models
+
+><span style="color:lightblue;">💡💡 Single/Few Views: Sparse synthesis.</span>  
+><span style="color:lightblue;">💡💡 DFeed-Forward: Instant models.</span>  
+><span style="color:lightblue;">💡💡 Generalization: Neural splats.</span>  
+
+
+[[code]](https://github.com/hzxie/GaussianCity) [[paper]](https://arxiv.org/abs/2406.06526) **Generative Gaussian Splatting for Unbounded 3D City Generation** [CVPR 2025]  
+[[code]](https://github.com/dreamgaussian/dreamgaussian) [[paper]](https://arxiv.org/abs/2309.16653) [[project]](https://dreamgaussian.github.io/) **DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation** [ICLR 2024]  
+[[code]](https://github.com/weiqi-zhang/DiffGS) [[paper]](https://arxiv.org/abs/2410.19657) [[project]](https://junshengzhou.github.io/DiffGS/) **DiffGS: Functional Gaussian Splatting Diffusion** [NeurIPS 2024]  
+[[code]](https://github.com/hustvl/GaussianDreamer) [[paper]](https://arxiv.org/abs/2310.08529) [[project]](https://taoranyi.com/gaussiandreamer/) **GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models** [CVPR 2024]  
+[[code]](https://github.com/gohyojun15/SplatFlow) [[paper]](https://arxiv.org/abs/2411.16443) [[project]](https://gohyojun15.github.io/SplatFlow/) **SplatFlow: Multi-View Rectified Flow Model for 3D Gaussian Splatting Synthesis** [CVPR 2025]  
+[[code]](https://github.com/chenguolin/DiffSplat) [[paper]](https://arxiv.org/abs/2501.16764) [[project]](https://chenguolin.github.io/projects/DiffSplat/) **DiffSplat: Repurposing Image Diffusion Models for Scalable Gaussian Splat Generation** [ICLR 2025]  
+
+
+
+
+#### Generative Models
+
+><span style="color:lightblue;">💡💡 Style Transfer: Neural transfers.</span>  
+><span style="color:lightblue;">💡💡 Scene Editing: Language-aware.</span>  
+
+
+[[code]](https://github.com/Kunhao-Liu/StyleGaussian) [[paper]](https://arxiv.org/abs/2403.07807) [[project]](https://kunhao-liu.github.io/StyleGaussian/) **StyleGaussian: Instant 3D Style Transfer with Gaussian Splatting** [SIGGRAPH Asia 2024]  
+[[code]](https://github.com/Kristen-Z/StylizedGS) [[paper]](https://arxiv.org/abs/2404.05220) [[project]](https://kristen-z.github.io/stylizedgs/) **StylizedGS: Controllable Stylization for 3D Gaussian Splatting** [TPAMI 2025]  
+[[code]](https://github.com/bernard0047/style-splat) [[paper]](https://arxiv.org/abs/2407.09473) [[project]](https://bernard0047.github.io/stylesplat/) **StyleSplat: 3D Object Style Transfer with Gaussian Splatting** [arXiv 2024]  
+[[code]](https://github.com/HarukiYqM/Reference-based-Scene-Stylization) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/076c1fa639a7190e216e734f0a1b3e7b-Paper-Conference.pdf) **Reference-based Controllable Scene Stylization** [NeurIPS 2024]  
+[[code]](https://github.com/ActiveVisionLab/gaussctrl) [[paper]](https://arxiv.org/abs/2403.08733) [[project]](https://gaussctrl.active.vision/) **GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing** [ECCV 2024]  
+[[code]](https://github.com/nianticlabs/morpheus) [[paper]](https://nianticlabs.github.io/morpheus/resources/Morpheus.pdf) [[project]](https://nianticlabs.github.io/morpheus/) **Text-Driven 3D Gaussian Splat Shape and Color Stylization** [CVPR 2025]  
+[[code]](https://github.com/minghanqin/LangSplat) [[paper]](https://arxiv.org/pdf/2312.16084) [[project]](https://langsplat.github.io/) **LangSplat: 3D Language Gaussian Splatting** [CVPR 2024]  
+[[paper]](https://arxiv.org/pdf/2506.09565) [[project]](https://semanticsplat.github.io/) **SemanticSplat: Feed-Forward 3D Scene Understanding with Language-Aware Gaussian Fields** [Arxiv 2025]  
+[[code]](https://github.com/HaroldChen19/gaussianvton) [[paper]](https://arxiv.org/abs/2405.07472) [[project]](https://haroldchen19.github.io/gsvton/) **GaussianVTON: 3D Human Virtual Try-ON via Multi-Stage Gaussian Splatting Editing with Image Prompting** [ arXiv 2024]  
+[[code]](https://github.com/umangi-jain/gaussiancut) [[paper]](https://openreview.net/pdf?id=Ns0LQokxa5) [[project]](https://umangi-jain.github.io/gaussiancut/) **GaussianCut: Interactive segmentation via graph cut for 3D Gaussian Splatting** [NeurIPS 2024]  
+[[code]](https://github.com/vpx-ecnu/ABC-GS) [[paper]](https://arxiv.org/pdf/2503.22218) [[project]](https://vpx-ecnu.github.io/ABC-GS-website/) **ABC-GS: Alignment-Based Controllable Style Transfer for 3D Gaussian Splatting** [ICME 2025]  
+[[code]](https://github.com/juhyeon-kwon/Instruct-4DGS) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Kwon_Efficient_Dynamic_Scene_Editing_via_4D_Gaussian-based_Static-Dynamic_Separation_CVPR_2025_paper.html) [[project]](https://hanbyelcho.info/instruct-4dgs/) **Instruct-4DGS: Efficient Dynamic Scene Editing via 4D Gaussian-based Static-Dynamic Separation** [CVPR 2025]  
+
+
+
+
+#### Robotics & SLAM
+
+><span style="color:lightblue;">💡💡 Visual SLAM: Dense and semantic.</span>  
+><span style="color:lightblue;">💡💡 Localization Navigation: Hierarchical planning.</span>  
+><span style="color:lightblue;">💡💡 Active Reconstruction: Gaussian herding.</span>  
+
+
+[[code]](https://github.com/muskie82/MonoGS) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Matsuki_Gaussian_Splatting_SLAM_CVPR_2024_paper.pdf) [[project]](https://rmurai.co.uk/projects/GaussianSplattingSLAM/) **Gaussian Splatting SLAM** [CVPR 2024]  
+[[code]](https://github.com/yanchi-3dv/diff-gaussian-rasterization-for-gsslam) [[paper]](https://arxiv.org/pdf/2311.11700) [[project]](https://gs-slam.github.io/) **GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting** [CVPR 2024]  
+[[code]](https://github.com/JohannaXie/GauSS-MI) [[paper]](https://www.roboticsproceedings.org/rss21/p030.pdf) **GauSS-MI:Gaussian Splatting Shannon Mutual Information for Active 3D Reconstruction** [RSS 2025]  
+[[code]](https://github.com/XiaohanLei/GaussNav) [[paper]](https://arxiv.org/abs/2403.11625) [[project]](https://xiaohanlei.github.io/projects/GaussNav/) **GaussNav: Gaussian Splatting for Visual Navigation** [TPAMI 2025]  
+[[code]](https://github.com/ShuhongLL/SGS-SLAM) [[paper]](https://arxiv.org/pdf/2402.03246) [[project]](https://www.youtube.com/watch?v=y83yw1E-oUo) **SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM** [ECCV 2024]  
+[[code]](https://github.com/armlabstanford/Touch-GS) [[paper]](https://arxiv.org/pdf/2403.09875) [[project]](https://arm.stanford.edu/touch-gs) **Touch-GS: Visual-Tactile Supervised 3D Gaussian Splatting** [IROS 2024]  
+[[paper]](https://openreview.net/forum?id=EyEE7547vy) [[project]](https://tyxiong23.github.io/event3dgs) **Event3DGS: Event-Based 3D Gaussian Splatting for High-Speed Robot Egomotion** [CoRL 2024]  
+[[code]](https://github.com/MrSecant/GaussianGrasper) [[paper]](https://arxiv.org/abs/2403.09637) [[project]](https://mrsecant.github.io/GaussianGrasper/) **GaussianGrasper: 3D Language Gaussian Splatting for Open-vocabulary Robotic Grasping** [LRA 2024]  
+[[paper]](https://rffr.leggedrobotics.com/works/teleoperation/RadianceFieldsForTeleoperation.pdf) [[project]](https://rffr.leggedrobotics.com/works/teleoperation/) **Radiance Fields for Robotic Teleoperation** [IROS 2024]  
+[[code]](https://github.com/jimazeyu/GraspSplats) [[paper]](https://arxiv.org/pdf/2409.02084) [[project]](https://graspsplats.github.io/) **GraspSplats: Efficient Manipulation with 3D Feature Splatting** [CoRL 2024]  
+[[paper]](https://arxiv.org/pdf/2409.17624) [[project]](https://zijunfdu.github.io/HGS-Planner/) **HGS-Planner: Hierarchical Planning Framework for Active Scene Reconstruction Using 3D Gaussian Splatting** [ECCV 2024]  
+[[code]](https://github.com/hjr37/CG-SLAM) [[paper]](https://arxiv.org/abs/2403.16095) [[project]](https://zju3dv.github.io/cg-slam/) **Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field** [ECCV 2024]  
+[[code]](https://github.com/rmurai0610/MASt3R-SLAM) [[paper]](https://edexheim.github.io/mast3r-slam/) [[project]](https://edexheim.github.io/mast3r-slam/) **MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors** [CVPR 2025]  
+
+
+
+
+#### Semantic Understanding & Segmentation
+
+><span style="color:lightblue;">💡💡 Open-Vocabulary: Language-embedded.</span>  
+><span style="color:lightblue;">💡💡 Instance Segmentation: Boundary-enhanced.</span>  
+
+
+[[paper]](https://openaccess.thecvf.com/content/CVPR2025W/OpenSUN3D/papers/Wiedmann_DCSEG_Decoupled_3D_Open-Set_Segmentation_using_Gaussian_Splatting_CVPRW_2025_paper.pdf) **DCSEG:Decoupled 3D Open-Set Segmentation using Gaussian Splatting** [CVPR 2025]  
+[[code]](https://github.com/XuHu0529/SAGS) [[paper]](https://arxiv.org/pdf/2401.17857) **SAGD: Boundary-Enhanced Segment Anything in 3D Gaussian via Gaussian Decomposition** [arXiv 2024]  
+[[paper]](https://arxiv.org/abs/2404.14249) [[project]](https://gbliao.github.io/CLIP-GS.github.io/) **CLIP-GS: CLIP-Informed Gaussian Splatting for Real-time and View-consistent 3D Semantic Understanding** [ECCV 2024]  
+[[code]](https://github.com/sharinka0715/semantic-gaussians) [[paper]](https://arxiv.org/pdf/2403.15624) [[project]](https://sharinka0715.github.io/semantic-gaussians/) **Semantic Gaussians: Open-Vocabulary Scene Understanding with 3D Gaussian Splatting** [ECCV 2024]  
+[[paper]](https://arxiv.org/pdf/2401.05925) [[project]](https://david-dou.github.io/CoSSegGaussians/) **CoSSegGaussians: Compact and Swift Scene Segmenting 3D Gaussians with Dual Feature Fusion** [arXiv 2024]  
+[[code]](https://github.com/lifuguan/LangSurf) [[paper]](https://arxiv.org/pdf/2412.17635) [[project]](https://langsurf.github.io/) **LangSurf: Language-Embedded Surface Gaussians for 3D Scene Understanding** [arXiv 2025]  
+[[code]](https://github.com/HorizonRobotics/GLS) [[paper]](https://arxiv.org/pdf/2411.18066) [[project]](https://jiaxiongq.github.io/GLS_ProjectPage/) **GLS: Geometry-aware 3D Language Gaussian Splatting** [arXiv 2025]  
+[[code]](https://github.com/weijielyu/Gaga) [[paper]](https://arxiv.org/abs/2404.07977) [[project]](https://www.gaga.gallery/) **Gaga: Group Any Gaussians via 3D-aware Memory Bank** [arXiv 2025]  
+[[code]](https://github.com/THU-luvision/OmniSeg3D) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Ying_OmniSeg3D_Omniversal_3D_Segmentation_via_Hierarchical_Contrastive_Learning_CVPR_2024_paper.pdf) [[project]](https://oceanying.github.io/OmniSeg3D/) **OmniSeg3D: Omniversal 3D Segmentation via Hierarchical Contrastive Learning** [CVPR 2024]  
+[[code]](https://github.com/ShijieZhou-UCLA/feature-3dgs) [[paper]](https://arxiv.org/abs/2312.03203) [[project]](https://feature-3dgs.github.io/) **Feature 3DGS:Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields** [CVPR 2024]  
+[[code]](https://github.com/buaavrcg/LEGaussians) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **LEGaussians: Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding** [CVPR 2024]  
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2311.18482) [[project]](https://buaavrcg.github.io/LEGaussians/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
+[[code]](https://github.com/Quyans/GOI-Hyperplane) [[paper]](https://arxiv.org/pdf/2405.17596) [[project]](https://quyans.github.io/GOI-Hyperplane) **GOI: Find 3D Gaussians of Interest with an Optimizable Open-vocabulary Semantic-space Hyperplane** [ACM MM 2025]  
+[[code]](https://github.com/google-research/foundation-model-embedded-3dgs) [[paper]](https://arxiv.org/abs/2401.01970) [[project]](https://xingxingzuo.github.io/fmgs/) **FMGS: Foundation Model Embedded 3D Gaussian Splatting for Holistic 3D Scene Understanding** [IJCV 2025]  
+[[code]](https://mbjurca.github.io/rt-gs2/) [[paper]](https://mbjurca.github.io/rt-gs2/) [[project]](https://mbjurca.github.io/rt-gs2/) **RT-GS2: Real-Time Generalizable Semantic Segmentation for 3D Gaussian Representations of Radiance Fields** [BMVC 2024]  
+[[code]](https://github.com/minghanqin/LangSplat) [[paper]](https://arxiv.org/pdf/2312.16084) [[project]](https://langsplat.github.io/) **LangSplat: 3D Language Gaussian Splatting** [CVPR 2024]  
+[[paper]](https://arxiv.org/abs/2503.22204) [[project]](https://vulab-ai.github.io/Segment-then-Splat/) **Segment then Splat: A Unified Approach for 3D Open-Vocabulary Segmentation based on Gaussian Splatting** [arXiv 2024]  
+[[code]](https://github.com/kaist-ami/Dr-Splat) [[paper]](https://arxiv.org/abs/2502.16652) [[project]](https://drsplat.github.io/) **Dr. Splat: Directly Referring 3D Gaussian Splatting via Direct Language Embedding Registration** [CVPR 2025]  
+[[code]](https://github.com/lhj-git/InstanceGasuusian_code) [[paper]](https://arxiv.org/pdf/2411.19235) [[project]](https://lhj-git.github.io/InstanceGaussian/) **InstanceGaussian: Appearance-Semantic Joint Gaussian Representation for 3D Instance-Level Perception** [CVPR 2025]  
+
+
+
+
+#### Physics Simulation & Interaction
+
+><span style="color:lightblue;">💡💡 Open-Vocabulary: Language-embedded.</span>  
+><span style="color:lightblue;">💡💡 Instance Segmentation: Boundary-enhanced.</span>  
+
+
+[[code]](https://github.com/XPandora/PhysGaussian) [[paper]](https://arxiv.org/abs/2311.12198) [[project]](https://xpandora.github.io/PhysGaussian/) **PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics** [CVPR 2024]  
+[[code]](https://github.com/waczjoan/GASP) [[paper]](https://arxiv.org/abs/2409.05819) [[project]](https://waczjoan.github.io/GASP/) **GASP: Gaussian Splatting for Physic-Based Simulations** [arXiv 2024]  
+[[code]](https://github.com/wgsxm/OmniPhysGS) [[paper]](https://arxiv.org/abs/2501.18982) [[project]](https://wgsxm.github.io/projects/omniphysgs/) **OmniPhysGS: 3D Constitutive Gaussians for General Physics-based Dynamics Generation** [ICLR 2025]  
+[[code]](https://github.com/wangmiaowei/DecoupledGaussian) [[paper]](https://arxiv.org/abs/2503.05484v1) [[project]](https://wangmiaowei.github.io/DecoupledGaussian.github.io/) **DecoupledGaussian: Object-Scene Decoupling for Physics-Based Interaction** [CVPR 2025]  
+[[code]](https://ucla.app.box.com/s/yt4i3wm2i5m2ubace4l1cj3untr13ud1) [[paper]](https://arxiv.org/abs/2401.16663) [[project]](https://yingjiang96.github.io/VR-GS) **VR-GS: A Physical Dynamics-Aware Interactive Gaussian Splatting System in Virtual Reality** [SIGGRAPH 2024]  
+[[code]](https://arxiv.org/pdf/2502.19459) [[paper]](https://arxiv.org/pdf/2502.19459) [[project]](https://articulate-gs.github.io/) **ArtGS: Building Interactable Replicas of Complex Articulated Objects via Gaussian Splatting** [ICLR 2025]  
+[[code]](https://github.com/EnVision-Research/Gaussian-Property) [[paper]](https://gaussian-property.github.io/) [[project]](https://gaussian-property.github.io/) **GaussianProperty: Integrating Physical Properties to 3D Gaussians with LMMs** [ICCV 2025]  
+[[code]](https://github.com/jiawei-ren/dreamgaussian4d) [[paper]](https://arxiv.org/abs/2312.17142) [[project]](https://jiawei-ren.github.io/projects/dreamgaussian4d/) **DreamGaussian4D:Generative 4D Gaussian Splatting** [Arxiv 2023]  
+[[code]](https://github.com/Colmar-zlicheng/Spring-Gaus) [[paper]](https://arxiv.org/abs/2403.09434) [[project]](https://zlicheng.com/spring_gaus/) **Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians** [ECCV 2024]  
+[[code]](https://github.com/liuff19/Physics3D) [[paper]](https://arxiv.org/abs/2406.04338) [[project]](https://guanxinglu.github.io/ManiGaussian/) **Physics3D: Learning Physical Properties of 3D Gaussians via Video Diffusion** [Arxiv 2024]  
+[[code]](https://github.com/a1600012888/PhysDreamer) [[paper]](https://arxiv.org/abs/2404.13026) [[project]](https://physdreamer.github.io/) **PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation** [ECCV 2024]  
+[[code]](https://github.com/bdaiinstitute/embodied_gaussians) [[paper]](https://openreview.net/forum?id=AEq0onGrN2) [[project]](https://embodied-gaussians.github.io/) **Physically Embodied Gaussian Splatting: A Visually Learnt and Physically Grounded 3D Representation for Robotics** [CRL 2024]  
+
+
+
+
+#### Compression & Storage Optimization
+
+
+[[code]](https://github.com/YihangChen-ee/HAC) [[paper]](https://arxiv.org/abs/2403.14530) [[project]](https://yihangchen-ee.github.io/project_hac/) **HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression** [ECCV 2024]  
+[[code]](https://github.com/YihangChen-ee/HAC-plus) [[paper]](https://arxiv.org/abs/2501.12255) [[project]](https://yihangchen-ee.github.io/project_hac++/) **HAC++: Towards 100X Compression of 3D Gaussian Splatting** [TPAMI 2025]  
+[[code]](https://github.com/maincold2/OMG) [[paper]](https://arxiv.org/abs/2503.16924) [[project]](https://maincold2.github.io/omg/) **Optimized Minimal 3D Gaussian Splatting** [NeurIPS 2025]  
+[[code]](https://github.com/KeKsBoTer/c3dgs) [[paper]](https://arxiv.org/abs/2401.02436) [[project]](https://niedermayr.dev/c3dgs/) **Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis** [arXiv 2024]  
+[[code]](https://github.com/wyf0912/ContextGS) [[paper]](https://arxiv.org/pdf/2405.20721) **ContextGS: Compact 3D Gaussian Splatting with Anchor Level Context Model** [ECCV 2024]  
+[[code]](https://github.com/dai647/DF_3DGS) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Dai_Efficient_Decoupled_Feature_3D_Gaussian_Splatting_via_Hierarchical_Compression_CVPR_2025_paper.pdf) **Efficient Decoupled Feature 3D Gaussian Splatting via Hierarchical Compression** [CVPR 2025]  
+[[code]](https://github.com/w-m/3dgs-compression-survey) [[paper]](https://github.com/w-m/3dgs-compression-survey) **3DGS.zip: A survey on 3D Gaussian Splatting Compression Methods** [CGF 2025]  
+[[code]](https://github.com/DrunkenPoet/GHAP) [[paper]](https://arxiv.org/abs/2506.09534) **GHAP: Gaussian Herding Across Pens** [arXiv 2024]  
+[[code1]](https://github.com/maincold2/Compact-3DGS) [[code2]](https://github.com/maincold2/Dynamic_C3DGS/) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Lee_Compact_3D_Gaussian_Representation_for_Radiance_Field_CVPR_2024_paper.pdf) [[project]](https://maincold2.github.io/c3dgs/) **Compact 3D Gaussian Representation for Radiance Field** [CVPR 2024]  
+
+
+
+
+#### Special Scenes & Applications  
+><span style="color:lightblue;">💡💡 Panoramic: Gaussian panoramas.</span>  
+><span style="color:lightblue;">💡💡 Underwater: Dynamic adaptations.</span>  
+><span style="color:lightblue;">💡💡 Medical: Color enhancements.</span>  
+><span style="color:lightblue;">💡💡 Transparent Objects: Geometric guidance.</span>  
+
+
+[[code]](https://arxiv.org/abs/2404.06903) [[paper]](https://arxiv.org/abs/2404.06903) [[project]](https://dreamscene360.github.io/) **DreamScene360 Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting** [ECCV 2024]  
+
+
+
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
+
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
+
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
+
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
+
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
+
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
+
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024] 
+
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
+
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
+
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
+
+[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024] 
 
 
 
