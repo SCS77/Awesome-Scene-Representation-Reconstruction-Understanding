@@ -1385,30 +1385,12 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 
 
 [[code]](https://arxiv.org/abs/2404.06903) [[paper]](https://arxiv.org/abs/2404.06903) [[project]](https://dreamscene360.github.io/) **DreamScene360 Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting** [ECCV 2024]  
+[[code]](https://github.com/water-splatting/water-splatting) [[paper]](https://water-splatting.github.io/paper.pdf) [[project]](https://water-splatting.github.io/) **WaterSplatting Fast Underwater 3D Scene Reconstruction Using Gaussian Splatting** [3DV 2025]  
+[[code]](https://github.com/dxyang/seasplat/) [[paper]](https://arxiv.org/abs/2409.17345) [[project]](https://seasplat.github.io/) **SeaSplat: Representing Underwater Scenes with 3D Gaussian Splatting and a Physically Grounded Image Formation Model** [ICRA 2025]  
+[[code]](https://github.com/PKU-VCL-Geometry/GeoSplatting) [[paper]](https://arxiv.org/abs/2410.24204) [[project]](https://pku-vcl-geometry.github.io/GeoSplatting/) **GeoSplatting: Towards Geometry Guided Gaussian Splatting for Physically-based Inverse Rendering** [ICCV 2025]  
 
 
 
-[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
-
-[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
-
-[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
-
-[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
-
-[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
-
-[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
-
-[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024] 
-
-[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
-
-[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
-
-[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024]  
-
-[[code]](https://github.com/GuanxingLu/ManiGaussian) [[paper]](https://arxiv.org/abs/2403.08321) [[project]](https://guanxinglu.github.io/ManiGaussian/) **ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation** [ECCV 2024] 
 
 
 
