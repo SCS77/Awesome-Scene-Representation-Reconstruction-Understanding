@@ -1264,7 +1264,7 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 
 
 
-#### Generative Models
+#### Style Transfer & Scene Editing
 
 ><span style="color:lightblue;">💡💡 Style Transfer: Neural transfers.</span>  
 ><span style="color:lightblue;">💡💡 Scene Editing: Language-aware.</span>  
@@ -1306,7 +1306,7 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 [[paper]](https://arxiv.org/pdf/2409.17624) [[project]](https://zijunfdu.github.io/HGS-Planner/) **HGS-Planner: Hierarchical Planning Framework for Active Scene Reconstruction Using 3D Gaussian Splatting** [ECCV 2024]  
 [[code]](https://github.com/hjr37/CG-SLAM) [[paper]](https://arxiv.org/abs/2403.16095) [[project]](https://zju3dv.github.io/cg-slam/) **Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field** [ECCV 2024]  
 [[code]](https://github.com/rmurai0610/MASt3R-SLAM) [[paper]](https://edexheim.github.io/mast3r-slam/) [[project]](https://edexheim.github.io/mast3r-slam/) **MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors** [CVPR 2025]  
-
+[[code]](https://github.com/PRBonn/PIN_SLAM) [[paper]](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/pan2024tro.pdf)  **PIN-SLAM: LiDAR SLAM using a Point-Based Implicit Neural Representation** [T-RO 2024]  
 
 
 
@@ -1384,24 +1384,19 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 ><span style="color:lightblue;">💡💡 Transparent Objects: Geometric guidance.</span>  
 
 
-[[code]](https://arxiv.org/abs/2404.06903) [[paper]](https://arxiv.org/abs/2404.06903) [[project]](https://dreamscene360.github.io/) **DreamScene360 Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting** [ECCV 2024]  
+[[code]](https://github.com/ShijieZhou-UCLA/dreamscene360) [[paper]](https://arxiv.org/abs/2404.06903) [[project]](https://dreamscene360.github.io/) **DreamScene360 Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting** [ECCV 2024]  
 [[code]](https://github.com/water-splatting/water-splatting) [[paper]](https://water-splatting.github.io/paper.pdf) [[project]](https://water-splatting.github.io/) **WaterSplatting Fast Underwater 3D Scene Reconstruction Using Gaussian Splatting** [3DV 2025]  
 [[code]](https://github.com/dxyang/seasplat/) [[paper]](https://arxiv.org/abs/2409.17345) [[project]](https://seasplat.github.io/) **SeaSplat: Representing Underwater Scenes with 3D Gaussian Splatting and a Physically Grounded Image Formation Model** [ICRA 2025]  
 [[code]](https://github.com/PKU-VCL-Geometry/GeoSplatting) [[paper]](https://arxiv.org/abs/2410.24204) [[project]](https://pku-vcl-geometry.github.io/GeoSplatting/) **GeoSplatting: Towards Geometry Guided Gaussian Splatting for Physically-based Inverse Rendering** [ICCV 2025]  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+[[code]](https://github.com/horizon-research/Fov-3DGS) [[paper]](https://linwk20.github.io/assets/pdf/asplos25_vr.pdf) [[project]](https://horizon-lab.org/metasapiens/) **Official Implementation of MetaSapiens: Real-Time Neural Rendering with Efficiency-Aware Pruning and Accelerated Foveated Rendering** [ASPLOS 2025]  
+[[code]](https://github.com/zju3dv/street_gaussians/) [[paper]](https://arxiv.org/abs/2401.01339) [[project]](https://zju3dv.github.io/street_gaussians/) **Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting** [ECCV 2024]  
+[[code]](https://github.com/Linketic/CityGaussian) [[paper]](https://arxiv.org/pdf/2404.01133) [[project]](https://dekuliutesla.github.io/citygs/) **CityGaussian Series for High-quality Large-Scale Scene Reconstruction with Gaussians** [ECCV 2024]  
+[[code]](https://github.com/Linketic/CityGaussian/tree/CityGaussian_V2.0) [[paper]](https://dekuliutesla.github.io/CityGaussianV2/static/paper/CityGaussianV2.pdf) [[project]](https://dekuliutesla.github.io/CityGaussianV2/) **CityGaussianV2: Efficient and Geometrically Accurate Reconstruction for Large-Scale Scenes** [ICLR 2025]  
+[[code]](https://github.com/xhd0612/GaussianRoom) [[paper]](https://arxiv.org/abs/2405.19671) [[project]](https://xhd0612.github.io/GaussianRoom.github.io/) **GaussianRoom: Improving 3D Gaussian Splatting with SDF Guidance and Monocular Cues for Indoor Scene Reconstruction** [ICRA 2025]  
+[[]](https://github.com/alibaba/MNN) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_TaoAvatar_Real-Time_Lifelike_Full-Body_Talking_Avatars_for_Augmented_Reality_via_CVPR_2025_paper.pdf) [[project]](https://pixelai-team.github.io/TaoAvatar/) **TaoAvatar: Real-Time Lifelike Full-Body Talking Avatars for Augmented Reality via 3D Gaussian Splatting** [CVPR 2025]  
+[[code]](https://github.com/YuQiao0303/Fancy123) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_Fancy123_One_Image_to_High-Quality_3D_Mesh_Generation_via_Plug-and-Play_CVPR_2025_paper.pdf)  **Fancy123: One Image to High-Quality 3D Mesh Generation via Plug-and-Play Deformation** [CVPR 2025]  
 
 
 
@@ -1409,6 +1404,136 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 
 ## Scene Understanding
 
+### Scenario geometry understanding
+
+> <span style="color:lightblue;">💡💡 Scenario geometry understanding in the domain of computer vision and generative modeling encompasses the inference of explicit 3D spatial hierarchies and relational invariances within dynamic environmental contexts, leveraging geometric deep learning paradigms such as equivariant graph neural networks (EGNNs) or transformer-based multi-view fusion to distill multi-modal sensor data—ranging from RGB-D imagery and LiDAR point clouds—into semantically enriched representations that capture volumetric occupancy, surface normals, and affine transformations via differentiable rendering pipelines like neural radiance fields (NeRF) or 3D Gaussian splatting, thereby facilitating holistic scene parsing that integrates low-level geometric primitives with high-level affordance predictions for tasks in autonomous driving, robotic manipulation, and conditional video synthesis. This process typically employs contrastive self-supervision or diffusion-based priors to enforce scale-ambiguity resolution and temporal coherence, as exemplified in frameworks that jointly optimize geometric consistency and semantic segmentation through variational autoencoders (VAEs) mapping latent scene graphs, enabling robust extrapolation to novel viewpoints and occlusion handling while mitigating artifacts in reconstructed manifolds, ultimately bridging pixel-wise observations to Euclidean embeddings that underpin scalable 3D world models in embodied AI systems.</span>  
+
+
+#### Depth estimation
+
+[[project]](https://github.com/topics/depth-estimation)
+
+> <span style="color:lightblue;">💡💡 Depth estimation refers to inferring pixel-level relative or absolute depth maps from monocular, stereo, or multi-view image inputs. This is achieved through geometric deep learning paradigms such as equivariant convolutional neural networks or Transformer-based multi-scale fusion architectures, Scale-invariant features are extracted from RGB or RGB-D data, enabling inverse perspective transformation mapping from 2D pixel projections to 3D Euclidean embeddings. Self-supervised contrastive learning or diffusion priors are integrated to mitigate data scarcity issues, ensuring robustness against occlusion and illumination variations. Specifically, the monocular depth estimation paradigm relies on encoder-decoder backbones like ResNet or Swin Transformer. It captures disparity cues and texture gradients through attention-guided edge-aware attention modules, then employs variational inference in the latent space to optimize absolute scale recovery, as demonstrated by models like MiDaS or Depth Anything. Multi-source depth fusion integrates real, synthetic, and zero-shot data, enhancing generalization through cross-domain knowledge distillation. For autonomous driving and robot navigation tasks, it further employs Neural Radiance Fields (NeRF) or 3D Gaussian splatting for differentiable rendering validation, enabling progressive refinement from coarse-grained occupancy prediction to fine-grained surface normals. Despite challenges like scale ambiguity and domain transfer, recent trends evolve toward depth foundation models that jointly optimize multimodal supervision to bridge 2D observations with 3D world models, thereby supporting scene geometry understanding and conditional video synthesis in embodied AI systems.</span>  
+
+##### Traditional and Supervised Monocular Depth Estimation
+ 
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11078760) **Event-Based Stereo Depth Estimation: A Survey** [TPAMI 2025]  
+[[paper]](https://ieeexplore.ieee.org/document/988771) **A Taxonomy and Evaluation of Dense Two-Frame Stereo Correspondence Algorithms** [SMBV 2001]  
+[[paper]](https://ieeexplore.ieee.org/document/4359315) **Stereo Processing by Semiglobal Matching and Mutual Information** [TPAMI 2008]  
+[[paper]](https://proceedings.neurips.cc/paper_files/paper/2014/file/91c56ce4a249fae5419b90cba831e303-Paper.pdf) **Depth Map Prediction from a Single Image Using a Multi-Scale Deep Network** [NeurIPS 2014]  
+[[paper]](https://openaccess.thecvf.com/content_iccv_2015/papers/Eigen_Predicting_Depth_Surface_ICCV_2015_paper.pdf) **Predicting Depth, Surface Normals and Semantic Labels with a Common Multi-Scale Convolutional Architecture** [ICCV 2015]   
+[[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Liu_Deep_Convolutional_Neural_2015_CVPR_paper.pdf) **Deep Convolutional Neural Fields for Depth Estimation from a Single Image** [CVPR 2015]  
+[[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xu_Multi-Scale_Continuous_CRFs_CVPR_2017_paper.pdf) **Multi-Scale Continuous CRFs as Sequential Deep Networks for Monocular Depth Estimation** [CVPR 2017]  
+[[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Godard_Unsupervised_Monocular_Depth_CVPR_2017_paper.pdf) **Unsupervised Monocular Depth Estimation with Left-Right Consistency** [CVPR 2017]  
+[[paper]](https://openaccess.thecvf.com/content_cvpr_2017/html/Kuznietsov_Semi-Supervised_Deep_Learning_CVPR_2017_paper.html) **Semi-Supervised Deep Learning for Monocular Depth Map Prediction** [CVPR 2017]  
+[[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Fu_Deep_Ordinal_Regression_CVPR_2018_paper.pdf) **Deep Ordinal Regression Network for Monocular Depth Estimation** [CVPR 2017]  
+[[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Yin_GeoNet_Unsupervised_Learning_CVPR_2018_paper.pdf) **GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose** [CVPR 2018]  
+
+
+##### Self-Supervised and Zero-Shot Monocular Depth Estimation
+
+[[code]](https://github.com/Ravi-Garg/Unsupervised_Depth_Estimation) [[paper]](https://arxiv.org/pdf/1603.04992) **Unsupervised CNN for Single View Depth Estimation: Geometry to the Rescue** [ECCV 2016]  
+[[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_Unsupervised_Learning_of_CVPR_2017_paper.pdf) **Unsupervised Learning of Depth and Ego-Motion from Video** [CVPR 2017]  
+[[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Niu_Im2Struct_Recovering_3D_CVPR_2018_paper.pdf) **3D Shape Reconstruction from a Single RGB Image Using a Deep Convolutional Neural Network** [NeurIPS 2018]  
+[[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Yin_GeoNet_Unsupervised_Learning_CVPR_2018_paper.pdf) **GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose** [CVPR 2018]  
+[[code]](https://github.com/mrharicot/monodepth) **Unsupervised Monocular Depth Estimation with Left-Right Consistency** [CVPR 2017]
+[[code]](https://github.com/nianticlabs/monodepth2) [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Godard_Digging_Into_Self-Supervised_Monocular_Depth_Estimation_ICCV_2019_paper.pdf) **Digging Into Self-Supervised Monocular Depth Estimation** [ICCV 2019]  
+[[code]](https://github.com/mattpoggi/mono-uncertainty) [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Poggi_On_the_Uncertainty_of_Self-Supervised_Monocular_Depth_Estimation_CVPR_2020_paper.pdf) **On the Uncertainty of Self-Supervised Monocular Depth Estimation** [CVPR 2020]  
+[[code]](https://github.com/TRI-ML/packnet-sfm) [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guizilini_3D_Packing_for_Self-Supervised_Monocular_Depth_Estimation_CVPR_2020_paper.pdf) **3D Packing for Self-Supervised Monocular Depth Estimation** [ECCV 2020]  
+[[code]](https://github.com/shariqfarooq123/AdaBins) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Bhat_AdaBins_Depth_Estimation_Using_Adaptive_Bins_CVPR_2021_paper.pdf) **AdaBins: Depth Estimation Using Adaptive Bins** [CVPR 2021]  
+[[code]](https://github.com/isl-org/MiDaS) [[paper]](https://ieeexplore.ieee.org/abstract/document/9178977) **Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer** [TPAMI 2020]  
+[[code]](https://github.com/AutoAILab/FusionDepth) [[paper]](https://arxiv.org/abs/2109.09628) **Learning Self-Supervised Monocular Depth with Pseudo-LiDAR** [CVPRW 2021]  
+[[code]](https://github.com/aliyun/NeWCRFs) [[paper]](https://arxiv.org/abs/2203.01502) **NeW CRFs: Neural Window Fully-connected CRFs for Monocular Depth Estimation** [CVPR 2022]  
+[[code]](https://github.com/tri-ml/vidar) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/html/Guizilini_Towards_Zero-Shot_Scale-Aware_Monocular_Depth_Estimation_ICCV_2023_paper.html) **Towards Zero-Shot Scale-Aware Monocular Depth Estimation** [ICCV 2023]  
+[[code]](https://github.com/LiheYoung/Depth-Anything) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Depth_Anything_Unleashing_the_Power_of_Large-Scale_Unlabeled_Data_CVPR_2024_paper.pdf) **Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data** [CVPR 2024]  
+[[code]](https://github.com/DepthAnything/Depth-Anything-V2) [[paper]](https://arxiv.org/abs/2406.09414) **Depth Anything V2** [NeurIPS 2024]  
+[[paper]](https://arxiv.org/abs/2109.09628) **Vision-Language Embodiment for Monocular Depth Estimation** [CVPR 2025]  
+[[code]](https://github.com/DepthAnything/PromptDA) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Lin_Prompting_Depth_Anything_for_4K_Resolution_Accurate_Metric_Depth_Estimation_CVPR_2025_paper.pdf) **Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation** [CVPR 2025]  
+[[code]](https://github.com/CompVis/depth-fm) [[paper]](https://arxiv.org/abs/2403.13788) **DepthFM: Fast Monocular Depth Estimation with Flow Matching** [AAAI 2025]  
+[[code]](https://github.com/isl-org/ZoeDepth) [[paper]](https://arxiv.org/pdf/2302.12288) **ZoeDepth: Combining relative and metric depth** [CVPR 2025]  
+[[code]](https://github.com/DepthAnything/Video-Depth-Anything) [[paper]](https://arxiv.org/abs/2501.12375) **Video Depth Anything** [CVPR 2025]  
+
+
+
+##### Stereo and Multi-View Depth Estimation
+[[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Luo_Efficient_Deep_Learning_CVPR_2016_paper.pdf) **Efficient Deep Learning for Stereo Matching** [CVPR 2016]  
+[[code]](https://github.com/kelkelcheng/GC-Net-Tensorflow) [[paper]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Kendall_End-To-End_Learning_of_ICCV_2017_paper.pdf) **End-to-End Learning of Geometry and Context for Deep Stereo Regression** [CVPR 2017]  
+[[code]](https://github.com/JiaRenChang/PSMNet) [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Chang_Pyramid_Stereo_Matching_CVPR_2018_paper.pdf) **Pyramid Stereo Matching Network** [CVPR 2018]  
+[[code]](https://github.com/feihuzhang/GANet) [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_GA-Net_Guided_Aggregation_Net_for_End-To-End_Stereo_Matching_CVPR_2019_paper.pdf) **GA-Net: Guided Aggregation Net for End-to-End Stereo Matching** [CVPR 2019]  
+[[code]](https://github.com/gengshan-y/high-res-stereo) [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Hierarchical_Deep_Stereo_Matching_on_High-Resolution_Images_CVPR_2019_paper.pdf) **Hierarchical Deep Stereo Matching on High-Resolution Images** [CVPR 2020]  
+[[code]](https://github.com/haofeixu/aanet) [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_AANet_Adaptive_Aggregation_Network_for_Efficient_Stereo_Matching_CVPR_2020_paper.pdf) **AANet: Adaptive Aggregation Network for Efficient Stereo Matching** [CVPR 2020]  
+[[code]](https://github.com/gallenszl/CFNet) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Shen_CFNet_Cascade_and_Fused_Cost_Volume_for_Robust_Stereo_Matching_CVPR_2021_paper.pdf) **CFNet: Cascade and Fused Cost Volume for Robust Stereo Matching** [CVPR 2021]  
+[[code]](https://github.com/XuelianCheng/LEAStereo) [[paper]](https://proceedings.neurips.cc/paper/2020/file/fc146be0b230d7e0a92e66a6114b840d-Paper.pdf) **Hierarchical Neural Architecture Search for Deep Stereo Matching** [NeurIPS 2020]
+[[code]](https://github.com/gallenszl/PCWNet) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920280.pdf) **PCW-Net: Pyramid Combination and Warping Cost Volume for Stereo Matching** [ECCV 2022]  
+[[code]](https://github.com/megvii-research/CREStereo) [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Practical_Stereo_Matching_via_Cascaded_Recurrent_Network_With_Adaptive_Correlation_CVPR_2022_paper.pdf) **Practical Stereo Matching via Cascaded Recurrent Network with Adaptive Correlation** [CVPR 2022]  
+[[code]](https://github.com/gangweiX/ACVNet) [[paper]](https://arxiv.org/pdf/2209.12699) **Attention Concatenation Volume for Accurate and Efficient Stereo Matching** [CVPR 2022]  
+[[code]](https://github.com/gangweiX/IGEV) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Xu_Iterative_Geometry_Encoding_Volume_for_Stereo_Matching_CVPR_2023_paper.pdf) **IGEV-Stereo: Iterative Geometry Encoding Volume for Stereo Matching** [CVPR 2023]  
+[[code]](https://github.com/lly00412/SEDNet) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Learning_the_Distribution_of_Errors_in_Stereo_Matching_for_Joint_CVPR_2023_paper.pdf) **Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation** [CVPR 2023]  
+[[code]](https://github.com/NVlabs/FoundationStereo) [[paper]](https://arxiv.org/abs/2501.09898) **FoundationStereo: Zero-Shot Stereo Matching** [CVPR 2025]  
+[[code]](https://github.com/UCI-ISA-Lab/MultiHeadDepth-HomoDepth) [[paper]](https://arxiv.org/abs/2411.10013) **Efficient Depth Estimation for Unstable Stereo Camera Systems on AR** [CVPR 2025]  
+[[code]](https://github.com/bartn8/stereoanywhere) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Xu_Iterative_Geometry_Encoding_Volume_for_Stereo_Matching_CVPR_2023_paper.pdf) **Stereo Anywhere: Robust Zero-Shot Deep Stereo Matching Even Where Either Stereo or Mono Fail** [CVPR 2025]  
+[[code]](https://github.com/Insta360-Research-Team/DEFOM-Stereo) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Jiang_DEFOM-Stereo_Depth_Foundation_Model_Based_Stereo_Matching_CVPR_2025_paper.pdf) **DEFOM-Stereo: Depth Foundation Model Based Stereo Matching** [CVPR 2025]  
+[[code]](https://github.com/Junda24/MonSter) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Cheng_MonSter_Marry_Monodepth_to_Stereo_Unleashes_Power_CVPR_2025_paper.pdf) **MonSter: Marry Monodepth to Stereo Unleashes Power** [CVPR 2025]  
+
+
+
+
+#### Camera pose estimation
+
+> <span style="color:lightblue;">💡💡 Camera pose estimation in computer vision and embodied AI frameworks refers to the inference of extrinsic camera parameters—encompassing 6-DoF rotation and translation vectors—from monocular, stereo, or multi-view image sequences, typically posed as a non-linear least-squares optimization over reprojection residuals in the Perspective-n-Point (PnP) paradigm, augmented by RANSAC for outlier rejection and bundle adjustment via Levenberg-Marquardt solvers to jointly refine sparse 3D landmarks and sequential poses within structure-from-motion (SfM) or simultaneous localization and mapping (SLAM) pipelines; deep learning extensions, such as PoseNet or MapNet, deploy convolutional or transformer-based regressors to directly map RGB inputs to SE(3) Lie group embeddings through self-supervised photometric or geometric consistency losses, incorporating equivariant attention mechanisms to enforce rotational invariance and mitigate scale ambiguities in monocular visual odometry (VO), as exemplified in DROID-SLAM or TartanVO models that fuse learned optical flow with probabilistic Kalman filtering for drift-resistant trajectory estimation, while recent advancements leverage diffusion priors or neural radiance fields (NeRF) for differentiable pose optimization in novel view synthesis tasks, enabling robust relocalization under dynamic occlusions and illumination variances by distilling multi-modal sensor fusion into compact Gaussian splatting representations that bridge 2D observations to Euclidean scene graphs, thereby underpinning scalable world models for autonomous navigation and conditional video generation despite persistent challenges in textureless environments and long-tail generalization.<span> 
+
+
+[[paper]](https://ieeexplore.ieee.org/document/1315094) **Visual Odometry** [CVPR 2004]  
+[[paper]](MonoSLAM: Real-Time Single Camera SLAM) **MonoSLAM: Real-Time Single Camera SLAM** [TPAMI 2007]  
+[[paper]](https://ieeexplore.ieee.org/document/4538852) **Parallel Tracking and Mapping for Small AR Workspaces** [ISMAR 2007]  
+[[code]](https://github.com/raulmur/ORB_SLAM) [[paper]](https://webdiis.unizar.es/~raulmur/MurMontielTardosTRO15.pdf) **ORB-SLAM** [TPAMI 2025]  
+[[code]](https://github.com/raulmur/ORB_SLAM2) [[paper]](https://arxiv.org/pdf/1610.06475) **ORB-SLAM2** [TPAMI 2016]  
+[[code]](https://github.com/UZ-SLAMLab/ORB_SLAM3) [[paper]](https://ieeexplore.ieee.org/document/9440682) **ORB-SLAM3** [TRO 2021]  
+[[code]](https://www.repository.cam.ac.uk/items/53788265-cb98-42ee-b85b-7a0cbc8eddb3) [[paper]](https://openaccess.thecvf.com/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf) **MonSter: Marry Monodepth to Stereo Unleashes Power** [ICCV 2025]  
+[[code]](https://github.com/princeton-vl/RAFT) [[paper]](https://arxiv.org/pdf/2003.12039) **RAFT: Recurrent All-Pairs Field Transforms for Optical Flow** [ECCV 2020]  
+[[code]](https://github.com/arthurchen0518/DirectionNet) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Wide-Baseline_Relative_Camera_Pose_Estimation_With_Directional_Learning_CVPR_2021_paper.pdf) **Wide-Baseline Relative Camera Pose Estimation with Directional Learning** [CVPR 2021]  
+[[code]](https://github.com/princeton-vl/DROID-SLAM) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/89fcd07f20b6785b92134bd6c1d0fa42-Paper.pdf) **DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras** [NeurIPS 2021]  
+[[code]](https://github.com/PruneTruong/DenseMatching) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Truong_Learning_Accurate_Dense_Correspondences_and_When_To_Trust_Them_CVPR_2021_paper.pdf) **Learning Accurate Dense Correspondences and When to Trust Them** [CVPR 2021]  
+[[code]](https://github.com/ubc-vision/COTR) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Jiang_COTR_Correspondence_Transformer_for_Matching_Across_Images_ICCV_2021_paper.pdf) **COTR: Correspondence Transformer for Matching Across Images** [ICCV 2021]  
+[[code]](https://github.com/memmelma/VO-Transformer) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Memmel_Modality-Invariant_Visual_Odometry_for_Embodied_Vision_CVPR_2023_paper.pdf) **Modality-Invariant Visual Odometry for Embodied Vision** [CVPR 2023]  
+[[code]](https://github.com/wrchen530/leapvo) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_LEAP-VO_Long-term_Effective_Any_Point_Tracking_for_Visual_Odometry_CVPR_2024_paper.pdf) **LEAP-VO: Long-term Effective Any Point Tracking for Visual Odometry** [CVPR 2024]  
+[[code]](https://github.com/h2xlab/ZeroVO) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Lai_ZeroVO_Visual_Odometry_with_Minimal_Assumptions_CVPR_2025_paper.pdf) **ZeroVO: Visual Odometry with Minimal Assumptions** [CVPR 2025]  
+[[code]](https://openaccess.thecvf.com/content/CVPR2025/papers/Dong_Reloc3r_Large-Scale_Training_of_Relative_Camera_Pose_Regression_for_Generalizable_CVPR_2025_paper.pdf) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Dong_Reloc3r_Large-Scale_Training_of_Relative_Camera_Pose_Regression_for_Generalizable_CVPR_2025_paper.pdf) **Reloc3r: Large-scale Training of Relative Camera Pose Regression** [CVPR 2025]  
+
+
+
+#### SLAM and Global Pose Estimation
+
+[[paper]](https://ieeexplore.ieee.org/document/1238654) **Real-Time Simultaneous Localisation and Mapping with a Single Camera** [ICCV 2001]  
+[[code]](https://github.com/raulmur/ORB_SLAM) [[paper]](https://webdiis.unizar.es/~raulmur/MurMontielTardosTRO15.pdf) **ORB-SLAM** [TPAMI 2025]   
+[[code]](https://github.com/raulmur/ORB_SLAM2) [[paper]](https://arxiv.org/pdf/1610.06475) **ORB-SLAM2** [TPAMI 2016]  
+[[code]](https://github.com/UZ-SLAMLab/ORB_SLAM3) [[paper]](https://ieeexplore.ieee.org/document/9440682) **ORB-SLAM3** [TRO 2021]  
+[[code]](https://github.com/princeton-vl/DROID-SLAM) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/89fcd07f20b6785b92134bd6c1d0fa42-Paper.pdf) **DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras** [NeurIPS 2021]  
+[[code]](https://github.com/InternLandMark/LandMark) [[paper]](https://arxiv.org/abs/2303.14001) **Grid-guided Neural Radiance Fields for Large Urban Scenes** [CVPR 2023]  
+[[code]](https://github.com/facebookresearch/vggsfm) [[paper]](https://arxiv.org/pdf/2312.04563) **VGGSfM: Visual Geometry Grounded Deep Structure From Motion** [CVPR 2024]  
+[[code]](https://github.com/frickyinn/SRPose) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10919.pdf) **SRPose: Two-view Relative Pose Estimation with Sparse Keypoints** [ECCV 2024]  
+[[code]](https://github.com/rmurai0610/MASt3R-SLAM) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Murai_MASt3R-SLAM_Real-Time_Dense_SLAM_with_3D_Reconstruction_Priors_CVPR_2025_paper.pdf) **MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors** [CVPR 2025]  
+[[paper]](Rockwell_Dynamic_Camera_Poses_and_Where_to_Find_Them_CVPR_2025_paper) **Dynamic Camera Poses and Where to Find Them** [CVPR 2025]  
+[[code]](https://github.com/m-kruse98/SplatPose) [[paper]](https://arxiv.org/pdf/2404.06832) **SplatPose & Detect: Pose-Agnostic 3D Anomaly Detection** [IROS 2025]  
+[[code]](https://github.com/wenhuiwei-ustc/BotVIO) [[paper]](https://ieeexplore.ieee.org/document/11024235) **BotVIO: A Lightweight Transformer-Based Visual-Inertial Odometry for Robotics** [TRO 2025]  
+
+
+
+
+#### SFM
+
+[[paper]](https://dl.acm.org/doi/10.1145/1141911.1141964) **Photo Tourism: Exploring Photo Collections in 3D** [SIGGRAPH 2006]  
+[[paper]](https://ieeexplore.ieee.org/document/5459148) **Building Rome in a Day** [ICCV 2009] 
+[[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf) **Structure-from-Motion Revisited** [CVPR 2016]  
+[[paper]](https://openaccess.thecvf.com/content_iccv_2013/papers/Moulon_Global_Fusion_of_2013_ICCV_paper.pdf) **Global Fusion of Relative Motions for Robust, Accurate and Scalable Structure from Motion** [ICCV 2013]  
+[[paper]](https://ieeexplore.ieee.org/document/10378404) **Generalized Differentiable RANSAC** [TPAMI 2022]  
+[[code]](https://github.com/barbararoessle/e2e_multi_view_matching) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Roessle_End2End_Multi-View_Feature_Matching_with_Differentiable_Pose_Optimization_ICCV_2023_paper.pdf) **End2End Multi-View Feature Matching with Differentiable Pose OptimizationI** [CVPR 2023]  
+[[code]](https://github.com/facebookresearch/vggsfm) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_VGGSfM_Visual_Geometry_Grounded_Deep_Structure_From_Motion_CVPR_2024_paper.pdf) **VGGSfM: Visual Geometry Grounded Deep Structure From Motion** [CVPR 2024]  
+[[code]](https://github.com/RobustFieldAutonomyLab/CVD-SfM) [[paper]](https://arxiv.org/abs/2508.01936) **CVD-SfM: A Cross-View Deep Front-end Structure-from-Motion** [IROS 2025]  
+[[code]](https://selflein.github.io/Light3R/) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Elflein_Light3R-SfM_Towards_Feed-forward_Structure-from-Motion_CVPR_2025_paper.pdf) **Light3R-SfM: Towards Feed-forward Structure-from-Motion** [CVPR 2025]  
+[[code]](https://github.com/naver/mast3r) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.html) **Grounding Image Matching in 3D with MASt3R** [CVPR 2024]  
+[[code]](https://github.com/FadiKhatib/resfm) [[paper]](https://openreview.net/pdf?id=wldwEhQ7cl) **RESfM: Robust Deep Equivariant Structure from Motion** [ICLR 2025]  
+[[code]](https://github.com/Ivonne320/GenSfM) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_Structure-from-Motion_with_a_Non-Parametric_Camera_Model_CVPR_2025_paper.pdf) **Structure-from-Motion with a Non-Parametric Camera Model** [CVPR 2025]  
 
 
 
@@ -1416,28 +1541,117 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 
 
 
+### Semantic Understanding of 3D Scenes
+
+> <span style="color:lightblue;">💡💡 Semantic Understanding of 3D Scenes in computer vision and generative AI paradigms encompasses the holistic inference of categorical labels, affordance relations, and hierarchical compositions from multi-modal inputs such as point clouds, meshes, or neural radiance fields (NeRFs), leveraging equivariant graph neural networks (EGNNs) or transformer-based scene encoders to distill volumetric occupancy grids into semantically enriched scene graphs that encode object-instance interactions, spatial hierarchies, and contextual priors via contrastive vision-language pretraining on large-scale datasets like ScanNet++ for multi-view synthesis and understanding. This process integrates open-vocabulary prompting mechanisms, as in Open3DSG frameworks, to enable zero-shot prediction of 3D scene graphs from unlabelled point clouds without reliance on annotated hierarchies, while structured generative models (SGMs) facilitate probabilistic decomposition of static environments into composable primitives, optimizing joint likelihoods over semantic segmentation, instance detection, and relational reasoning through variational autoencoders (VAEs) or diffusion-based priors that enforce geometric consistency and temporal extrapolation in dynamic contexts. Advancements in unified frameworks further unify panoptic, semantic, and instance segmentation tasks on 3D point clouds via end-to-end differentiable pipelines incorporating multi-scale feature fusion and knowledge distillation from 2D vision-language models, addressing challenges in sparse data regimes and occlusion handling for applications in autonomous driving—where semantic scene completion (SSC) enhances LiDAR-based perception with voxel-wise predictions—and embodied AI systems, ultimately bridging low-level geometric reconstructions to high-level world models that underpin conditional 3D scene generation and novel view synthesis, as surveyed in recent works on photorealistic environment synthesis.<span> 
 
 
 
+#### 3D Scene Segmentation
+
+
+[[code]](https://github.com/charlesq34/pointnet.git) [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)  **PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation** [CVPR 2017]  
+[[code]](https://github.com/charlesq34/pointnet2.git) [[paper]](https://dl.acm.org/doi/abs/10.5555/3295222.3295263) **PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space**  [NIPS 2017]  
+[[code]](https://github.com/collector-m/VoxelNet_CVPR_2018_PointCloud) [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_VoxelNet_End-to-End_Learning_CVPR_2018_paper.pdf)  **VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection** [NeurIPS 2018]  
+[[code]](https://github.com/yangyanli/PointCNN) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2018/file/f5f8590cd58a54e94377e6ae2eded4d9-Paper.pdf) **PointCNN: Convolution On X-Transformed Points**  [NIPS 2018]  
+[[code]](https://github.com/WangYueFt/dgcnn.git) [[paper]](https://dl.acm.org/doi/abs/10.1145/3326362) **Dynamic Graph CNN for Learning on Point Clouds** [TOG 2019]  
+[[code]](https://github.com/HuguesTHOMAS/KPConv.git) [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Thomas_KPConv_Flexible_and_Deformable_Convolution_for_Point_Clouds_ICCV_2019_paper.pdf) **KPConv: Flexible and Deformable Convolution for Point Clouds** [ICCV 2019]  
+[[code]](https://github.com/Sekunde/3D-SIS) [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hou_3D-SIS_3D_Semantic_Instance_Segmentation_of_RGB-D_Scans_CVPR_2019_paper.pdf)  **3D-SIS: 3D Semantic Instance Segmentation of RGB-D Scans** [CVPR 2019]  
+[[code]](https://github.com/QingyongHu/RandLA-Net.git) [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hu_RandLA-Net_Efficient_Semantic_Segmentation_of_Large-Scale_Point_Clouds_CVPR_2020_paper.pdf) **RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds** [CVPR 2020]  
+[[code]](https://github.com/hszhao/PointWeb) [[paper]](https://llijiang.github.io/papers/cvpr19_pointweb.pdf) **ointWeb: Enhancing Local Neighborhood Features for Point Cloud Processing**  [CVPR 2020]  
+[[code]](https://github.com/POSTECH-CVLab/point-transformer.git) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Point_Transformer_ICCV_2021_paper.pdf) **Point Transformer** [ICCV 2021]  
+[[code]](https://github.com/Pointcept/PointTransformerV2.git) [[paper]](https://papers.nips.cc/paper_files/paper/2022/hash/d78ece6613953f46501b958b7bb4582f-Abstract-Conference.html) **Point Transformer V2: Grouped Vector Attention and Partition-based Pooling** [NIPS 2022]  
+[[code]](https://github.com/Pointcept/PointTransformerV3.git) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.pdf) **Point Transformer V3: Simpler, Faster, Stronger** [CVPR 2024]  
+[[code]](https://github.com/valeoai/rangevit) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Ando_RangeViT_Towards_Vision_Transformers_for_3D_Semantic_Segmentation_in_Autonomous_CVPR_2023_paper.pdf)  **RangeViT: Towards Vision Transformers for 3D Semantic Segmentation** [CVPR 2023]  
+[[code]](https://github.com/laughtervv/SGPN) [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_SGPN_Similarity_Group_CVPR_2018_paper.pdf)  **SGPN:Similarity Group Proposal Network for 3D Point Cloud Instance Segmentation** [CVPR 2018]  
+[[code]](https://github.com/Sekunde/3D-SIS) [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hou_3D-SIS_3D_Semantic_Instance_Segmentation_of_RGB-D_Scans_CVPR_2019_paper.pdf)  **3D-SIS: 3D Semantic Instance Segmentation of RGB-D Scans** [CVPR 2019]  
+[[code]](https://github.com/Yang7879/3D-BoNet) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2019/file/d0aa518d4d3bfc721aa0b8ab4ef32269-Paper.pdf)  **Unified-Lift: Rethinking End-to-End 2D to 3D Scene Segmentation in Gaussian Splatting** [NeurIPS 2019]  
+[[code]](https://github.com/OpenMask3D/openmask3d) [[paper]](https://papers.nips.cc/paper_files/paper/2023/file/d77b5482e38339a8068791d939126be2-Paper-Conference.pdf)  **Unified-Lift: Rethinking End-to-End 2D to 3D Scene Segmentation in Gaussian Splatting** [NeurIPS 2023]  
+[[code]](https://github.com/yashbhalgat/Contrastive-Lift) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1cb5b3d64bdf3c6642c8d9a8fbecd019-Abstract-Conference.html)  **Contrastive Lift: 3D Object Instance Segmentation by Slow-Fast Contrastive Fusion** [NeurIPS 2023]  
+[[code]](https://github.com/aminebdj/3D-OWIS) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/801750bc49fdc3d498e9ee63479f315e-Abstract-Conference.html)  **3D Indoor Instance Segmentation in an Open-World** [NeurIPS 2023]  
+[[code]](https://github.com/Jumpat/SegmentAnythingin3D) [[paper]](https://arxiv.org/abs/2304.12308)  **SA3D: Segment Anything in 3D with Radiance Fields** [NeurIPS 2023]  
+[[code]](https://github.com/IRMVLab/SNI-SLAM) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_SNI-SLAM_Semantic_Neural_Implicit_SLAM_CVPR_2024_paper.pdf)  **SNI-SLAM: Semantic Neural Implicit SLAM** [CVPR 2024]  
+[[code]](https://github.com/Pointcept/Pointcept) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Peng_OA-CNNs_Omni-Adaptive_Sparse_CNNs_for_3D_Semantic_Segmentation_CVPR_2024_paper.pdf)  **OA-CNNs: Omni-Adaptive Sparse CNNs for 3D Semantic Segmentation** [CVPR 2024]  
+[[code]](https://github.com/rozdavid/unscene3d) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Rozenberszki_UnScene3D_Unsupervised_3D_Instance_Segmentation_for_Indoor_Scenes_CVPR_2024_paper.pdf)  **UnScene3D: Unsupervised 3D Instance Segmentation for Indoor Scenes** [CVPR 2024]  
+[[code]](https://github.com/SooLab/Part2Object) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02657.pdf)  **Part2Object: Hierarchical Unsupervised 3D Instance Segmentation** [ECCV 2024]  
+[[code]](https://github.com/RyanG41/SA3DIP) [[paper]](https://arxiv.org/abs/2411.03819)  **SA3DIP: Segment Any 3D Instance with Potential 3D Priors** [NeurIPS 2024]  
+[[code]](https://github.com/apple/ml-kpconvx) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Thomas_KPConvX_Modernizing_Kernel_Point_Convolution_with_Kernel_Attention_CVPR_2024_paper.pdf)  **KPConvX: Modernizing Kernel Point Convolution with Kernel Attention** [CVPR 2024]  
+[[code]](https://github.com/weiguangzhao/BFANet) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_BFANet_Revisiting_3D_Semantic_Segmentation_with_Boundary_Feature_Analysis_CVPR_2025_paper.pdf)  **BFANet: Revisiting 3D Semantic Segmentation with Boundary Feature Analysis** [CVPR 2025]  
+[[code]](https://github.com/DP-Recon/DP-Recon) [[paper]](https://arxiv.org/abs/2503.14830)  **Decompositional Neural Scene Reconstruction with Generative Diffusion Prior** [CVPR 2025]  
+[[code]](https://kuai-lab.github.io/cvpr2025protoocc/) [[paper]](https://arxiv.org/abs/2503.15185)  **3D Occupancy Prediction with Low-Resolution Queries via Prototype-aware View Transformation** [CVPR 2025]  
+[[code]](https://github.com/TyroneLi/CUA_O3D) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Cross-Modal_and_Uncertainty-Aware_Agglomeration_for_Open-Vocabulary_3D_Scene_Understanding_CVPR_2025_paper.pdf)  **Cross-Modal and Uncertainty-Aware Agglomeration for Open-Vocabulary 3D Scene Understanding** [CVPR 2025]  
+[[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kirillov_Panoptic_Segmentation_CVPR_2019_paper.pdf)  **Panoptic Segmentation** [CVPR 2019]  
+[[code]](https://github.com/bowenc0221/panoptic-deeplab) [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cheng_Panoptic-DeepLab_A_Simple_Strong_and_Fast_Baseline_for_Bottom-Up_Panoptic_CVPR_2020_paper.pdf)  **Panoptic-DeepLab: A Simple, Strong Baseline** [CVPR 2020]  
+[[code]](https://github.com/DeepSceneSeg/EfficientPS) [[paper]](https://arxiv.org/abs/2004.02307)  **EfficientPS: Efficient Panoptic Segmentation** [IJCV 2021]  
+[[code]](https://github.com/drprojects/superpoint_transformer) [[paper]](https://arxiv.org/abs/2306.08045)  **Efficient 3D Semantic Segmentation with Superpoint Transformer** [ICCV 2023]  
+[[code]](https://github.com/astra-vision/PaSCo) [[paper]](https://arxiv.org/abs/2312.02158)  **PaSCo: Urban 3D Panoptic Scene Completion with Uncertainty Awareness** [CVPR 2024]  
+[[code]](https://github.com/visinf/cups) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Hahn_Scene-Centric_Unsupervised_Panoptic_Segmentation_CVPR_2025_paper.pdf)  **Scene-Centric Unsupervised Panoptic Segmentation** [CVPR 2025]  
+[[paper]](https://arxiv.org/pdf/2506.21348)  **PanSt3R: Multi-view Consistent Panoptic Segmentation** [ICCV 2025]  
+
+[[code]](https://github.com/Harry-Zhi/semantic_nerf) [[paper]](https://arxiv.org/abs/2103.15875)  **Semantic-NeRF: Semantic Neural Radiance Fields** [ICCV 2021]  
+[[code]](https://github.com/zyqz97/GP-NeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_GP-NeRF_Generalized_Perception_NeRF_for_Context-Aware_3D_Scene_Understanding_CVPR_2024_paper.pdf)  **GP-NeRF: Generalized Perception NeRF for Context-Aware 3D Scene Understanding** [CVPR 2023]  
+[[code]](https://github.com/kerrj/lerf) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Kerr_LERF_Language_Embedded_Radiance_Fields_ICCV_2023_paper.pdf)  **LERF: Language Embedded Radiance Fields** [ICCV 2023]  
+[[code]](https://github.com/oppo-us-research/NeuRBF) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_NeuRBF_A_Neural_Fields_Representation_with_Adaptive_Radial_Basis_Functions_ICCV_2023_paper.pdf)  **NeurBF: A Neural Fields Representation with Adaptive Radial Basis Functions** [ICCV 2023]  
+[[code]](https://github.com/Jumpat/SegmentAnythingin3D) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/525d24400247f884c3419b0b7b1c4829-Paper-Conference.pdf)  **Segment Anything in 3D with NeRFs** [NeurIPS 2023]  
+[[code]](https://github.com/pcl3dv/OV-NeRF) [[paper]](https://ieeexplore.ieee.org/document/10630553)  **OV-NeRF: Open-Vocabulary Neural Radiance Fields with Vision and Language Foundation Models for 3D Semantic Understanding** [IEEE TCSVT 2023]  
+[[code]](https://github.com/ZechuanLi/GO-N3RDet) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Li_GO-N3RDet_Geometry_Optimized_NeRF-enhanced_3D_Object_Detector_CVPR_2025_paper.pdf)  **GO-N3RDet: Geometry Optimized NeRF-enhanced 3D Object Detector** [CVPR 2025]  
+[[code]](https://github.com/IRMVLab/SNI-SLAM) [[paper]](https://arxiv.org/pdf/2311.11016)  **SNI-SLAM: Semantic Neural Implicit SLAM** [CVPR 2024]  
+[[code]](https://github.com/DP-Recon/DP-Recon) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Ni_Decompositional_Neural_Scene_Reconstruction_with_Generative_Diffusion_Prior_CVPR_2025_paper.pdf) [[project]](https://dp-recon.github.io/) **Decompositional Neural Scene Reconstruction with Generative Diffusion Prior** [CVPR 2025]  
+[[code]](https://github.com/mRobotit/Cues3D) [[paper]](https://www.sciencedirect.com/science/article/pii/S1566253525002374)  **Cues3D: Unleashing the power of sole NeRF for consistent and unique 3D instance segmentation** [Information Fusion 2025]  
+
+
+[[code]](https://github.com/minghanqin/LangSplat) [[paper]](https://arxiv.org/pdf/2312.16084) [[project]](https://langsplat.github.io/) **LangSplat: 3D Language Gaussian Splatting** [CVPR 2024]  
+[[code]](https://github.com/THU-luvision/OmniSeg3D) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Ying_OmniSeg3D_Omniversal_3D_Segmentation_via_Hierarchical_Contrastive_Learning_CVPR_2024_paper.pdf) **OmniSeg3D: Omniversal 3D Segmentation via Hierarchical Contrastive Learning** [CVPR 2024]  
+[[code]](https://github.com/ShijieZhou-UCLA/feature-3dgs) [[paper]](https://arxiv.org/abs/2312.03203) [[project]](https://feature-3dgs.github.io/) **Feature 3DGS:Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields** [CVPR 2024]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2025W/OpenSUN3D/papers/Wiedmann_DCSEG_Decoupled_3D_Open-Set_Segmentation_using_Gaussian_Splatting_CVPRW_2025_paper.pdf) **DCSEG:Decoupled 3D Open-Set Segmentation using Gaussian Splatting** [CVPR 2025]  
+[[code]](https://github.com/XuHu0529/SAGS) [[paper]](https://arxiv.org/pdf/2401.17857) **SAGD: Boundary-Enhanced Segment Anything in 3D Gaussian via Gaussian Decomposition** [arXiv 2024]  
+[[paper]](https://arxiv.org/abs/2404.14249) **CLIP-GS: CLIP-Informed Gaussian Splatting for Real-time and View-consistent 3D Semantic Understanding** [ECCV 2024]  
+[[code]](https://github.com/wxrui182/GSemSplat) [[paper]](https://arxiv.org/abs/2412.16932)  **GSemSplat: Generalizable Semantic 3D Gaussian Splatting from Uncalibrated Image Pairs** [arXiv 2024]  
+[[code]](https://github.com/sharinka0715/semantic-gaussians) [[paper]](https://arxiv.org/pdf/2403.15624)  **Semantic Gaussians: Open-Vocabulary Scene Understanding with 3D Gaussian Splatting** [ECCV 2024]  
+[[code]](https://github.com/lifuguan/LangSurf) [[paper]](https://arxiv.org/pdf/2412.17635) [[project]](https://langsurf.github.io/) **LangSurf: Language-Embedded Surface Gaussians for 3D Scene Understanding** [arXiv 2025]  
+[[paper]](https://arxiv.org/pdf/2412.00392)  **GradiSeg: Gradient-Guided Gaussian Segmentation with Enhanced 3D Boundary Precision** [arXiv 2024]  
+[[code]](https://github.com/HorizonRobotics/GLS) [[paper]](https://arxiv.org/pdf/2411.18066)  **GLS: Geometry-aware 3D Language Gaussian Splatting** [arXiv 2024]  
+[[code]](https://github.com/weijielyu/Gaga) [[paper]](https://arxiv.org/abs/2404.07977)  **Gaga: Group Any Gaussians via 3D-aware Memory Bank** [arXiv 2024]  
+[[code]](https://github.com/WHU-USI3DV/GAGS) [[paper]](https://arxiv.org/abs/2412.13654)  **GAGS: Granularity-Aware Feature Distillation for Language Gaussian Splatting** [arXiv 2024]  
+[[code]](https://github.com/insait-institute/OccamLGS) [[paper]](https://arxiv.org/abs/2412.01807)  **Occam's LGS: A Simple Approach for Language Gaussian Splatting** [arXiv 2024]  
+[[code]](https://github.com/buaavrcg/LEGaussians) [[paper]](https://openaccess.thecvf.com/content/WACV2025W/LLVMAD/papers/Chahe_Query3D_LLM-Powered_Open-Vocabulary_Scene_Segmentation_with_Language_Embedded_3D_Gaussians_WACVW_2025_paper.pdf)  **Query3D: LLM-Powered Open-Vocabulary Scene Segmentation with Language Embedded 3D Gaussian** [CVPR 2024]  
+[[paper]](https://arxiv.org/abs/2506.09565)  **SemanticSplat: Feed-Forward 3D Scene Understanding with Semantic Gaussians** [Arxiv 2025]  
+[[code]](https://github.com/zhaihongjia/PanoGS) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhai_PanoGS_Gaussian-based_Panoptic_Segmentation_for_3D_Open_Vocabulary_Scene_Understanding_CVPR_2025_paper.pdf)  **PanoGS: Gaussian-based Panoptic Segmentation for 3D Open Vocabulary Scene Understanding** [CVPR 2025]  
+[[code]](https://github.com/BITyia/DroneSplat) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Tang_DroneSplat_3D_Gaussian_Splatting_for_Robust_3D_Reconstruction_from_In-the-Wild_CVPR_2025_paper.pdf)  **DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery** [CVPR 2025]  
+[[code]](https://github.com/Zhao-Yian/iSegMan) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_iSegMan_Interactive_Segment-and-Manipulate_3D_Gaussians_CVPR_2025_paper.html)  **iSegMan: Interactive Segment-and-Manipulate 3D Gaussians** [CVPR 2025]  
+[[code]](https://github.com/JojiJoseph/3dgs-gradient-segmentation) [[paper]](https://arxiv.org/abs/2409.11681)  **Gradient-Driven 3D Segmentation and Affordance Transfer in Gaussian Splatting Using 2D Masks** [arXiv 2024]  
+[[code]](https://github.com/Runsong123/Unified-Lift) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Rethinking_End-to-End_2D_to_3D_Scene_Segmentation_in_Gaussian_Splatting_CVPR_2025_paper.pdf)  **Unified-Lift: Rethinking End-to-End 2D to 3D Scene Segmentation in Gaussian Splatting** [CVPR 2025]  
+[[code]](https://github.com/RuijieZhu94/ObjectGS) [[paper]](https://arxiv.org/pdf/2507.15454)  **ObjectGS: Object-aware Scene Reconstruction and Scene Understanding via Gaussian Splatting** [ICCV 2025]  
+[[code]](https://github.com/mlzxy/motion-blender-gs) [[paper]](https://arxiv.org/abs/2503.09040)  **Motion Blender Gaussian Splatting for Dynamic Scene Reconstruction** [CoRL 2025]  
+[[code]](https://github.com/uynitsuj/pogs) [[paper]](https://arxiv.org/abs/2503.05189)  **Persistent Object Gaussian Splat (POGS) for Tracking Human and Robot Manipulation of Irregularly Shaped Objects** [arXiv 2025]  
+[[code]](https://github.com/umangi-jain/gaussiancut) [[paper]](https://openreview.net/pdf?id=Ns0LQokxa5) [[project]](https://umangi-jain.github.io/gaussiancut/) **GaussianCut: Interactive segmentation via graph cut for 3D Gaussian Splatting** [NeurIPS 2024]  
+[[paper]](https://arxiv.org/pdf/2412.10231)  **SuperGSeg: Open-Vocabulary 3D Segmentation with Structured Super-Gaussians** [arXiv 2024]  
+[[code]](https://github.com/MyrnaCCS/contrastive-gaussian-clustering) [[paper]](https://arxiv.org/abs/2404.12784)  **Contrastive Gaussian Clustering: Weakly Supervised 3D Scene Segmentation** [ICPR 2024]  
+[[code]](https://any3dis.github.io/) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Nguyen_Any3DIS_Class-Agnostic_3D_Instance_Segmentation_by_2D_Mask_Tracking_CVPR_2025_paper.pdf)  **Any3DIS: Class-Agnostic 3D Instance Segmentation by 2D Mask Tracking** [CVPR 2025]  
+[[code]](https://github.com/GAP-LAB-CUHK-SZ/SAMPro3D) [[paper]](https://ieeexplore.ieee.org/document/11125552)  **Locating SAM Prompts in 3D for Zero-Shot Instance Segmentation** [3DV 2025]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Rethinking_End-to-End_2D_to_3D_Scene_Segmentation_in_Gaussian_Splatting_CVPR_2025_paper.pdf)  **Lifting by Gaussians** [WACV 2025]  
+[[code]](https://github.com/zhaihongjia/PanoGS) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhai_PanoGS_Gaussian-based_Panoptic_Segmentation_for_3D_Open_Vocabulary_Scene_Understanding_CVPR_2025_paper.pdf)  **PanoGS: Gaussian-based Panoptic Segmentation for 3D Open Vocabulary Scene Understanding** [CVPR 2025]  
+[[code]](https://github.com/wangyuyy/PLGS) [[paper]](https://arxiv.org/pdf/2410.17505v2)  **PLGS: Robust Panoptic Lifting with 3D Gaussian Splatting** [TIP 2025]  
 
 
 
+#### 3D Object Detection & Recognition
 
+> <span style="color:lightblue;">💡💡 3D Object Detection & Recognition in cluttered scenes involves the localization and categorical identification of 3D bounding boxes or oriented frustums from multi-modal inputs like fused LiDAR-camera point-voxel hybrids, deploying anchor-free regressors or center-point transformers pretrained on datasets such as nuScenes or KITTI to predict yaw-rotated cuboids via heatmap regression and offset refinement, with vision-language models (VLMs) enabling zero-shot recognition through cross-modal alignment of textual queries to geometric descriptors in BEV (bird's-eye-view) or voxelized embeddings. This paradigm leverages synergistic sensor fusion via attention-gated bilinear pooling and uncertainty-aware Kalman filtering to counter noise in adverse weather, as reviewed in deep learning surveys emphasizing end-to-end differentiability for joint detection-recognition pipelines that incorporate NeRF-based priors for novel view extrapolation and long-tail class balancing through generative augmentation, fostering advancements in autonomous driving perception where multi-task losses over classification, regression, and segmentation unify low-level feature extraction with high-level affordance reasoning, despite challenges in computational efficiency and domain adaptation addressed by federated learning in edge-deployed systems. <span>  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Chen_Monocular_3D_Object_CVPR_2016_paper.pdf)  **Monocular 3D Object Detection for Autonomous Driving** [CVPR 2016]  
+[[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liang_Multi-Task_Multi-Sensor_Fusion_for_3D_Object_Detection_CVPR_2019_paper.pdf)  **Multi-Fusion: Robust Real-Time 3D Object Detection** [CVPR 2028]  
+[[code]](https://github.com/mileyan/pseudo_lidar) [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Pseudo-LiDAR_From_Visual_Depth_Estimation_Bridging_the_Gap_in_3D_CVPR_2019_paper.pdf)  **Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving** [CVPR 2019]  
+[[code]](https://github.com/HKUST-Aerial-Robotics/Stereo-RCNN) [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Stereo_R-CNN_Based_3D_Object_Detection_for_Autonomous_Driving_CVPR_2019_paper.pdf)  **Stereo R-CNN: Two-Stage 3D Object Detection** [CVPR 2019]  
+[[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_MonoPair_Monocular_3D_Object_Detection_Using_Pairwise_Spatial_Relationships_CVPR_2020_paper.pdf)  **MonoPair: Monocular 3D Object Detection Using Pairwise Spatial Relationships** [CVPR 2020]  
+[[code]](https://github.com/TRAILab/CaDDN) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Reading_Categorical_Depth_Distribution_Network_for_Monocular_3D_Object_Detection_CVPR_2021_paper.pdf)  **CaDDN: Categorical Depth Distribution Network for Monocular 3D Object Detection** [CVPR 2021]  
+[[code]](https://github.com/zion-king/Center-based-3D-Object-Detection-and-Tracking) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Yin_Center-Based_3D_Object_Detection_and_Tracking_CVPR_2021_paper.pdf)  **Center-Based 3D Object Detection and Tracking** [CVPR 2021]  
+[[code]](https://github.com/lifuguan/GP-NeRF) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_GP-NeRF_Generalized_Perception_NeRF_for_Context-Aware_3D_Scene_Understanding_CVPR_2024_paper.pdf)  **GP-NeRF: Generalized Perception NeRF for Context-Aware 3D Scene Understanding** [CVPR 2023]  
+[[code]](https://github.com/yangtiming/ImOV3D) [[paper]](https://arxiv.org/abs/2410.24001)  **ImOV3D: Learning Open Vocabulary Point Clouds 3D Object Detection** [NeurIPS 2024]  
+[[code]](https://github.com/RuiyuM/STONE) [[paper]](https://arxiv.org/abs/2410.03918)  **STONE: A Submodular Optimization Framework for Active 3D Object Detection** [NeurIPS 2024]  
+[[code]](https://github.com/ZechuanLi/GO-N3RDet) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Li_GO-N3RDet_Geometry_Optimized_NeRF-enhanced_3D_Object_Detector_CVPR_2025_paper.pdf)  **GO-N3RDet: Geometry Optimized NeRF-enhanced 3D Object Detector** [CVPR 2025]  
+[[code]](https://github.com/suhaisheng/UniMamba) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Jin_UniMamba_Unified_Spatial-Channel_Representation_Learning_with_Group-Efficient_Mamba_for_LiDAR-based_CVPR_2025_paper.pdf)  **UniMamba: Unified Spatial-Channel Representation Learning with Group-Efficient Mamba for LiDAR-based 3D Object Detection** [CVPR 2025]  
+[[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Yin_ROD-MLLM_Towards_More_Reliable_Object_Detection_in_Multimodal_Large_Language_CVPR_2025_paper.pdf)  **ROD-MLLM: Towards More Reliable Object Detection in Multimodal Large Language Models** [CVPR 2025]  
+[[code]](https://github.com/Say2L/FSHNet) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_FSHNet_Fully_Sparse_Hybrid_Network_for_3D_Object_Detection_CVPR_2025_paper.pdf)  **FSHNet: Fully Sparse Hybrid Network for 3D Object Detection** [CVPR 2025]  
+[[code]](https://github.com/yjnanan/PO3AD) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Ye_PO3AD_Predicting_Point_Offsets_toward_Better_3D_Point_Cloud_Anomaly_CVPR_2025_paper.pdf)  **PO3AD: Predicting Point Offsets toward Better 3D Point Cloud Anomaly Detection** [CVPR 2025]  
+[[code]](https://github.com/xmuqimingxia/DOtAv2) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Xia_Learning_to_Detect_Objects_from__Multi-Agent_LiDAR_Scans_without_CVPR_2025_paper.pdf)  **Learning to Detect Objects from Multi-Agent LiDAR Scans without Manual Labels** [CVPR 2025]  
