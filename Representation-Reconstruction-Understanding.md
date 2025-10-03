@@ -26,6 +26,10 @@
 
 
 ## [🚀 Scene Understanding](#scene-understanding)  
+### • [Scenario geometry understanding](#scenario-geometry-understanding)  
+### • [Camera pose estimation](#-camera-pose-estimation)  
+### • [Scene Segmentation](#scene-segmentation)  
+
 
 
 
@@ -1541,14 +1545,11 @@ This work presents ElasticFusion, a real-time dense SLAM system that utilizes an
 
 
 
-### Semantic Understanding of 3D Scenes
-
-> <span style="color:lightblue;">💡💡 Semantic Understanding of 3D Scenes in computer vision and generative AI paradigms encompasses the holistic inference of categorical labels, affordance relations, and hierarchical compositions from multi-modal inputs such as point clouds, meshes, or neural radiance fields (NeRFs), leveraging equivariant graph neural networks (EGNNs) or transformer-based scene encoders to distill volumetric occupancy grids into semantically enriched scene graphs that encode object-instance interactions, spatial hierarchies, and contextual priors via contrastive vision-language pretraining on large-scale datasets like ScanNet++ for multi-view synthesis and understanding. This process integrates open-vocabulary prompting mechanisms, as in Open3DSG frameworks, to enable zero-shot prediction of 3D scene graphs from unlabelled point clouds without reliance on annotated hierarchies, while structured generative models (SGMs) facilitate probabilistic decomposition of static environments into composable primitives, optimizing joint likelihoods over semantic segmentation, instance detection, and relational reasoning through variational autoencoders (VAEs) or diffusion-based priors that enforce geometric consistency and temporal extrapolation in dynamic contexts. Advancements in unified frameworks further unify panoptic, semantic, and instance segmentation tasks on 3D point clouds via end-to-end differentiable pipelines incorporating multi-scale feature fusion and knowledge distillation from 2D vision-language models, addressing challenges in sparse data regimes and occlusion handling for applications in autonomous driving—where semantic scene completion (SSC) enhances LiDAR-based perception with voxel-wise predictions—and embodied AI systems, ultimately bridging low-level geometric reconstructions to high-level world models that underpin conditional 3D scene generation and novel view synthesis, as surveyed in recent works on photorealistic environment synthesis.<span> 
-
+### Scene Segmentation
+> <span style="color:lightblue;">💡💡 Scene Segmentation in computer vision and generative modeling paradigms delineates the pixel- or voxel-wise partitioning of complex environmental contexts into semantically coherent regions, leveraging deep convolutional or transformer-based architectures such as U-Net variants, Mask R-CNN, or Segment Anything Model (SAM) extensions to extract multi-scale hierarchical features via encoder-decoder backbones augmented with attention-gated skip connections and deformable convolutions that enforce boundary refinement and contextual aggregation, as comprehensively surveyed in recent advancements integrating self-supervised pretraining on large-scale datasets like ADE20K or Cityscapes to mitigate domain gaps and enhance zero-shot generalization across indoor-outdoor scenes. This process encompasses semantic segmentation for categorical labeling of holistic scene components, instance segmentation for individualized object delineation through mask-aware clustering and non-maximum suppression over oriented bounding frustums, and panoptic segmentation unifying both via hybrid losses optimizing cross-entropy for stuff classes and Dice-IoU for thing instances, while emerging video scene parsing frameworks extend temporal consistency through 3D convolutions or recurrent transformers that propagate labels across frame sequences via optical flow-guided message passing and diffusion priors for occluded region imputation, addressing challenges in dynamic motion blur and long-range dependencies as highlighted in holistic reviews of vision tasks encompassing video semantic segmentation, instance segmentation, panoptic segmentation, tracking, and open-vocabulary variants with transformer architectures capturing spatio-temporal contexts. Contemporary innovations further incorporate vision-language models for open-vocabulary prompting, enabling query-adaptive segmentation in unstructured environments through cross-modal alignment and knowledge distillation from foundational models like CLIP or DINO, thereby facilitating downstream applications in autonomous navigation, augmented reality, and conditional scene synthesis by bridging low-level geometric primitives with high-level affordance reasoning despite persistent hurdles in real-time efficiency and rare-class imbalance, with recent surveys underscoring the evolution toward unified multimodal pipelines that fuse RGB-D inputs for robust depth-aware partitioning and deep learning-driven 3D point cloud analysis evaluating traditional-to-modern methods via performance metrics to guide application-specific selections.<span> 
 
 
-#### 3D Scene Segmentation
-
+#### Semantic segmentation, instance segmentation, panoramic segmentation
 
 [[code]](https://github.com/charlesq34/pointnet.git) [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)  **PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation** [CVPR 2017]  
 [[code]](https://github.com/charlesq34/pointnet2.git) [[paper]](https://dl.acm.org/doi/abs/10.5555/3295222.3295263) **PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space**  [NIPS 2017]  
