@@ -2,7 +2,8 @@
   <b>Awesome-Scene-Reconstruction-Understanding (NeRF、3DGS)</b>
 </h1>
 
-## <b><span style="color:white; background-color:red;">README.md for Reconstruction and Proceedings (For detailed papers on specific application domains, please refer to: Representation-Reconstruction-Understanding.md)</span></b>
+## <b><span style="color:white; background-color:red;">README.md for reconstruction and paper collection (For detailed papers on scene-related domains, please refer to: Representation-Reconstruction-Understanding.md
+## For AIGC-3D-related content, please refer to: Awesome-AIGC-3D.md)</span></b>
 
 📦 Curated collection of papers, datasets, codebases, and resources in the field of scene reconstruction and understanding using NeRF and 3DGS.
 
