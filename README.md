@@ -600,7 +600,7 @@
 [[code]](https://europe.naverlabs.com/) [[paper]](https://arxiv.org/pdf/2506.21348) **PanSt3R: Multi-view Consistent Panoptic Segmentation** [ICCV 2025]  🔥  
 
 
-
+#### NeRF
 
 | Code | Paper | Title | Venue | Year |
 |------|-------|-------|-------|------|
@@ -615,10 +615,7 @@
 | [GitHub](https://github.com/DP-Recon/DP-Recon) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Ni_Decompositional_Neural_Scene_Reconstruction_with_Generative_Diffusion_Prior_CVPR_2025_paper.pdf) | **Decompositional Neural Scene Reconstruction with Generative Diffusion Prior 🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/mRobotit/Cues3D) | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253525002374) | **Cues3D: Unleashing the power of sole NeRF for consistent and unique 3D instance segmentation** | Information Fusion | 2025 |
 
-
-
-
-# 3D Gaussian Splatting Related Papers
+#### 3DGS
 
 | Code | Paper | Title | Venue | Year |
 |------|-------|-------|-------|------|
