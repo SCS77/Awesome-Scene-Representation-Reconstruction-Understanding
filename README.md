@@ -71,9 +71,8 @@
 
 
 
-### Scene Segmentation
+## Scene understanding
 
-#### Semantic segmentation, instance segmentation, panoramic segmentation
 
 | Code | Paper | Title | Venue | Year |
 |------|-------|-------|-------|------|
