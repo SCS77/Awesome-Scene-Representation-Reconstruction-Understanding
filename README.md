@@ -1,5 +1,5 @@
 <h1 align="center">
-  <b>Awesome-Scene-Reconstruction-Understanding (NeRF、3DGS)</b>
+  <b>Awesome-Scene-Reconstruction-Understanding </b>
 </h1>
 
 📦 Curated collection of papers, datasets, codebases, and resources in the field of scene reconstruction and understanding using NeRF and 3DGS.
