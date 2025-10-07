@@ -65,7 +65,7 @@
 | [GitHub](https://github.com/Jumpat/SegmentAnythingin3D) | [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/525d24400247f884c3419b0b7b1c4829-Paper-Conference.pdf) | **Segment Anything in 3D with NeRFs 🔥🔥** | NeurIPS | 2023 |
 | [GitHub](https://github.com/DP-Recon/DP-Recon) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Ni_Decompositional_Neural_Scene_Reconstruction_with_Generative_Diffusion_Prior_CVPR_2025_paper.pdf) | **Decompositional Neural Scene Reconstruction with Generative Diffusion Prior 🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/mRobotit/Cues3D) | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253525002374) | **Cues3D: Unleashing the power of sole NeRF for consistent and unique 3D instance segmentation** | Information Fusion | 2025 |
-|------|-------|-------|-------|------|
+|------|------|-------|------|-----|
 | [GitHub](https://github.com/minghanqin/LangSplat) | [Paper](https://arxiv.org/pdf/2312.16084) | [Project](https://langsplat.github.io/) **LangSplat: 3D Language Gaussian Splatting 🔥🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/ShijieZhou-UCLA/feature-3dgs) | [Paper](https://arxiv.org/abs/2312.03203) | [Project](https://feature-3dgs.github.io/) **Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields 🔥🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/umangi-jain/gaussiancut) | [Paper](https://openreview.net/pdf?id=Ns0LQokxa5) | [Project](https://umangi-jain.github.io/gaussiancut/) **GaussianCut: Interactive segmentation via graph cut for 3D Gaussian Splatting** | NeurIPS | 2024 |
