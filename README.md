@@ -111,7 +111,7 @@
 
 
 
-## Scene Representation Learning
+## Images Representation Learning
 
 | Code | Paper | Title | Venue | Year |
 |------|-------|-------|-------|------|
