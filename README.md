@@ -138,23 +138,6 @@
 
 
 
-  
-### Dataset
-
-[[SemCor]](https://lcl.uniroma1.it/wsdeval/training-data)  
-[[Senseval/SemEval WSD datasets]](https://lcl.uniroma1.it/wsdeval/data/WSD_Evaluation_Framework.zip)  
-[[OMSTI]](https://www.kaggle.com/datasets/mokeam/omstidata)  
-[[WiC (Word-in-Context)]](https://pilehvar.github.io/wic/) [[paper]](https://aclanthology.org/N19-1128.pdf)  
-[[SNLI]](https://nlp.stanford.edu/projects/snli/) [[paper]](https://arxiv.org/pdf/2210.10434.pdf)  
-[[MNLI]](https://cims.nyu.edu/~sbowman/multinli/) [[paper]](https://arxiv.org/abs/1702.04405)  
-[[STS-B]](https://dl.fbaipublicfiles.com/glue/data/STS-B.zip)  
-[[SQuAD]](https://rajpurkar.github.io/SQuAD-explorer/) [[paper]](https://arxiv.org/pdf/1606.05250v3)  
-[[GLUE/ SuperGLUE]](https://github.com/nyu-mll/GLUE-baselines) [[paper]](https://openreview.net/pdf?id=rJ4km2R5t7) [[paper]](https://arxiv.org/pdf/1905.00537v3) 
-
-
-
-
-
 
 
 
