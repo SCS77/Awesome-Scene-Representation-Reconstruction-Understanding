@@ -63,6 +63,8 @@
 | [GitHub](https://github.com/naver/pow3r) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Jang_Pow3R_Empowering_Unconstrained_3D_Reconstruction_with_Camera_and_Scene_Priors_CVPR_2025_paper.pdf#:~:text=In%20this%20paper%2C%20we%20introduce%20Pow3R%2C%20a%20new,sparse%20or%20dense%20depth%2C%20or%20relative%20camera%20poses.) | **Pow3R: Empowering Unconstrained 3D  Reconstruction with Camera and Scene Priors** | CVPR | 2025 |
 | [GitHub](https://github.com/facebookresearch/mvdust3r) | [Paper](https://arxiv.org/abs/2412.06974) | **MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds** | CVPR | 2025 |
 | [GitHub](https://github.com/HKUST-SAIL/sail-recon) | [Paper](https://arxiv.org/abs/2508.17972) | **SAIL-Recon: Large SfM by Augmenting Scene Regression with Localization** | Arxiv | 2025 |
+| [GitHub](https://github.com/CUT3R/CUT3R) | [Paper](https://arxiv.org/pdf/2501.12387) | **Continuous 3D Perception Model with Persistent State🔥** | CVPR | 2025 |
+| [GitHub](https://github.com/Junyi42/monst3r) | [Paper](https://monst3r-project.github.io/files/monst3r_paper.pdf) | **MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion🔥** | ICLR | 2025 |
 | [GitHub](https://github.com/facebookresearch/vggt) | [Paper](https://arxiv.org/abs/2503.11651) | **VGGT: Visual Geometry Grounded Transformer 🔥🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/facebookresearch/map-anything) | [Paper](https://arxiv.org/abs/2509.13414) | **MapAnything: Universal Feed-Forward Metric 3D Reconstruction 🔥🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/bb12346/geocomplete_codes) | [Paper](https://arxiv.org/abs/2510.03110) | **Geometry-Aware Diffusion for Reference-Driven Image Completion 🔥** | NeurIPS | 2025 |
@@ -84,9 +86,10 @@
 | [GitHub](https://github.com/DP-Recon/DP-Recon) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Ni_Decompositional_Neural_Scene_Reconstruction_with_Generative_Diffusion_Prior_CVPR_2025_paper.pdf) | **Decompositional Neural Scene Reconstruction with Generative Diffusion Prior 🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/mRobotit/Cues3D) | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253525002374) | **Cues3D: Unleashing the power of sole NeRF for consistent and unique 3D instance segmentation** | Information Fusion | 2025 |
 |------|------|-------|------|-----|
-| [GitHub](https://github.com/minghanqin/LangSplat) | [Paper](https://arxiv.org/pdf/2312.16084) | [Project](https://langsplat.github.io/) **LangSplat: 3D Language Gaussian Splatting 🔥🔥** | CVPR | 2024 |
-| [GitHub](https://github.com/ShijieZhou-UCLA/feature-3dgs) | [Paper](https://arxiv.org/abs/2312.03203) | [Project](https://feature-3dgs.github.io/) **Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields 🔥🔥** | CVPR | 2024 |
-| [GitHub](https://github.com/umangi-jain/gaussiancut) | [Paper](https://openreview.net/pdf?id=Ns0LQokxa5) | [Project](https://umangi-jain.github.io/gaussiancut/) **GaussianCut: Interactive segmentation via graph cut for 3D Gaussian Splatting** | NeurIPS | 2024 |
+| [GitHub](https://github.com/minghanqin/LangSplat) | [Paper](https://arxiv.org/pdf/2312.16084) | **LangSplat: 3D Language Gaussian Splatting 🔥🔥** | CVPR | 2024 |
+| [GitHub](https://github.com/TQTQliu/MVSGaussian) | [Paper](https://arxiv.org/abs/2405.12218) | **MVSGaussian: Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo🔥** | ECCV | 2024 |
+| [GitHub](https://github.com/ShijieZhou-UCLA/feature-3dgs) | [Paper](https://arxiv.org/abs/2312.03203) | **Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields 🔥🔥** | CVPR | 2024 |
+| [GitHub](https://github.com/umangi-jain/gaussiancut) | [Paper](https://openreview.net/pdf?id=Ns0LQokxa5) | **GaussianCut: Interactive segmentation via graph cut for 3D Gaussian Splatting** | NeurIPS | 2024 |
 | [GitHub](https://github.com/Runsong123/Unified-Lift) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Rethinking_End-to-End_2D_to_3D_Scene_Segmentation_in_Gaussian_Splatting_CVPR_2025_paper.pdf) | **Unified-Lift: Rethinking End-to-End 2D to 3D Scene Segmentation in Gaussian Splatting 🔥** | CVPR | 2025 |
 | [GitHub](https://any3dis.github.io/) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Nguyen_Any3DIS_Class-Agnostic_3D_Instance_Segmentation_by_2D_Mask_Tracking_CVPR_2025_paper.pdf) | **Any3DIS: Class-Agnostic 3D Instance Segmentation by 2D Mask Tracking 🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/mlzxy/motion-blender-gs) | [Paper](https://arxiv.org/abs/2503.09040) | **Motion Blender Gaussian Splatting for Dynamic Scene Reconstruction** | CoRL | 2025 |
@@ -136,6 +139,7 @@
 | [GitHub](https://github.com/facebookresearch/dino) | [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf) | **Emerging Properties in Self-Supervised Vision Transformers** | ICCV | 2021 |
 | [GitHub](https://github.com/facebookresearch/dinov2) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Jose_DINOv2_Meets_Text_A_Unified_Framework_for_Image-_and_Pixel-Level_CVPR_2025_paper.pdf) | **DINOv2 Meets Text: A Unified Framework for Image- and Pixel-Level Vision-Language Alignment** | CVPR | 2025 |
 | [GitHub](https://github.com/facebookresearch/dinov3) | [Paper](https://arxiv.org/abs/2508.10104) | **DINOv3** | Arxiv | 2025 |
+
 
 
 
