@@ -79,22 +79,18 @@
 | [GitHub](https://github.com/cassiePython/CLIPNeRF) | [Paper](https://arxiv.org/abs/2112.05139) | **CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields** | CVPR | 2022 |
 | [GitHub](https://github.com/VITA-Group/GNT) | [Paper](https://arxiv.org/abs/2207.13298) | **Is Attention All That NeRF Needs?** |  ICLR | 2023 |
 | [GitHub](https://github.com/zyqz97/GP-NeRF) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_GP-NeRF_Generalized_Perception_NeRF_for_Context-Aware_3D_Scene_Understanding_CVPR_2024_paper.pdf) | **GP-NeRF: Generalized Perception NeRF for Context-Aware 3D Scene Understanding** | CVPR | 2023 |
-| [GitHub](https://github.com/Jumpat/SegmentAnythingin3D) | [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/525d24400247f884c3419b0b7b1c4829-Paper-Conference.pdf) | **Segment Anything in 3D with NeRFs 🔥🔥** | NeurIPS | 2023 |
 | [GitHub](https://github.com/JenningsL/nerf-loc) | [Paper](https://arxiv.org/abs/2304.07979) | **NeRF-Loc: Visual Localization with Conditional Neural Radiance Field** | ICRA | 2023 |
 | [GitHub](https://github.com/chungmin99/garfield) | [Paper](https://arxiv.org/abs/2401.09419) | **GARField: Group Anything with Radiance Fields🔥** | CVPR | 2024 |
-| [GitHub](https://github.com/zubair-irshad/NeRF-MAE) | [Paper](https://arxiv.org/abs/2308.12967) | **NeRF-MAE : Masked AutoEncoders for Self-Supervised 3D Representation Learning for Neural Radiance Fields🔥** | ECCV | 2024 |
+| [GitHub](https://github.com/zubair-irshad/NeRF-MAE) | [Paper](https://arxiv.org/abs/2404.01300) | **NeRF-MAE : Masked AutoEncoders for Self-Supervised 3D Representation Learning for Neural Radiance Fields🔥** | ECCV | 2024 |
 | [GitHub](https://github.com/DP-Recon/DP-Recon) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Ni_Decompositional_Neural_Scene_Reconstruction_with_Generative_Diffusion_Prior_CVPR_2025_paper.pdf) | **Decompositional Neural Scene Reconstruction with Generative Diffusion Prior 🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/mRobotit/Cues3D) | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253525002374) | **Cues3D: Unleashing the power of sole NeRF for consistent and unique 3D instance segmentation** | Information Fusion | 2025 |
 |------|------|-------|------|-----|
 | [GitHub](https://github.com/minghanqin/LangSplat) | [Paper](https://arxiv.org/pdf/2312.16084) | **LangSplat: 3D Language Gaussian Splatting 🔥🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/TQTQliu/MVSGaussian) | [Paper](https://arxiv.org/abs/2405.12218) | **MVSGaussian: Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo🔥** | ECCV | 2024 |
 | [GitHub](https://github.com/ShijieZhou-UCLA/feature-3dgs) | [Paper](https://arxiv.org/abs/2312.03203) | **Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields 🔥🔥** | CVPR | 2024 |
-| [GitHub](https://github.com/umangi-jain/gaussiancut) | [Paper](https://openreview.net/pdf?id=Ns0LQokxa5) | **GaussianCut: Interactive segmentation via graph cut for 3D Gaussian Splatting** | NeurIPS | 2024 |
 | [GitHub](https://github.com/Runsong123/Unified-Lift) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Rethinking_End-to-End_2D_to_3D_Scene_Segmentation_in_Gaussian_Splatting_CVPR_2025_paper.pdf) | **Unified-Lift: Rethinking End-to-End 2D to 3D Scene Segmentation in Gaussian Splatting 🔥** | CVPR | 2025 |
 | [GitHub](https://any3dis.github.io/) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Nguyen_Any3DIS_Class-Agnostic_3D_Instance_Segmentation_by_2D_Mask_Tracking_CVPR_2025_paper.pdf) | **Any3DIS: Class-Agnostic 3D Instance Segmentation by 2D Mask Tracking 🔥** | CVPR | 2025 |
-| [GitHub](https://github.com/mlzxy/motion-blender-gs) | [Paper](https://arxiv.org/abs/2503.09040) | **Motion Blender Gaussian Splatting for Dynamic Scene Reconstruction** | CoRL | 2025 |
 | [GitHub](https://github.com/zhaihongjia/PanoGS) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhai_PanoGS_Gaussian-based_Panoptic_Segmentation_for_3D_Open_Vocabulary_Scene_Understanding_CVPR_2025_paper.pdf) | **PanoGS: Gaussian-based Panoptic Segmentation for 3D Open Vocabulary Scene Understanding 🔥** | CVPR | 2025 |
-| [GitHub](https://github.com/GAP-LAB-CUHK-SZ/SAMPro3D) | [Paper](https://ieeexplore.ieee.org/document/11125552) | **SAMPro3D: Locating SAM Prompts in 3D for Zero-Shot Instance Segmentation 🔥** | 3DV | 2025 |
 | [GitHub](https://github.com/xingyoujun/transplat) | [Paper](https://arxiv.org/abs/2408.13770) | **TranSplat: Generalizable 3D Gaussian Splatting from Sparse Multi-View Images with Transformers** | AAAI | 2025 |
 | [GitHub](https://github.com/ChenYutongTHU/SplatFormer) | [Paper](https://openreview.net/pdf?id=9NfHbWKqMF) | **SplatFormer: Point Transformer for Robust 3D Gaussian Splatting** | ICLR | 2025 |
 
@@ -139,6 +135,25 @@
 | [GitHub](https://github.com/facebookresearch/dino) | [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf) | **Emerging Properties in Self-Supervised Vision Transformers** | ICCV | 2021 |
 | [GitHub](https://github.com/facebookresearch/dinov2) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Jose_DINOv2_Meets_Text_A_Unified_Framework_for_Image-_and_Pixel-Level_CVPR_2025_paper.pdf) | **DINOv2 Meets Text: A Unified Framework for Image- and Pixel-Level Vision-Language Alignment** | CVPR | 2025 |
 | [GitHub](https://github.com/facebookresearch/dinov3) | [Paper](https://arxiv.org/abs/2508.10104) | **DINOv3** | Arxiv | 2025 |
+
+
+
+  
+### Dataset
+
+[[SemCor]](https://lcl.uniroma1.it/wsdeval/training-data)  
+[[Senseval/SemEval WSD datasets]](https://lcl.uniroma1.it/wsdeval/data/WSD_Evaluation_Framework.zip)  
+[[OMSTI]](https://www.kaggle.com/datasets/mokeam/omstidata)  
+[[WiC (Word-in-Context)]](https://pilehvar.github.io/wic/) [[paper]](https://aclanthology.org/N19-1128.pdf)  
+[[SNLI]](https://nlp.stanford.edu/projects/snli/) [[paper]](https://arxiv.org/pdf/2210.10434.pdf)  
+[[MNLI]](https://cims.nyu.edu/~sbowman/multinli/) [[paper]](https://arxiv.org/abs/1702.04405)  
+[[STS-B]](https://dl.fbaipublicfiles.com/glue/data/STS-B.zip)  
+[[SQuAD]](https://rajpurkar.github.io/SQuAD-explorer/) [[paper]](https://arxiv.org/pdf/1606.05250v3)  
+[[GLUE/ SuperGLUE]](https://github.com/nyu-mll/GLUE-baselines) [[paper]](https://openreview.net/pdf?id=rJ4km2R5t7) [[paper]](https://arxiv.org/pdf/1905.00537v3) 
+
+
+
+
 
 
 
