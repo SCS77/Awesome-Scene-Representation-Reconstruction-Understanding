@@ -55,13 +55,17 @@
 | [GitHub](https://github.com/Pointcept/PointTransformerV3.git) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.pdf) | **Point Transformer V3: Simpler, Faster, Stronger 🔥🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/Pointcept/Pointcept) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Peng_OA-CNNs_Omni-Adaptive_Sparse_CNNs_for_3D_Semantic_Segmentation_CVPR_2024_paper.pdf) | **OA-CNNs: Omni-Adaptive Sparse CNNs for 3D Semantic Segmentation 🔥** | CVPR | 2024 |
 |------|-------|-------|-------|------|
-| [GitHub](https://github.com/google-research/scenic) | [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_TransMVSNet_Global_Context-Aware_Multi-View_Stereo_Network_With_Transformers_CVPR_2022_paper.pdf) | **Multiview Transformers for Video Recognition 🔥** | CVPR | 2022 |
-| [GitHub](https://github.com/megvii-research/TransMVSNet) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Cabon_MUSt3R_Multi-view_Network_for_Stereo_3D_Reconstruction_CVPR_2025_paper.html) | **TransMVSNet: Global Context-aware Multi-view Stereo Network with Transformers 🔥** | CVPR | 2022 |
+| [GitHub](https://github.com/google-research/scenic) | [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_TransMVSNet_Global_Context-Aware_Multi-View_Stereo_Network_With_Transformers_CVPR_2022_paper.pdf) | **Multiview Transformers for Video Recognition 🔥🔥** | CVPR | 2022 |  
+| [GitHub](https://github.com/bradyz/cross_view_transformers) | [Paper](https://arxiv.org/abs/2205.02833) | **Cross-view Transformers for real-time Map-view Semantic Segmentation** | CVPR | 2022 |  
+| [GitHub](https://github.com/megvii-research/TransMVSNet) | [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_TransMVSNet_Global_Context-Aware_Multi-View_Stereo_Network_With_Transformers_CVPR_2022_paper.pdf) | **TransMVSNet: Global Context-aware Multi-view Stereo Network with Transformers 🔥** | CVPR | 2022 |
 | [GitHub](https://github.com/naver/dust3r) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.html) | **DUSt3R: Geometric 3D Vision Made Easy 🔥🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/naver/must3r) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Cabon_MUSt3R_Multi-view_Network_for_Stereo_3D_Reconstruction_CVPR_2025_paper.html) | **MUSt3R: Multi-view Network for Stereo 3D Reconstruction 🔥** | CVPR | 2025 |
+| [GitHub](https://github.com/naver/pow3r) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Jang_Pow3R_Empowering_Unconstrained_3D_Reconstruction_with_Camera_and_Scene_Priors_CVPR_2025_paper.pdf#:~:text=In%20this%20paper%2C%20we%20introduce%20Pow3R%2C%20a%20new,sparse%20or%20dense%20depth%2C%20or%20relative%20camera%20poses.) | **Pow3R: Empowering Unconstrained 3D  Reconstruction with Camera and Scene Priors** | CVPR | 2025 |
+| [GitHub](https://github.com/facebookresearch/mvdust3r) | [Paper](https://arxiv.org/abs/2412.06974) | **MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds** | CVPR | 2025 |
+| [GitHub](https://github.com/HKUST-SAIL/sail-recon) | [Paper](https://arxiv.org/abs/2508.17972) | **SAIL-Recon: Large SfM by Augmenting Scene Regression with Localization** | Arxiv | 2025 |
 | [GitHub](https://github.com/facebookresearch/vggt) | [Paper](https://arxiv.org/abs/2503.11651) | **VGGT: Visual Geometry Grounded Transformer 🔥🔥** | CVPR | 2025 |
-| [GitHub](https://github.com/facebookresearch/map-anything) | [Paper](https://arxiv.org/abs/2509.13414) | **MapAnything: Universal Feed-Forward Metric 3D Reconstruction 🔥** | CVPR | 2025 |
-
+| [GitHub](https://github.com/facebookresearch/map-anything) | [Paper](https://arxiv.org/abs/2509.13414) | **MapAnything: Universal Feed-Forward Metric 3D Reconstruction 🔥🔥** | CVPR | 2025 |
+| [GitHub](https://github.com/bb12346/geocomplete_codes) | [Paper](https://arxiv.org/abs/2510.03110) | **Geometry-Aware Diffusion for Reference-Driven Image Completion 🔥** | NeurIPS | 2025 |
 
 
 
@@ -71,9 +75,12 @@
 |------|-------|-------|-------|------|
 | [GitHub](https://github.com/Harry-Zhi/semantic_nerf) | [Paper](https://arxiv.org/abs/2103.15875) | **Semantic-NeRF: Semantic Neural Radiance Fields** 🔥 | ICCV | 2021 |
 | [GitHub](https://github.com/cassiePython/CLIPNeRF) | [Paper](https://arxiv.org/abs/2112.05139) | **CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields** | CVPR | 2022 |
+| [GitHub](https://github.com/VITA-Group/GNT) | [Paper](https://arxiv.org/abs/2207.13298) | **Is Attention All That NeRF Needs?** |  ICLR | 2023 |
 | [GitHub](https://github.com/zyqz97/GP-NeRF) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_GP-NeRF_Generalized_Perception_NeRF_for_Context-Aware_3D_Scene_Understanding_CVPR_2024_paper.pdf) | **GP-NeRF: Generalized Perception NeRF for Context-Aware 3D Scene Understanding** | CVPR | 2023 |
 | [GitHub](https://github.com/Jumpat/SegmentAnythingin3D) | [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/525d24400247f884c3419b0b7b1c4829-Paper-Conference.pdf) | **Segment Anything in 3D with NeRFs 🔥🔥** | NeurIPS | 2023 |
+| [GitHub](https://github.com/JenningsL/nerf-loc) | [Paper](https://arxiv.org/abs/2304.07979) | **NeRF-Loc: Visual Localization with Conditional Neural Radiance Field** | ICRA | 2023 |
 | [GitHub](https://github.com/chungmin99/garfield) | [Paper](https://arxiv.org/abs/2401.09419) | **GARField: Group Anything with Radiance Fields🔥** | CVPR | 2024 |
+| [GitHub](https://github.com/zubair-irshad/NeRF-MAE) | [Paper](https://arxiv.org/abs/2308.12967) | **NeRF-MAE : Masked AutoEncoders for Self-Supervised 3D Representation Learning for Neural Radiance Fields🔥** | ECCV | 2024 |
 | [GitHub](https://github.com/DP-Recon/DP-Recon) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Ni_Decompositional_Neural_Scene_Reconstruction_with_Generative_Diffusion_Prior_CVPR_2025_paper.pdf) | **Decompositional Neural Scene Reconstruction with Generative Diffusion Prior 🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/mRobotit/Cues3D) | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253525002374) | **Cues3D: Unleashing the power of sole NeRF for consistent and unique 3D instance segmentation** | Information Fusion | 2025 |
 |------|------|-------|------|-----|
@@ -85,6 +92,10 @@
 | [GitHub](https://github.com/mlzxy/motion-blender-gs) | [Paper](https://arxiv.org/abs/2503.09040) | **Motion Blender Gaussian Splatting for Dynamic Scene Reconstruction** | CoRL | 2025 |
 | [GitHub](https://github.com/zhaihongjia/PanoGS) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhai_PanoGS_Gaussian-based_Panoptic_Segmentation_for_3D_Open_Vocabulary_Scene_Understanding_CVPR_2025_paper.pdf) | **PanoGS: Gaussian-based Panoptic Segmentation for 3D Open Vocabulary Scene Understanding 🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/GAP-LAB-CUHK-SZ/SAMPro3D) | [Paper](https://ieeexplore.ieee.org/document/11125552) | **SAMPro3D: Locating SAM Prompts in 3D for Zero-Shot Instance Segmentation 🔥** | 3DV | 2025 |
+| [GitHub](https://github.com/xingyoujun/transplat) | [Paper](https://arxiv.org/abs/2408.13770) | **TranSplat: Generalizable 3D Gaussian Splatting from Sparse Multi-View Images with Transformers** | AAAI | 2025 |
+| [GitHub](https://github.com/ChenYutongTHU/SplatFormer) | [Paper](https://openreview.net/pdf?id=9NfHbWKqMF) | **SplatFormer: Point Transformer for Robust 3D Gaussian Splatting** | ICLR | 2025 |
+
+
 
 
 
