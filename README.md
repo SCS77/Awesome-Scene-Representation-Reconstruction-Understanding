@@ -41,7 +41,7 @@
 
 ## Scene understanding
 
-#### Other
+#### Geometry-based and learning-based
 
 | Code | Paper | Title | Venue | Year |
 |------|-------|-------|-------|------|
