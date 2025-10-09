@@ -57,17 +57,27 @@
 |------|-------|-------|-------|------|
 | [GitHub](https://github.com/google-research/scenic) | [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_TransMVSNet_Global_Context-Aware_Multi-View_Stereo_Network_With_Transformers_CVPR_2022_paper.pdf) | **Multiview Transformers for Video Recognition 🔥🔥** | CVPR | 2022 |  
 | [GitHub](https://github.com/bradyz/cross_view_transformers) | [Paper](https://arxiv.org/abs/2205.02833) | **Cross-view Transformers for real-time Map-view Semantic Segmentation** | CVPR | 2022 |  
+| [GitHub](https://github.com/chtsy/buol) | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chu_BUOL_A_Bottom-Up_Framework_With_Occupancy-Aware_Lifting_for_Panoptic_3D_CVPR_2023_paper.pdf) | **BUOL: A Bottom-Up Framework with Occupancy-aware Lifting for Panoptic 3D Scene Reconstruction From A Single Image** | CVPR | 2023 |
 | [GitHub](https://github.com/megvii-research/TransMVSNet) | [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_TransMVSNet_Global_Context-Aware_Multi-View_Stereo_Network_With_Transformers_CVPR_2022_paper.pdf) | **TransMVSNet: Global Context-aware Multi-view Stereo Network with Transformers 🔥** | CVPR | 2022 |
+| [GitHub](https://github.com/facebookresearch/vggsfm) | [Paper](https://arxiv.org/pdf/2312.04563) | **VGGSfM: Visual Geometry Grounded Deep Structure From Motion🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/naver/dust3r) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.html) | **DUSt3R: Geometric 3D Vision Made Easy 🔥🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/naver/must3r) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Cabon_MUSt3R_Multi-view_Network_for_Stereo_3D_Reconstruction_CVPR_2025_paper.html) | **MUSt3R: Multi-view Network for Stereo 3D Reconstruction 🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/naver/pow3r) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Jang_Pow3R_Empowering_Unconstrained_3D_Reconstruction_with_Camera_and_Scene_Priors_CVPR_2025_paper.pdf#:~:text=In%20this%20paper%2C%20we%20introduce%20Pow3R%2C%20a%20new,sparse%20or%20dense%20depth%2C%20or%20relative%20camera%20poses.) | **Pow3R: Empowering Unconstrained 3D  Reconstruction with Camera and Scene Priors** | CVPR | 2025 |
 | [GitHub](https://github.com/facebookresearch/mvdust3r) | [Paper](https://arxiv.org/abs/2412.06974) | **MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds** | CVPR | 2025 |
+| [GitHub](https://github.com/jiah-cloud/Align3R) | [Paper](https://arxiv.org/abs/2412.03079) | **Align3R: Aligned Monocular Depth Estimation for Dynamic Videos** | CVPR | 2025 |
 | [GitHub](https://github.com/HKUST-SAIL/sail-recon) | [Paper](https://arxiv.org/abs/2508.17972) | **SAIL-Recon: Large SfM by Augmenting Scene Regression with Localization** | Arxiv | 2025 |
 | [GitHub](https://github.com/CUT3R/CUT3R) | [Paper](https://arxiv.org/pdf/2501.12387) | **Continuous 3D Perception Model with Persistent State🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/Junyi42/monst3r) | [Paper](https://monst3r-project.github.io/files/monst3r_paper.pdf) | **MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion🔥** | ICLR | 2025 |
+| [GitHub](https://github.com/facebookresearch/fast3r) | [Paper](https://arxiv.org/abs/2501.13928) | **Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/facebookresearch/vggt) | [Paper](https://arxiv.org/abs/2503.11651) | **VGGT: Visual Geometry Grounded Transformer 🔥🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/facebookresearch/map-anything) | [Paper](https://arxiv.org/abs/2509.13414) | **MapAnything: Universal Feed-Forward Metric 3D Reconstruction 🔥🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/bb12346/geocomplete_codes) | [Paper](https://arxiv.org/abs/2510.03110) | **Geometry-Aware Diffusion for Reference-Driven Image Completion 🔥** | NeurIPS | 2025 |
+| [GitHub](https://github.com/yyfz/Pi3) | [Paper](https://arxiv.org/abs/2507.13347) | **π³: Permutation-Equivariant Visual Geometry Learning 🔥🔥** | arXiv | 2025 |
+| [GitHub](https://github.com/Seed3D/Dora) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Dora_Sampling_and_Benchmarking_for_3D_Shape_Variational_Auto-Encoders_CVPR_2025_paper.pdf) | **Dora: Sampling and Benchmarking for 3D Shape Variational Auto-Encoders** | CVPR | 2025 |
+
+
+
+
 
 
 
@@ -98,19 +108,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Images Representation Learning
 
 | Code | Paper | Title | Venue | Year |
@@ -135,8 +132,6 @@
 | [GitHub](https://github.com/facebookresearch/dino) | [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf) | **Emerging Properties in Self-Supervised Vision Transformers** | ICCV | 2021 |
 | [GitHub](https://github.com/facebookresearch/dinov2) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Jose_DINOv2_Meets_Text_A_Unified_Framework_for_Image-_and_Pixel-Level_CVPR_2025_paper.pdf) | **DINOv2 Meets Text: A Unified Framework for Image- and Pixel-Level Vision-Language Alignment** | CVPR | 2025 |
 | [GitHub](https://github.com/facebookresearch/dinov3) | [Paper](https://arxiv.org/abs/2508.10104) | **DINOv3** | Arxiv | 2025 |
-
-
 
 
 
