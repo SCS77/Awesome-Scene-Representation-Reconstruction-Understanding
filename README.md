@@ -97,6 +97,7 @@
 |------|------|-------|------|-----|
 | [GitHub](https://github.com/minghanqin/LangSplat) | [Paper](https://arxiv.org/pdf/2312.16084) | **LangSplat: 3D Language Gaussian Splatting 🔥🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/TQTQliu/MVSGaussian) | [Paper](https://arxiv.org/abs/2405.12218) | **MVSGaussian: Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo🔥** | ECCV | 2024 |
+| [GitHub](https://github.com/dcharatan/pixelsplat) | [Paper](https://arxiv.org/abs/2312.12337) | **pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction** | ECCV | 2024 |
 | [GitHub](https://github.com/ShijieZhou-UCLA/feature-3dgs) | [Paper](https://arxiv.org/abs/2312.03203) | **Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields 🔥🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/Runsong123/Unified-Lift) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Rethinking_End-to-End_2D_to_3D_Scene_Segmentation_in_Gaussian_Splatting_CVPR_2025_paper.pdf) | **Unified-Lift: Rethinking End-to-End 2D to 3D Scene Segmentation in Gaussian Splatting 🔥** | CVPR | 2025 |
 | [GitHub](https://any3dis.github.io/) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Nguyen_Any3DIS_Class-Agnostic_3D_Instance_Segmentation_by_2D_Mask_Tracking_CVPR_2025_paper.pdf) | **Any3DIS: Class-Agnostic 3D Instance Segmentation by 2D Mask Tracking 🔥** | CVPR | 2025 |
@@ -135,4 +136,6 @@
 
 
 
-  
+
+
+ 
