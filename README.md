@@ -55,7 +55,7 @@
 | [GitHub](https://github.com/Pointcept/PointTransformerV3.git) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.pdf) | **Point Transformer V3: Simpler, Faster, Stronger 🔥🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/Pointcept/Pointcept) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Peng_OA-CNNs_Omni-Adaptive_Sparse_CNNs_for_3D_Semantic_Segmentation_CVPR_2024_paper.pdf) | **OA-CNNs: Omni-Adaptive Sparse CNNs for 3D Semantic Segmentation 🔥** | CVPR | 2024 |
 |------|-------|-------|-------|------|
-| [GitHub](https://github.com/google-research/scenic) | [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_TransMVSNet_Global_Context-Aware_Multi-View_Stereo_Network_With_Transformers_CVPR_2022_paper.pdf) | **Multiview Transformers for Video Recognition 🔥🔥** | CVPR | 2022 |  
+| [GitHub](https://github.com/google-research/scenic) | [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Yan_Multiview_Transformers_for_Video_Recognition_CVPR_2022_paper.pdf) | **Multiview Transformers for Video Recognition 🔥🔥** | CVPR | 2022 |  
 | [GitHub](https://github.com/bradyz/cross_view_transformers) | [Paper](https://arxiv.org/abs/2205.02833) | **Cross-view Transformers for real-time Map-view Semantic Segmentation** | CVPR | 2022 |  
 | [GitHub](https://github.com/chtsy/buol) | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chu_BUOL_A_Bottom-Up_Framework_With_Occupancy-Aware_Lifting_for_Panoptic_3D_CVPR_2023_paper.pdf) | **BUOL: A Bottom-Up Framework with Occupancy-aware Lifting for Panoptic 3D Scene Reconstruction From A Single Image** | CVPR | 2023 |
 | [GitHub](https://github.com/megvii-research/TransMVSNet) | [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_TransMVSNet_Global_Context-Aware_Multi-View_Stereo_Network_With_Transformers_CVPR_2022_paper.pdf) | **TransMVSNet: Global Context-aware Multi-view Stereo Network with Transformers 🔥** | CVPR | 2022 |
@@ -135,48 +135,4 @@
 
 
 
-
-
-
-## Study  
-[[表征学习]](https://www.jiqizhixin.com/graph/technologies/64d4c374-6061-46cc-8d29-d0a582934876)  
-[[什么是Representation Learning]](https://zhuanlan.zhihu.com/p/136554341)  
-
-[[Feature engineering]](https://en.wikipedia.org/wiki/Feature_engineering)  
-[[Feature learning]](https://en.wikipedia.org/wiki/Feature_learning)  
-
-[[监督学习(Supervised) vs 无监督学习(Unsupervised) vs 半监督/自监督学习(Semi/Self-supervised)详解]](https://blog.csdn.net/ai_aijiang/article/details/148883481)  
-[[Supervised-learning]](https://en.wikipedia.org/wiki/Supervised_learning)  
-[[Unsupervised-learning]](https://en.wikipedia.org/wiki/Unsupervised_learning)  
-[[非监督学习(Unsupervised Learning，UL)]](https://blog.csdn.net/weixin_55629186/article/details/135109805)  
-[[Self-supervised learning]](https://en.wikipedia.org/wiki/Self-supervised_learning)  
-[[Self-Supervised Learning 入门介绍]](https://zhuanlan.zhihu.com/p/108625273)  
-[[Self-supervised Learning 再次入门]](https://zhuanlan.zhihu.com/p/108906502)  
-[[从ViT到CLIP到DINO：视觉表征学习的演进]](https://zhuanlan.zhihu.com/p/19842773699)  
-
-[[一文搞懂卷积神经网络（CNN）的原理]](https://blog.csdn.net/AI_dataloads/article/details/133250229)
-[[一文读懂Transformer]](https://blog.csdn.net/weixin_42475060/article/details/121101749)  
-[[Transformer模型详解]](https://zhuanlan.zhihu.com/p/338817680)  
-[[深度视觉表征学习]](https://ustc-dia.github.io/slides_2025_spring/%E7%AC%AC4%E7%AB%A0-%E5%9B%BE%E5%83%8F%E8%A1%A8%E8%BE%BE-4.4-%E6%B7%B1%E5%BA%A6%E8%A7%86%E8%A7%89%E8%A1%A8%E5%BE%81%E5%AD%A6%E4%B9%A0.pdf)  
-[[From Autoencoder to Beta-VAE]](https://lilianweng.github.io/posts/2018-08-12-vae/)  
-[[Knowledge Distillation]](https://blog.csdn.net/weixin_43694096/article/details/127505946)  
-[[知识蒸馏技术(教师学生模型)]](https://zhuanlan.zhihu.com/p/442457531)  
-[[详解深度学习中的教师-学生模型(Teacher- Student Model)]](https://blog.csdn.net/Shirelle_/article/details/136572339)  
-[[一致性正则化]](https://blog.csdn.net/by6671715/article/details/123087728)  
-[[半监督学习方法: 一致性正则化]](https://blog.csdn.net/by6671715/article/details/123087728)  
-[[一文读懂 聚类特征选择]](https://www.jianshu.com/p/f24a9ad30738)  
-[[深度聚类]](https://blog.csdn.net/allein_STR/article/details/128569765)  
-[[一文理解变分自编码器(VAE)]](https://zhuanlan.zhihu.com/p/64485020)  
-[[变分自编码器(Variational Autoencoders，VAE)详解：数学原理、图示、代码]](https://www.vectorexplore.com/tech/auto-encoder/vae.html)  
-[[一文彻底搞懂前向传播(Forward Pass)与反向传播(Backward Pass)]](https://blog.csdn.net/Zlyzjiabjw547479/article/details/149138272)  
-
-[[无监督学习: 动量对比(MoCO)论文笔记]](https://zhuanlan.zhihu.com/p/102573476)  
-[[MoCO论文解读]](https://www.bilibili.com/video/BV19S4y1M7hm/)  
-[[对比学习的深入指南：技术、模型和应用]](https://www.myscale.com/blog/zh/what-is-contrastive-learning/)  
-[[CLIP论文笔记]](https://zhuanlan.zhihu.com/p/579493763)  
-[[CLIP论文解读]](https://www.bilibili.com/video/BV1SL4y1s7LQ)  
-[[VIT论文精读]](https://blog.csdn.net/abc13526222160/article/details/131228810)  
-[[VIT代码详解]](https://blog.csdn.net/qq_39478403/article/details/118704747)  
-
-
- 
+  
