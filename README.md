@@ -74,6 +74,7 @@
 | [GitHub](https://github.com/bb12346/geocomplete_codes) | [Paper](https://arxiv.org/abs/2510.03110) | **Geometry-Aware Diffusion for Reference-Driven Image Completion 🔥** | NeurIPS | 2025 |
 | [GitHub](https://github.com/yyfz/Pi3) | [Paper](https://arxiv.org/abs/2507.13347) | **π³: Permutation-Equivariant Visual Geometry Learning 🔥🔥** | arXiv | 2025 |
 | [GitHub](https://github.com/Seed3D/Dora) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Dora_Sampling_and_Benchmarking_for_3D_Shape_Variational_Auto-Encoders_CVPR_2025_paper.pdf) | **Dora: Sampling and Benchmarking for 3D Shape Variational Auto-Encoders** | CVPR | 2025 |
+| [GitHub](https://github.com/WU-CVGL/SIU3R) | [Paper](https://arxiv.org/abs/2507.02705) | **SIU3R: Simultaneous Scene Understanding and 3D Reconstruction Beyond Feature Alignment** | NeurIPS | 2025 |
 
 
 
@@ -136,6 +137,4 @@
 
 
 
-
-
- 
+  
