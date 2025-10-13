@@ -41,7 +41,7 @@
 
 ## Scene understanding
 
-### Representation Learning-based
+#### Geometry-based and Representation Learning 
 
 | Code | Paper | Title | Venue | Year |
 |------|-------|-------|-------|------|
@@ -49,6 +49,7 @@
 | [GitHub](https://github.com/bradyz/cross_view_transformers) | [Paper](https://arxiv.org/abs/2205.02833) | **Cross-view Transformers for real-time Map-view Semantic Segmentation** | CVPR | 2022 |  
 | [GitHub](https://github.com/chtsy/buol) | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chu_BUOL_A_Bottom-Up_Framework_With_Occupancy-Aware_Lifting_for_Panoptic_3D_CVPR_2023_paper.pdf) | **BUOL: A Bottom-Up Framework with Occupancy-aware Lifting for Panoptic 3D Scene Reconstruction From A Single Image** | CVPR | 2023 |
 | [GitHub](https://github.com/megvii-research/TransMVSNet) | [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Ding_TransMVSNet_Global_Context-Aware_Multi-View_Stereo_Network_With_Transformers_CVPR_2022_paper.pdf) | **TransMVSNet: Global Context-aware Multi-view Stereo Network with Transformers 🔥** | CVPR | 2022 |
+| [GitHub](https://github.com/dcharatan/flowmap) | [Paper](https://arxiv.org/abs/2404.15259) | **FlowMap: High-Quality Camera Poses, Intrinsics, and Depth via Gradient Descent** 🔥 | arXiv | 2024 |
 | [GitHub](https://github.com/facebookresearch/vggsfm) | [Paper](https://arxiv.org/pdf/2312.04563) | **VGGSfM: Visual Geometry Grounded Deep Structure From Motion🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/naver/dust3r) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.html) | **DUSt3R: Geometric 3D Vision Made Easy 🔥🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/naver/must3r) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Cabon_MUSt3R_Multi-view_Network_for_Stereo_3D_Reconstruction_CVPR_2025_paper.html) | **MUSt3R: Multi-view Network for Stereo 3D Reconstruction 🔥** | CVPR | 2025 |
@@ -72,7 +73,7 @@
 
 
 
-### NeRF & 3DGS
+### NeRF & 3DGS  
 
 | Code | Paper | Title | Venue | Year |
 |------|-------|-------|-------|------|
@@ -89,12 +90,15 @@
 | [GitHub](https://github.com/minghanqin/LangSplat) | [Paper](https://arxiv.org/pdf/2312.16084) | **LangSplat: 3D Language Gaussian Splatting 🔥🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/TQTQliu/MVSGaussian) | [Paper](https://arxiv.org/abs/2405.12218) | **MVSGaussian: Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo🔥** | ECCV | 2024 |
 | [GitHub](https://github.com/dcharatan/pixelsplat) | [Paper](https://arxiv.org/abs/2312.12337) | **pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction** | ECCV | 2024 |
+| [GitHub](https://github.com/AbrahamYabo/LiftImage3D) | [Paper](https://arxiv.org/pdf/2412.09597) | **LiftImage3D: Lifting Any Single Image to 3D Gaussians with Video Generation Priors** | Arxiv | 2024 |
 | [GitHub](https://github.com/ShijieZhou-UCLA/feature-3dgs) | [Paper](https://arxiv.org/abs/2312.03203) | **Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields 🔥🔥** | CVPR | 2024 |
 | [GitHub](https://github.com/Runsong123/Unified-Lift) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Rethinking_End-to-End_2D_to_3D_Scene_Segmentation_in_Gaussian_Splatting_CVPR_2025_paper.pdf) | **Unified-Lift: Rethinking End-to-End 2D to 3D Scene Segmentation in Gaussian Splatting 🔥** | CVPR | 2025 |
 | [GitHub](https://any3dis.github.io/) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Nguyen_Any3DIS_Class-Agnostic_3D_Instance_Segmentation_by_2D_Mask_Tracking_CVPR_2025_paper.pdf) | **Any3DIS: Class-Agnostic 3D Instance Segmentation by 2D Mask Tracking 🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/zhaihongjia/PanoGS) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhai_PanoGS_Gaussian-based_Panoptic_Segmentation_for_3D_Open_Vocabulary_Scene_Understanding_CVPR_2025_paper.pdf) | **PanoGS: Gaussian-based Panoptic Segmentation for 3D Open Vocabulary Scene Understanding 🔥** | CVPR | 2025 |
 | [GitHub](https://github.com/xingyoujun/transplat) | [Paper](https://arxiv.org/abs/2408.13770) | **TranSplat: Generalizable 3D Gaussian Splatting from Sparse Multi-View Images with Transformers** | AAAI | 2025 |
 | [GitHub](https://github.com/ChenYutongTHU/SplatFormer) | [Paper](https://openreview.net/pdf?id=9NfHbWKqMF) | **SplatFormer: Point Transformer for Robust 3D Gaussian Splatting** | ICLR | 2025 |
+| [GitHub](https://github.com/rmurai0610/MASt3R-SLAM) | [Paper](https://arxiv.org/abs/2412.12392) | **MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors 🔥🔥** | CVPR | 2025 |
+| ----- | [Paper](https://arxiv.org/abs/2509.25191) | **VGGT-X: When VGGT Meets Dense Novel View Synthesis** | Arxiv | 2025 |
 
 
 
@@ -125,6 +129,3 @@
 | [GitHub](https://github.com/facebookresearch/dinov2) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Jose_DINOv2_Meets_Text_A_Unified_Framework_for_Image-_and_Pixel-Level_CVPR_2025_paper.pdf) | **DINOv2 Meets Text: A Unified Framework for Image- and Pixel-Level Vision-Language Alignment** | CVPR | 2025 |
 | [GitHub](https://github.com/facebookresearch/dinov3) | [Paper](https://arxiv.org/abs/2508.10104) | **DINOv3** | Arxiv | 2025 |
 
-
-
-  
