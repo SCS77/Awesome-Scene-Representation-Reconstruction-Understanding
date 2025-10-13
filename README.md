@@ -45,16 +45,6 @@
 
 | Code | Paper | Title | Venue | Year |
 |------|-------|-------|-------|------|
-| [GitHub](https://github.com/charlesq34/pointnet.git) | [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf) | **PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation 🔥** | CVPR | 2017 |
-| [GitHub](https://github.com/charlesq34/pointnet2.git) | [Paper](https://dl.acm.org/doi/abs/10.5555/3295222.3295263) | **PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space 🔥** | NIPS | 2017 |
-| [GitHub](https://github.com/qianguih/voxelnet) | [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_VoxelNet_End-to-End_Learning_CVPR_2018_paper.pdf) | **VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection** | CVPR | 2018 |
-| [GitHub](https://github.com/yangyanli/PointCNN) | [Paper](https://proceedings.neurips.cc/paper_files/paper/2018/file/f5f8590cd58a54e94377e6ae2eded4d9-Paper.pdf) | **PointCNN: Convolution On X-Transformed Points 🔥** | NIPS | 2018 |
-| [GitHub](https://github.com/WangYueFt/dgcnn.git) | [Paper](https://dl.acm.org/doi/abs/10.1145/3326362) | **Dynamic Graph CNN for Learning on Point Clouds 🔥** | TOG | 2019 |
-| [GitHub](https://github.com/QingyongHu/RandLA-Net.git) | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hu_RandLA-Net_Efficient_Semantic_Segmentation_of_Large-Scale_Point_Clouds_CVPR_2020_paper.pdf) | **RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds 🔥** | CVPR | 2020 |
-| [GitHub](https://github.com/POSTECH-CVLab/point-transformer.git) | [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Point_Transformer_ICCV_2021_paper.pdf) | **Point Transformer 🔥** | ICCV | 2021 |
-| [GitHub](https://github.com/Pointcept/PointTransformerV3.git) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.pdf) | **Point Transformer V3: Simpler, Faster, Stronger 🔥🔥** | CVPR | 2024 |
-| [GitHub](https://github.com/Pointcept/Pointcept) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Peng_OA-CNNs_Omni-Adaptive_Sparse_CNNs_for_3D_Semantic_Segmentation_CVPR_2024_paper.pdf) | **OA-CNNs: Omni-Adaptive Sparse CNNs for 3D Semantic Segmentation 🔥** | CVPR | 2024 |
-|------|-------|-------|-------|------|
 | [GitHub](https://github.com/google-research/scenic) | [Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Yan_Multiview_Transformers_for_Video_Recognition_CVPR_2022_paper.pdf) | **Multiview Transformers for Video Recognition 🔥🔥** | CVPR | 2022 |  
 | [GitHub](https://github.com/bradyz/cross_view_transformers) | [Paper](https://arxiv.org/abs/2205.02833) | **Cross-view Transformers for real-time Map-view Semantic Segmentation** | CVPR | 2022 |  
 | [GitHub](https://github.com/chtsy/buol) | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Chu_BUOL_A_Bottom-Up_Framework_With_Occupancy-Aware_Lifting_for_Panoptic_3D_CVPR_2023_paper.pdf) | **BUOL: A Bottom-Up Framework with Occupancy-aware Lifting for Panoptic 3D Scene Reconstruction From A Single Image** | CVPR | 2023 |
