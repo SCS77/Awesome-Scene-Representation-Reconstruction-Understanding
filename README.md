@@ -41,7 +41,7 @@
 
 ## Scene understanding
 
-#### Geometry-based and Representation Learning 
+### Representation Learning-based
 
 | Code | Paper | Title | Venue | Year |
 |------|-------|-------|-------|------|
